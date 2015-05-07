@@ -728,6 +728,7 @@
                 </behaviors>
             </object-type>
         </object-folder>
+        <object-folder name="LevelSelectSprites" />
         <object-type name="Touch" sid="4585166911831011">
             <plugin id="Touch" />
         </object-type>
@@ -815,6 +816,10 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="6745721904496546">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Matt\Desktop\CastleCrash\Textures\TiledBackground3.png" />
         </object-type>
     </object-folder>
     <families>
