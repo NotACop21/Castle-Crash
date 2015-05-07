@@ -537,21 +537,6 @@
             <object-type name="Text3" sid="7547521850236291">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="GameOverBG" sid="6313485702706833">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5794616733145402" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.500775" original-source="C:\Users\Harneil Brar\Documents\CaslteCrash\CastleCrash\Textures\TiledBackground2.png">
-                            <collision-poly>
-                                <point x="0.00208333" y="0.00155039" />
-                                <point x="0.997917" y="0.00155039" />
-                                <point x="0.997917" y="0.99845" />
-                                <point x="0.00208333" y="0.99845" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="Sprite11" sid="7855770451497444">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -701,6 +686,10 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="GameoverBG" sid="1815250281787661">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Matt\Desktop\CastleCrash\Textures\TiledBackground3.png" />
+            </object-type>
         </object-folder>
         <object-folder name="Timer">
             <object-type name="Timer" sid="6485983371681289">
@@ -726,6 +715,10 @@
                         <behavior id="Flash" />
                     </behavior-type>
                 </behaviors>
+            </object-type>
+            <object-type name="PregameBG" sid="7713638451132431">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\GameScrnBlurred.png" />
             </object-type>
         </object-folder>
         <object-folder name="LevelSelectSprites" />
