@@ -821,6 +821,44 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Matt\Desktop\CastleCrash\Textures\TiledBackground3.png" />
         </object-type>
+        <object-type name="Sprite4" sid="5738568812078647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1140730929843298" speed="5">
+                    <frame duration="1" hotspotX="0.504762" hotspotY="0.510638" original-source="C:\Users\Zwick\Desktop\Stuff and Stuff\Level1.png">
+                        <collision-poly>
+                            <point x="0.00952381" y="0.0212766" />
+                            <point x="0.495238" y="0" />
+                            <point x="0.971429" y="0.0638298" />
+                            <point x="1" y="0.489362" />
+                            <point x="0.980952" y="0.957447" />
+                            <point x="0.495238" y="1" />
+                            <point x="0.0285714" y="0.93617" />
+                            <point x="0" y="0.489362" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="3688869438671274">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4551849886602952" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\New folder\level1.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0.03" />
+                            <point x="0.94" y="0.06" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.94" y="0.94" />
+                            <point x="0.5" y="0.97" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="VolumeIncDec" plugin-id="Sprite" sid="8761512979092425">
