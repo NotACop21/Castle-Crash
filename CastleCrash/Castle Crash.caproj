@@ -857,6 +857,7 @@
         <layout>GameScreen.xml</layout>
         <layout>GameOver.xml</layout>
         <layout>PreGameScreen.xml</layout>
+        <layout>Level Select.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuScreen.xml</event-sheet>
@@ -864,6 +865,7 @@
         <event-sheet>GameScreen.xml</event-sheet>
         <event-sheet>GameOver.xml</event-sheet>
         <event-sheet>PreGameScreen.xml</event-sheet>
+        <event-sheet>Level Select EV.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="1">
