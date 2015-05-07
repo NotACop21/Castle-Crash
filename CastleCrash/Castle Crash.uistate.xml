@@ -11,8 +11,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MenuScreen</layout>
-        <layout order="2">SettingsScreen</layout>
-        <layout active="1" order="4">GameScreen</layout>
+        <layout active="1" order="2">SettingsScreen</layout>
+        <layout order="4">GameScreen</layout>
         <layout order="6">GameOver</layout>
         <layout order="7">PreGameScreen</layout>
         <layout order="10">Level Select</layout>
