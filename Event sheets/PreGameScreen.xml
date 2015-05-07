@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PreGameScreen</name>
+    <events>
+        <event-block sid="7434030487712626">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7288816800819529" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="143104461471214" type="PreLevelText">
+                    <param id="0" name="Text">&quot;Get Ready&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3947546578041754">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="3012444672351867" type="System">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Time (seconds)">3.5</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="2856638967275054" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="8814214321265198" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Value">3.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1215983753788584">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="7735610640792136" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="8808564880643206" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Value">dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4777398518468736">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="9257168194908997" type="System">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Time (seconds)">3.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="567269016649254" type="PreLevelText">
+                    <param id="0" name="Text">&quot;Get Ready&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6235244844759247">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="1293088460512399" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">3.0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="907630750505241" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">2.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5213384279416813" type="PreLevelText">
+                    <param id="0" name="Text">&quot;3&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="877290959547852" type="PreLevelText">
+                    <param id="0" name="Opacity">(PrelevelText.timer2-2)*100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6906854539483051">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="699205960953208" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="1473882233727242" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="2107570064152279" type="PreLevelText">
+                    <param id="0" name="Text">&quot;2&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="959652361900958" type="PreLevelText">
+                    <param id="0" name="Opacity">(PrelevelText.timer2-1)*100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3910030324617679">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3331259508367345" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="9292352573987462" type="PreLevelText">
+                    <param id="0" name="Text">&quot;1&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="9538217717367877" type="PreLevelText">
+                    <param id="0" name="Opacity">(PrelevelText.timer2)*100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2527091861254431">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5288185512598867" type="PreLevelText">
+                    <param id="0" name="Instance variable">timer2</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7317012105183368" type="PreLevelText">
+                    <param id="0" name="Text">&quot;GO!&quot;</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="7804099527458178" type="PreLevelText">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Wait" sid="7350981639604819" type="System">
+                    <param id="0" name="Seconds">0.35</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="7781389958656454" type="System">
+                    <param id="0" name="Layout">GameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2835355764424792">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SettingScreen</name>
+    <events>
+        <event-block sid="7432968494266778">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="6698845348205404" type="Touch">
+                    <param id="0" name="Object">VolumeIncDec</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="7813140693204894" type="VolumeIncDec">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="7861683075498033" type="VolumeIncDec">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="9833000616255205" type="VolumeIncDec">
+                    <param id="0" name="Scale">VolumeIncDec.scale</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7448234647845675">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5251139979330018" type="VolumeIncDec">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="738312806702055" type="VolumeIncDec">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5072801445016302">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="4220712385658286" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="1817876321111095" type="VolumeIncDec">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="6458329718082082" type="VolumeIncDec">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="2709099875567165" type="VolumeIncDec">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8532999706807438">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="2563029100183669" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="9094471069935698" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0.8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="8326384965438022" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.5</param>
+                </action>
+                <action id="9" name="Set scale" sid="4688679859111039" type="HomeButton">
+                    <param id="0" name="Scale">HomeButton.scale</param>
+                </action>
+                <action id="25" name="Play at object" sid="4939581597875893" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons (online-audio-converter.com)</param>
+                    <param id="1" name="Loop">0</param>
+                    <param id="2" name="Volume">-15</param>
+                    <param id="3" name="Object">HomeButton</param>
+                    <param id="4" name="Inner angle">360</param>
+                    <param id="5" name="Outer angle">360</param>
+                    <param id="6" name="Outer gain">0</param>
+                    <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="2798476363860011">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3434640753951167" type="HomeButton">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3194734869677882" type="HomeButton">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5198867790098903">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="6444564432367741" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="1933740767482578" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.8</param>
+                </action>
+                <action id="-10" name="Set value" sid="5024077579488727" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">0.8</param>
+                </action>
+                <action id="9" name="Set scale" sid="8187126798858865" type="HomeButton">
+                    <param id="0" name="Scale">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8141742814668546">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5752730545210985" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="6425714371025768" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9434731018922948" type="System">
+                    <param id="0" name="Layout">MenuScreen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
