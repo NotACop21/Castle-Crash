@@ -4,8 +4,8 @@
     <sid>3412173960429634</sid>
     <event-sheet>GameOver</event-sheet>
     <size>
-        <width>480</width>
-        <height>640</height>
+        <width>720</width>
+        <height>1100</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="SkyBG" sid="7208703764274963">
+        <layer name="Background" sid="7208703764274963">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -39,14 +39,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>242</x>
-                        <y>319</y>
+                        <x>360</x>
+                        <y>552</y>
                         <z>0</z>
-                        <width>480</width>
-                        <height>645</height>
+                        <width>730</width>
+                        <height>1110</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500775218</hotspotY>
+                        <hotspotY>0.500900924</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite8" uid="41">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>505</y>
+                        <z>0</z>
+                        <width>520</width>
+                        <height>260</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -70,47 +92,29 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="32">
+                <instance type="HomeButton" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <scale>0.8</scale>
+                        <grow>0.8</grow>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>77</x>
-                        <y>567</y>
+                        <x>78</x>
+                        <y>1012</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>128</height>
+                        <width>117.61341095</width>
+                        <height>113.352294922</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite3" uid="36">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>246</x>
-                        <y>539</y>
-                        <z>0</z>
-                        <width>75</width>
-                        <height>75</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50666666</hotspotX>
-                        <hotspotY>0.50666666</hotspotY>
-                        <angle>0.020407783</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -143,14 +147,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>238</x>
-                        <y>83</y>
+                        <x>360</x>
+                        <y>157</y>
                         <z>0</z>
-                        <width>412</width>
-                        <height>153</height>
+                        <width>641</width>
+                        <height>208</height>
                         <depth>0</depth>
-                        <hotspotX>0.50121063</hotspotX>
-                        <hotspotY>0.506024122</hotspotY>
+                        <hotspotX>0.502380967</hotspotX>
+                        <hotspotY>0.508333325</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -158,48 +162,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="ScoreMenu" sid="48454644575097">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Sprite8" uid="41">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>250</x>
-                        <y>322</y>
-                        <z>0</z>
-                        <width>326</width>
-                        <height>178</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="ScoreButtons" sid="9330363083613329">
+        <layer name="ScoreMenuButtons" sid="48454644575097">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -225,11 +188,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>224</x>
-                        <y>402</y>
+                        <x>226</x>
+                        <y>622</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
+                        <width>100</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -247,11 +210,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>284</x>
-                        <y>403</y>
+                        <x>360</x>
+                        <y>622</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
+                        <width>100</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -269,11 +232,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>344</x>
-                        <y>404</y>
+                        <x>492</x>
+                        <y>623</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
+                        <width>100</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -310,14 +273,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>279</x>
-                        <y>297</y>
+                        <x>409</x>
+                        <y>471</y>
                         <z>0</z>
-                        <width>29</width>
-                        <height>29</height>
+                        <width>50</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.517241359</hotspotX>
-                        <hotspotY>0.517241359</hotspotY>
+                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotY>0.519999981</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -332,14 +295,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>312</x>
-                        <y>297</y>
+                        <x>530</x>
+                        <y>470</y>
                         <z>0</z>
-                        <width>33</width>
-                        <height>29</height>
+                        <width>56.89655304</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.517241359</hotspotX>
-                        <hotspotY>0.517241359</hotspotY>
+                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotY>0.519999981</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -354,14 +317,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>350</x>
-                        <y>297</y>
+                        <x>466</x>
+                        <y>471</y>
                         <z>0</z>
-                        <width>29</width>
-                        <height>29</height>
+                        <width>50</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.517241359</hotspotX>
-                        <hotspotY>0.517241359</hotspotY>
+                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotY>0.519999981</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

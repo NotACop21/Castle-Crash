@@ -4,8 +4,8 @@
     <sid>6536967823341781</sid>
     <event-sheet>PreGameScreen</event-sheet>
     <size>
-        <width>480</width>
-        <height>640</height>
+        <width>720</width>
+        <height>1100</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>238.5</x>
-                        <y>319.5</y>
+                        <x>362</x>
+                        <y>554</y>
                         <z>0</z>
-                        <width>483</width>
-                        <height>643</height>
+                        <width>731.514526367</width>
+                        <height>1111.729003906</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -91,8 +91,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>123</x>
-                        <y>28</y>
+                        <x>230</x>
+                        <y>156</y>
                         <z>0</z>
                         <width>234</width>
                         <height>79</height>

@@ -149,6 +149,21 @@
                 <condition id="-2" name="On start of layout" sid="2538248740229773" type="System" />
             </conditions>
             <actions>
+                <action id="4" name="Preload" sid="9793653087632905" type="Audio">
+                    <param id="0" name="Audio file">Game</param>
+                </action>
+                <action id="4" name="Preload" sid="7269095780675925" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons (online-audio-converter.com)</param>
+                </action>
+                <action id="4" name="Preload" sid="1184408676739938" type="Audio">
+                    <param id="0" name="Audio file">Triumphant</param>
+                </action>
+                <action id="4" name="Preload" sid="6322572215198115" type="Audio">
+                    <param id="0" name="Audio file">Castle_Crash_menu2</param>
+                </action>
+                <action id="4" name="Preload" sid="8915084029637993" type="Audio">
+                    <param id="0" name="Audio file">Pre-GameCountdown</param>
+                </action>
                 <action id="33" name="Stop all" sid="7475439279447026" type="Audio" />
                 <action id="0" name="Play" sid="1591288584751071" type="Audio">
                     <param id="0" name="Audio file">Pre-GameCountdown</param>
