@@ -15,12 +15,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">GameScreen</layout>
         <layout order="6">GameOver</layout>
         <layout order="7">PreGameScreen</layout>
-        <layout order="10">Level Select</layout>
+        <layout active="1" order="10">Level Select</layout>
         <event-sheet order="1">MenuScreen</event-sheet>
         <event-sheet order="3">SettingScreen</event-sheet>
         <event-sheet order="5">GameScreen</event-sheet>
         <event-sheet order="8">PreGameScreen</event-sheet>
-        <event-sheet active="1" order="9">GameOver</event-sheet>
+        <event-sheet order="9">GameOver</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -79,5 +79,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/SettingsTitle/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Level2Block/" />
+        <folder expanded="1" path="animation-folder/Level2/" />
     </folders-expanded>
 </c2uistate>

@@ -859,6 +859,44 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Level2Block" sid="5857465710704536">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2071580598673077" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\New folder\level1.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0.03" />
+                            <point x="0.94" y="0.06" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.94" y="0.94" />
+                            <point x="0.5" y="0.97" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level2" sid="2774473643211621">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9087968500479207" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Zwick\Desktop\Stuff and Stuff\Level2.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0212766" />
+                            <point x="0.5" y="0" />
+                            <point x="0.973214" y="0.0638298" />
+                            <point x="1" y="0.489362" />
+                            <point x="0.982143" y="0.957447" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0267857" y="0.93617" />
+                            <point x="0" y="0.489362" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="VolumeIncDec" plugin-id="Sprite" sid="8761512979092425">
@@ -940,12 +978,6 @@
         <file name="Castle_Crash_menu2.ogg" />
         <file name="Game.m4a" />
         <file name="Game.ogg" />
-        <file name="Polarized.m4a" />
-        <file name="Polarized.ogg" />
-        <file name="Pre-GameCountdown.m4a" />
-        <file name="Pre-GameCountdown.ogg" />
-        <file name="Triumphant.m4a" />
-        <file name="Triumphant.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
