@@ -1553,6 +1553,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite3" sid="6560500659081223">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3947012510145247" speed="5">
+                    <frame duration="1" hotspotX="0.501222" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\GameScrnBlurred.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="VolumeIncDec" plugin-id="Sprite" sid="8761512979092425">
