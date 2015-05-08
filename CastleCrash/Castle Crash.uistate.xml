@@ -14,13 +14,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="2">SettingsScreen</layout>
         <layout order="4">GameScreen</layout>
         <layout order="6">GameOver</layout>
-        <layout order="7">PreGameScreen</layout>
+        <layout active="1" order="7">PreGameScreen</layout>
         <layout order="10">Level Select</layout>
         <event-sheet order="1">MenuScreen</event-sheet>
         <event-sheet order="3">SettingScreen</event-sheet>
         <event-sheet order="5">GameScreen</event-sheet>
         <event-sheet order="8">PreGameScreen</event-sheet>
-        <event-sheet active="1" order="9">GameOver</event-sheet>
+        <event-sheet order="9">GameOver</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -38,7 +38,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/MenuSprites/" />
         <folder expanded="0" path="object-folder/SettingsSprites/" />
         <folder expanded="0" path="object-folder/Bricks/" />
-        <folder expanded="0" path="object-folder/GameOver/" />
+        <folder expanded="1" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
         <folder expanded="0" path="object-folder/PreGameScreen/" />
         <folder expanded="1" path="object-folder/LevelSelectSprites/" />

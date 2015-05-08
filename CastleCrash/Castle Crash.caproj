@@ -859,6 +859,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="GOBG" sid="9270460976099696">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Matt\Desktop\CastleCrash\Textures\TiledBackground3.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="7569549970378326">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\ScreenShotOfGameScrn.PNG" />
+        </object-type>
     </object-folder>
     <families>
         <family name="VolumeIncDec" plugin-id="Sprite" sid="8761512979092425">
