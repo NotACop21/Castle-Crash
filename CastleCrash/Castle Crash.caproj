@@ -1185,6 +1185,82 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Sprite" sid="3994865805228079">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7910278958209798" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\Levelwonscreen.png">
+                            <collision-poly>
+                                <point x="0.0337423" y="0.0617978" />
+                                <point x="0.5" y="0" />
+                                <point x="0.966258" y="0.0617978" />
+                                <point x="1" y="0.5" />
+                                <point x="0.966258" y="0.938202" />
+                                <point x="0.5" y="0.994382" />
+                                <point x="0.0337423" y="0.938202" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite15" sid="2435950962867933">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7141123191161177" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\imageedit_13_3155190035.png">
+                            <collision-poly>
+                                <point x="0.0337423" y="0.0617978" />
+                                <point x="0.5" y="0" />
+                                <point x="0.966258" y="0.0617978" />
+                                <point x="1" y="0.5" />
+                                <point x="0.966258" y="0.938202" />
+                                <point x="0.5" y="0.994382" />
+                                <point x="0.0337423" y="0.938202" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite16" sid="5001501648698866">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9547089102946805" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\New Buttons\backbutton.png">
+                            <collision-poly>
+                                <point x="0.14" y="0.14" />
+                                <point x="0.5" y="0" />
+                                <point x="0.86" y="0.14" />
+                                <point x="1" y="0.5" />
+                                <point x="0.86" y="0.86" />
+                                <point x="0.5" y="1" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite17" sid="1185813111403998">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2525078730432366" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\New Buttons\levelsbutton.png">
+                            <collision-poly>
+                                <point x="0.14" y="0.14" />
+                                <point x="0.5" y="0" />
+                                <point x="0.86" y="0.14" />
+                                <point x="1" y="0.5" />
+                                <point x="0.86" y="0.86" />
+                                <point x="0.5" y="1" />
+                                <point x="0.14" y="0.86" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Timer">
             <object-type name="Timer" sid="6485983371681289">
@@ -1235,6 +1311,43 @@
             </object-type>
             <object-type global="1" name="Divide" sid="6924252606524411">
                 <plugin id="Arr" />
+            </object-type>
+        </object-folder>
+        <object-folder name="GameWon">
+            <object-type name="GameWonBG" sid="2164177477936536">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5707497656213536" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\Levelwonscreen.png">
+                            <collision-poly>
+                                <point x="0.0337423" y="0.0617978" />
+                                <point x="0.5" y="0" />
+                                <point x="0.966258" y="0.0617978" />
+                                <point x="1" y="0.5" />
+                                <point x="0.966258" y="0.938202" />
+                                <point x="0.5" y="0.994382" />
+                                <point x="0.0337423" y="0.938202" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LevelCleared" sid="1819887289285634">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7517819452614234" speed="5">
+                        <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Desktop\LevelCleared-FontMeMe_PixelFontSZ50.png">
+                            <collision-poly>
+                                <point x="0.272727" y="0.575581" />
+                                <point x="0.498623" y="0.0639535" />
+                                <point x="0.727273" y="0.575581" />
+                                <point x="0.942149" y="0.877907" />
+                                <point x="0.0606061" y="0.872093" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
         <object-type name="Button" sid="3650483288887839">
@@ -1309,6 +1422,34 @@
         <object-type name="Touch" sid="4585166911831011">
             <plugin id="Touch" />
         </object-type>
+        <object-type name="Sprite6" sid="5406655971286012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5051456681211253" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\Youlostscreen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="8756490561049434">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9935169834549115" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="4846196675418007">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\GameScrnBlurred.png" />
+        </object-type>
+        <object-type name="Sprite18" sid="5140515080753551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5876503441315513" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Documents\CST\Term 2\2910\CC\GameImages\GameScrnBlurred.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="VolumeIncDec" plugin-id="Sprite" sid="8761512979092425">
@@ -1359,6 +1500,7 @@
         <layout>GameOver.xml</layout>
         <layout>PreGameScreen.xml</layout>
         <layout>Level Select.xml</layout>
+        <layout>GameWon.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuScreen.xml</event-sheet>
@@ -1367,6 +1509,7 @@
         <event-sheet>GameOver.xml</event-sheet>
         <event-sheet>PreGameScreen.xml</event-sheet>
         <event-sheet>Level Select EV.xml</event-sheet>
+        <event-sheet>GameWon.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="1">
