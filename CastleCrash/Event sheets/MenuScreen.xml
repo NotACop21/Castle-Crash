@@ -91,7 +91,7 @@
             <actions>
                 <action id="33" name="Stop all" sid="5355793092359162" type="Audio" />
                 <action id="0" name="Play" sid="2122515673841899" type="Audio">
-                    <param id="0" name="Audio file">Castle_Crash_menu2</param>
+                    <param id="0" name="Audio file">Triumphant</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

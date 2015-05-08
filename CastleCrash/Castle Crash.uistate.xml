@@ -10,6 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout order="0">MenuScreen</layout>
         <layout order="2">SettingsScreen</layout>
         <layout order="4">GameScreen</layout>
@@ -22,6 +23,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="5">GameScreen</event-sheet>
         <event-sheet order="8">PreGameScreen</event-sheet>
         <event-sheet order="9">GameOver</event-sheet>
+=======
+        <layout active="1" order="0">MenuScreen</layout>
+>>>>>>> ba39b00f862b01f9150995135fa39a908046d106
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -47,7 +51,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
-        <folder expanded="0" path="music-folder/" />
+        <folder expanded="1" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/MainTitle/" />
         <folder expanded="1" path="animation-folder/HighScoreButton/" />
@@ -64,6 +68,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Red/" />
         <folder expanded="1" path="animation-folder/Grey/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/GameOverBG/" />
         <folder expanded="1" path="animation-folder/Sprite11/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
         <folder expanded="1" path="animation-folder/Sprite10/" />
