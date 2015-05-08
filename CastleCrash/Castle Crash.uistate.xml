@@ -11,15 +11,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MenuScreen</layout>
-        <layout order="1">GameScreen</layout>
-        <layout order="2">SettingsScreen</layout>
-        <layout order="3">Level Select</layout>
-        <layout order="7">GameWon</layout>
-        <layout order="4">GameOver</layout>
-        <event-sheet order="6">SettingScreen</event-sheet>
-        <event-sheet order="5">PreGameScreen</event-sheet>
-        <event-sheet active="1" order="0">GameWon</event-sheet>
-        <event-sheet order="8">GameScreen</event-sheet>
+        <layout active="1" order="2">GameScreen</layout>
+        <layout order="3">SettingsScreen</layout>
+        <layout order="4">Level Select</layout>
+        <layout order="5">GameOver</layout>
+        <layout order="8">GameWon</layout>
+        <event-sheet order="1">GameWon</event-sheet>
+        <event-sheet order="6">PreGameScreen</event-sheet>
+        <event-sheet order="7">SettingScreen</event-sheet>
+        <event-sheet order="9">GameScreen</event-sheet>
+        <event-sheet order="10">Level Select EV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />

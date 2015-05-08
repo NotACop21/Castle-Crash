@@ -355,7 +355,7 @@
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Kristen ITC,-64,400,0</font>
+                        <font>Impact,-96,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -367,10 +367,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>360</x>
-                        <y>114.5</y>
+                        <y>131.5</y>
                         <z>0</z>
-                        <width>205</width>
-                        <height>114</height>
+                        <width>302</width>
+                        <height>148</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
