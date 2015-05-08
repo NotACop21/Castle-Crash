@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Facebook" version="1">Facebook</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -738,16 +739,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3917172734868772" speed="5">
-                    <frame duration="1" hotspotX="0.506667" hotspotY="0.506667" original-source="C:\Users\Harneil Brar\Downloads\freeiconmaker\freeiconmaker_1.png">
+                    <frame duration="1" hotspotX="0.493333" hotspotY="0.493333" original-source="C:\Users\Harneil Brar\Downloads\freeiconmaker\freeiconmaker_1.png">
                         <collision-poly>
-                            <point x="0.146667" y="0.146667" />
-                            <point x="0.493333" y="0" />
-                            <point x="0.853333" y="0.146667" />
-                            <point x="1" y="0.493333" />
-                            <point x="0.853333" y="0.853333" />
-                            <point x="0.493333" y="1" />
+                            <point x="0.506667" y="1" />
                             <point x="0.146667" y="0.853333" />
-                            <point x="0" y="0.493333" />
+                            <point x="0" y="0.506667" />
+                            <point x="0.146667" y="0.146667" />
+                            <point x="0.506667" y="0" />
+                            <point x="0.853333" y="0.146667" />
+                            <point x="1" y="0.506667" />
+                            <point x="0.853333" y="0.853333" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -852,6 +853,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Facebook" sid="1620280646628194">
+            <plugin id="Facebook" />
+        </object-type>
     </object-folder>
     <families>
         <family name="VolumeIncDec" plugin-id="Sprite" sid="8761512979092425">
@@ -894,6 +898,7 @@
         <layout>GameOver.xml</layout>
         <layout>PreGameScreen.xml</layout>
         <layout>Level Select.xml</layout>
+        <layout>GameWon.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuScreen.xml</event-sheet>
@@ -902,6 +907,7 @@
         <event-sheet>GameOver.xml</event-sheet>
         <event-sheet>PreGameScreen.xml</event-sheet>
         <event-sheet>Level Select EV.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="1">
@@ -921,6 +927,12 @@
                 <reference-distance>600</reference-distance>
                 <maximum-distance>10000</maximum-distance>
                 <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Facebook" uid="32">
+            <properties>
+                <app-id></app-id>
+                <app-secret></app-secret>
             </properties>
         </global-instance>
     </global-instances>
