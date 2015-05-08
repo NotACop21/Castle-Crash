@@ -940,6 +940,12 @@
         <file name="Castle_Crash_menu2.ogg" />
         <file name="Game.m4a" />
         <file name="Game.ogg" />
+        <file name="Polarized.m4a" />
+        <file name="Polarized.ogg" />
+        <file name="Pre-GameCountdown.m4a" />
+        <file name="Pre-GameCountdown.ogg" />
+        <file name="Triumphant.m4a" />
+        <file name="Triumphant.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
