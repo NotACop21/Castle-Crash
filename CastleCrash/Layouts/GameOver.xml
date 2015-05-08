@@ -70,6 +70,28 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="Sprite" uid="32">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>77</x>
+                        <y>567</y>
+                        <z>0</z>
+                        <width>128</width>
+                        <height>128</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Sprite3" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -86,35 +108,9 @@
                         <width>75</width>
                         <height>75</height>
                         <depth>0</depth>
-                        <hotspotX>0.49333334</hotspotX>
-                        <hotspotY>0.49333334</hotspotY>
+                        <hotspotX>0.50666666</hotspotX>
+                        <hotspotY>0.50666666</hotspotY>
                         <angle>0.020407783</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="HomeButton" uid="39">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <scale>0.8</scale>
-                        <grow>0.8</grow>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>55</x>
-                        <y>586</y>
-                        <z>0</z>
-                        <width>75.272583008</width>
-                        <height>72.545471191</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -147,8 +143,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>235</x>
-                        <y>86</y>
+                        <x>238</x>
+                        <y>83</y>
                         <z>0</z>
                         <width>412</width>
                         <height>153</height>
