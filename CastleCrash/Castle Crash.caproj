@@ -480,7 +480,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Sprite16" sid="5001501648698866">
+            <object-type name="Restart" sid="5001501648698866">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9547089102946805" speed="5">
@@ -499,7 +499,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Sprite17" sid="1185813111403998">
+            <object-type name="Level" sid="1185813111403998">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2525078730432366" speed="5">
@@ -674,7 +674,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7517819452614234" speed="5">
-                        <frame duration="1" hotspotX="0.501377" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Desktop\LevelCleared-FontMeMe_PixelFontSZ50.png">
+                        <frame duration="1" hotspotX="0.501305" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Desktop\LevelCleared-FontMeMe_PixelFontSZ50.png">
                             <collision-poly>
                                 <point x="0.272727" y="0.575581" />
                                 <point x="0.498623" y="0.0639535" />

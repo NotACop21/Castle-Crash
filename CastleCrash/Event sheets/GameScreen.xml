@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameScreen</name>
     <events>
-        <variable comment="Variable for the timer" constant="0" name="timer" sid="5271205138395318" static="0" type="number">3</variable>
+        <variable comment="Variable for the timer" constant="0" name="timer" sid="5271205138395318" static="0" type="number">30</variable>
         <variable constant="0" name="secs" sid="7034603717426056" static="0" type="number">0</variable>
         <variable constant="0" name="milliSecs" sid="3130942563536539" static="0" type="number">0</variable>
         <event-group description="" sid="4315126743624827" title="Menu" />
@@ -23,6 +23,10 @@
                     <param id="0" name="Variable">milliSecs</param>
                     <param id="1" name="Value">time</param>
                 </action>
+                <action id="0" name="Clear" sid="284773027955682" type="Divide" />
+                <action id="0" name="Clear" sid="1695177437157006" type="Minus" />
+                <action id="0" name="Clear" sid="2061639634102413" type="Multiply" />
+                <action id="0" name="Clear" sid="9676790155203084" type="Plus" />
             </actions>
         </event-block>
         <event-block sid="9100869799692521">
@@ -118,7 +122,10 @@
                     <param id="0" name="Seconds">0.5</param>
                 </action>
                 <action id="-26" name="Restart layout" sid="2534025419599877" type="System" />
-                <action id="-21" name="Reset global variables" sid="2547012480313342" type="System" />
+                <action id="0" name="Clear" sid="7085605186897166" type="Divide" />
+                <action id="0" name="Clear" sid="3740578823373098" type="Minus" />
+                <action id="0" name="Clear" sid="3978074729389218" type="Multiply" />
+                <action id="0" name="Clear" sid="4218578116908562" type="Plus" />
             </actions>
         </event-block>
         <event-block sid="5659167564203764">
@@ -640,36 +647,117 @@
                 <action id="-9" name="Destroy" sid="2900170014164734" type="Grey8" />
             </actions>
         </event-block>
-        <event-group description="" sid="4237137904675303" title="MuteToggle" />
-        <event-block sid="5542793314204344">
+        <event-block sid="670853364682451">
             <conditions>
-                <condition id="3" name="On touched object" sid="2969996899505691" type="Touch">
+                <condition id="1" name="Compare at XY" sid="7849735557704907" type="Minus">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="2089381405750103" type="Minus">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="6865446857545192" type="Minus">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="5262297040940071" type="Plus">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="1857591103385438" type="Plus">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="2995750996446432" type="Plus">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="7715259906438182" type="Divide">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="93817710005231" type="Divide">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="7361968583460121" type="Divide">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="7346294480514208" type="Multiply">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="3739305093599103" type="Multiply">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+                <condition id="1" name="Compare at XY" sid="2793196312882555" type="Multiply">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6834674629504539" type="System">
+                    <param id="0" name="Layout">GameWon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="1342371613635517" title="Mute/Toggle" />
+        <event-block sid="3920732166545128">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5433596894398533" type="Touch">
                     <param id="0" name="Object">MuteTog</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="8" name="Set silent" sid="7121891114277537" type="Audio">
+                <action id="8" name="Set silent" sid="6439839442644121" type="Audio">
                     <param id="0" name="Mode">2</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="2382297478568697">
+        <event-block sid="7933432789604047">
             <conditions>
-                <condition id="3" name="Is silent" sid="6228857198630553" type="Audio" />
+                <condition id="3" name="Is silent" sid="3334998362884715" type="Audio" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="4075130325675281" type="MuteTog">
+                <action id="4" name="Set animation" sid="7351715349073909" type="MuteTog">
                     <param id="0" name="Animation">&quot;Off&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="6678441372571063">
+        <event-block sid="5545708751570039">
             <conditions>
-                <condition id="3" inverted="1" name="Is silent" sid="881103488061392" type="Audio" />
+                <condition id="3" inverted="1" name="Is silent" sid="4075927823963834" type="Audio" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="5530830937069259" type="MuteTog">
+                <action id="4" name="Set animation" sid="9541337352181468" type="MuteTog">
                     <param id="0" name="Animation">&quot;On&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>

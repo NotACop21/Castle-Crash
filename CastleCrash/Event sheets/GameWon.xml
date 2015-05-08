@@ -5,7 +5,7 @@
     <events>
         <event-block sid="744426912644021">
             <conditions>
-                <condition id="4" name="Is touching object" sid="1859546025244279" type="Touch">
+                <condition id="3" name="On touched object" sid="1859546025244279" type="Touch">
                     <param id="0" name="Object">HomeButton</param>
                 </condition>
             </conditions>
@@ -18,21 +18,21 @@
         </event-block>
         <event-block sid="9468175133189005">
             <conditions>
-                <condition id="4" name="Is touching object" sid="5192454933936493" type="Touch">
-                    <param id="0" name="Object">Sprite16</param>
+                <condition id="3" name="On touched object" sid="5192454933936493" type="Touch">
+                    <param id="0" name="Object">Restart</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="923214677782133" type="System">
-                    <param id="0" name="Layout">GameScreen</param>
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
                 <action id="-21" name="Reset global variables" sid="1734864181351553" type="System" />
             </actions>
         </event-block>
         <event-block sid="5075550936001424">
             <conditions>
-                <condition id="4" name="Is touching object" sid="3277973978715816" type="Touch">
-                    <param id="0" name="Object">Sprite17</param>
+                <condition id="3" name="On touched object" sid="3277973978715816" type="Touch">
+                    <param id="0" name="Object">Level</param>
                 </condition>
             </conditions>
             <actions>
