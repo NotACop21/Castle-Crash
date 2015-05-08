@@ -29,24 +29,22 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="PreGameScreenBG" uid="49">
+                <instance type="TiledBackground4" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <hotspot>Top-left</hotspot>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>238.5</x>
-                        <y>319.5</y>
+                        <x>1</x>
+                        <y>-1</y>
                         <z>0</z>
-                        <width>483</width>
-                        <height>643</height>
+                        <width>480</width>
+                        <height>642</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -91,8 +89,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>123</x>
-                        <y>28</y>
+                        <x>111</x>
+                        <y>68</y>
                         <z>0</z>
                         <width>234</width>
                         <height>79</height>
