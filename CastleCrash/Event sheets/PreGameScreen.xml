@@ -11,13 +11,6 @@
                 <action id="0" name="Set text" sid="143104461471214" type="PreLevelText">
                     <param id="0" name="Text">&quot;Get Ready&quot;</param>
                 </action>
-                <action id="33" name="Stop all" sid="1461697005185248" type="Audio" />
-                <action id="0" name="Play" sid="6990404295931005" type="Audio">
-                    <param id="0" name="Audio file">Pre-GameCountdown</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="3947546578041754">

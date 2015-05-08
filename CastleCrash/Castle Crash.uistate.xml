@@ -10,8 +10,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">MenuScreen</layout>
+        <layout order="0">MenuScreen</layout>
+        <layout order="2">SettingsScreen</layout>
+        <layout order="4">GameScreen</layout>
+        <layout order="6">GameOver</layout>
+        <layout order="7">PreGameScreen</layout>
+        <layout active="1" order="10">Level Select</layout>
         <event-sheet order="1">MenuScreen</event-sheet>
+        <event-sheet order="3">SettingScreen</event-sheet>
+        <event-sheet order="5">GameScreen</event-sheet>
+        <event-sheet order="8">PreGameScreen</event-sheet>
+        <event-sheet order="9">GameOver</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -32,12 +41,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
         <folder expanded="0" path="object-folder/PreGameScreen/" />
-        <folder expanded="0" path="object-folder/LevelSelectSprites/" />
-        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="object-folder/LevelSelectSprites/" />
+        <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
-        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/MainTitle/" />
         <folder expanded="1" path="animation-folder/HighScoreButton/" />
@@ -48,15 +57,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/VolDec2/" />
         <folder expanded="1" path="animation-folder/VolDec/" />
         <folder expanded="1" path="animation-folder/HomeButton/" />
-        <folder expanded="1" path="animation-folder/EffectsVol/" />
-        <folder expanded="1" path="animation-folder/SettingsTitle/" />
-        <folder expanded="1" path="animation-folder/MusicVol/" />
         <folder expanded="1" path="animation-folder/Blue/" />
         <folder expanded="1" path="animation-folder/Green/" />
         <folder expanded="1" path="animation-folder/Orange/" />
         <folder expanded="1" path="animation-folder/Red/" />
         <folder expanded="1" path="animation-folder/Grey/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/GameOverBG/" />
         <folder expanded="1" path="animation-folder/Sprite11/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
         <folder expanded="1" path="animation-folder/Sprite10/" />
@@ -66,8 +73,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/PreGameScreenBG/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
-        <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/MusicVol/" />
+        <folder expanded="1" path="animation-folder/EffectsVol/" />
+        <folder expanded="1" path="animation-folder/SettingsTitle/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
     </folders-expanded>
 </c2uistate>
