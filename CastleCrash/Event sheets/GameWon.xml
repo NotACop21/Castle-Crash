@@ -10,6 +10,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-16" name="Wait" sid="8904728374004313" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="6010572067981085" type="System">
                     <param id="0" name="Layout">MenuScreen</param>
                 </action>
@@ -53,6 +56,68 @@
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2788462886413704">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="1248337188580509" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="8748858165638062" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="7580505371941657" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="8811233598839913" type="HomeButton">
+                    <param id="0" name="Scale">HomeButton.scale</param>
+                </action>
+                <action id="0" name="Play" sid="3243228166781698" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons (online-audio-converter.com)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7558657330922092">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3737932438641612" type="HomeButton">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="792297137179571" type="HomeButton">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6470622564367344">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="9236929995353898" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="8672779364093741" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="3173803181938718" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="8494741160517637" type="HomeButton">
+                    <param id="0" name="Scale">1</param>
                 </action>
             </actions>
         </event-block>
