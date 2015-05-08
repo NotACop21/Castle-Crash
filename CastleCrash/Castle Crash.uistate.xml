@@ -10,22 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Level Select</layout>
-        <layout order="1">GameScreen</layout>
-        <layout order="3">GameOver</layout>
-        <layout order="4">GameWon</layout>
-        <layout order="5">PreGameScreen</layout>
-        <layout order="6">SettingsScreen</layout>
-        <layout order="10">MenuScreen</layout>
-        <event-sheet order="2">GameScreen</event-sheet>
-        <event-sheet order="7">SettingScreen</event-sheet>
-        <event-sheet order="8">GameWon</event-sheet>
-        <event-sheet order="9">GameOver</event-sheet>
-        <event-sheet active="1" order="11">PreGameScreen</event-sheet>
+        <layout order="5">MenuScreen</layout>
+        <layout order="0">GameScreen</layout>
+        <layout order="2">GameOver</layout>
+        <layout order="4">SettingsScreen</layout>
+        <event-sheet active="1" order="1">GameScreen</event-sheet>
+        <event-sheet order="0">GameOver</event-sheet>
+        <event-sheet order="3">MenuScreen</event-sheet>
+        <event-sheet order="6">SettingScreen</event-sheet>
     </open-tabs>
     <properties>
-        <property expanded="1" name="About" />
-        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="About" />
+        <property expanded="0" name="Project settings" />
         <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
@@ -35,10 +31,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Bricks" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/MenuSprites/" />
         <folder expanded="0" path="object-folder/SettingsSprites/" />
-        <folder expanded="0" path="object-folder/Bricks/" />
         <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
         <folder expanded="0" path="object-folder/PreGameScreen/" />
@@ -46,8 +41,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Backgrounds/" />
         <folder expanded="0" path="object-folder/Arrays/" />
         <folder expanded="0" path="object-folder/GameWon/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="object-folder/GameScreenSprites/" />
+        <folder expanded="0" path="object-folder/GameScreenSprites/Bricks/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
@@ -64,19 +61,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/EffectsVol/" />
         <folder expanded="1" path="animation-folder/MusicVol/" />
         <folder expanded="1" path="animation-folder/SettingsTitle/" />
-        <folder expanded="1" path="animation-folder/Blue/" />
-        <folder expanded="1" path="animation-folder/Green/" />
-        <folder expanded="1" path="animation-folder/Orange/" />
-        <folder expanded="1" path="animation-folder/Red/" />
-        <folder expanded="1" path="animation-folder/Grey1/" />
-        <folder expanded="1" path="animation-folder/Grey2/" />
-        <folder expanded="1" path="animation-folder/Grey3/" />
-        <folder expanded="1" path="animation-folder/Grey4/" />
-        <folder expanded="1" path="animation-folder/Grey5/" />
-        <folder expanded="1" path="animation-folder/Grey6/" />
-        <folder expanded="1" path="animation-folder/Grey7/" />
-        <folder expanded="1" path="animation-folder/Grey8/" />
-        <folder expanded="1" path="animation-folder/Grey9/" />
         <folder expanded="1" path="animation-folder/GameOverBG/" />
         <folder expanded="1" path="animation-folder/Sprite11/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
@@ -90,14 +74,28 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite15/" />
         <folder expanded="1" path="animation-folder/Sprite16/" />
         <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/MuteTog2/" />
+        <folder expanded="1" path="animation-folder/HomeButton2/" />
         <folder expanded="1" path="animation-folder/PreGameScreenBG/" />
         <folder expanded="1" path="animation-folder/GameWonBG/" />
         <folder expanded="1" path="animation-folder/LevelCleared/" />
+        <folder expanded="1" path="animation-folder/Blue/" />
+        <folder expanded="1" path="animation-folder/Green/" />
+        <folder expanded="1" path="animation-folder/Orange/" />
+        <folder expanded="1" path="animation-folder/Red/" />
+        <folder expanded="1" path="animation-folder/Grey1/" />
+        <folder expanded="1" path="animation-folder/Grey2/" />
+        <folder expanded="1" path="animation-folder/Grey3/" />
+        <folder expanded="1" path="animation-folder/Grey4/" />
+        <folder expanded="1" path="animation-folder/Grey5/" />
+        <folder expanded="1" path="animation-folder/Grey6/" />
+        <folder expanded="1" path="animation-folder/Grey7/" />
+        <folder expanded="1" path="animation-folder/Grey8/" />
+        <folder expanded="1" path="animation-folder/Grey9/" />
+        <folder expanded="1" path="animation-folder/RestartGame/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
-        <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/MuteTog/" />
     </folders-expanded>
 </c2uistate>

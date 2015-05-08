@@ -67,13 +67,13 @@
                 <condition id="-7" name="Compare instance variable" sid="9094471069935698" type="HomeButton">
                     <param id="0" name="Instance variable">grow</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0.8</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-11" name="Add to" sid="8326384965438022" type="HomeButton">
                     <param id="0" name="Instance variable">scale</param>
-                    <param id="1" name="Value">0.5</param>
+                    <param id="1" name="Value">0.08</param>
                 </action>
                 <action id="9" name="Set scale" sid="4688679859111039" type="HomeButton">
                     <param id="0" name="Scale">HomeButton.scale</param>
@@ -95,7 +95,7 @@
                         <condition id="-7" name="Compare instance variable" sid="3434640753951167" type="HomeButton">
                             <param id="0" name="Instance variable">scale</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">1</param>
+                            <param id="2" name="Value">1.2</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -114,14 +114,14 @@
             <actions>
                 <action id="-10" name="Set value" sid="1933740767482578" type="HomeButton">
                     <param id="0" name="Instance variable">scale</param>
-                    <param id="1" name="Value">0.8</param>
+                    <param id="1" name="Value">1</param>
                 </action>
                 <action id="-10" name="Set value" sid="5024077579488727" type="HomeButton">
                     <param id="0" name="Instance variable">grow</param>
-                    <param id="1" name="Value">0.8</param>
+                    <param id="1" name="Value">1</param>
                 </action>
                 <action id="9" name="Set scale" sid="8187126798858865" type="HomeButton">
-                    <param id="0" name="Scale">0.5</param>
+                    <param id="0" name="Scale">1</param>
                 </action>
             </actions>
         </event-block>

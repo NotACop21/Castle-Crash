@@ -92,25 +92,21 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="HomeButton" uid="16">
+                <instance type="MuteTog2" uid="46">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <scale>0.8</scale>
-                        <grow>0.8</grow>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>78</x>
+                        <x>627</x>
                         <y>1012</y>
                         <z>0</z>
-                        <width>117.61341095</width>
-                        <height>113.352294922</height>
+                        <width>128</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -215,6 +211,32 @@
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HomeButton2" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <scale>0</scale>
+                        <grow>0</grow>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>86</x>
+                        <y>1012</y>
+                        <z>0</z>
+                        <width>128</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

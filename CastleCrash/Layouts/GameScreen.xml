@@ -397,21 +397,25 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite3" uid="29">
+                <instance type="RestartGame" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <scale>1</scale>
+                        <grow>1</grow>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>359</x>
                         <y>889</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>128</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.50999999</hotspotX>
                         <hotspotY>0.50999999</hotspotY>
@@ -436,8 +440,30 @@
                         <x>86</x>
                         <y>1013</y>
                         <z>0</z>
-                        <width>117.61341095</width>
-                        <height>113.352294922</height>
+                        <width>128</width>
+                        <height>128</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MuteTog" uid="44">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>640</x>
+                        <y>1013</y>
+                        <z>0</z>
+                        <width>128</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
