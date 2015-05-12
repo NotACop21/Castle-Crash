@@ -48,15 +48,11 @@
                 <action id="9" name="Set scale" sid="4407367677255873" type="HomeButton">
                     <param id="0" name="Scale">HomeButton.scale</param>
                 </action>
-                <action id="25" name="Play at object" sid="5693939457279522" type="Audio">
-                    <param id="0" name="Audio file">Menu buttons (online-audio-converter.com)</param>
-                    <param id="1" name="Loop">0</param>
-                    <param id="2" name="Volume">-15</param>
-                    <param id="3" name="Object">HomeButton</param>
-                    <param id="4" name="Inner angle">360</param>
-                    <param id="5" name="Outer angle">360</param>
-                    <param id="6" name="Outer gain">0</param>
-                    <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                <action id="0" name="Play" sid="5693939457279522" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
             <sub-events>
@@ -148,7 +144,7 @@
                     <param id="0" name="Scale">RestartGame.scale</param>
                 </action>
                 <action id="0" name="Play" sid="1888669214131259" type="Audio">
-                    <param id="0" name="Audio file">Menu buttons (online-audio-converter.com)</param>
+                    <param id="0" name="Audio file">Menu buttons</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

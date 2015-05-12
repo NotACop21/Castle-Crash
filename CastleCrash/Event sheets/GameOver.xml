@@ -46,18 +46,13 @@
                 <action id="-21" name="Reset global variables" sid="7642794504872666" type="System" />
             </actions>
         </event-block>
+        <comment>Add a little fail sound</comment>
         <event-block sid="9539369103259089">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="4081641686865555" type="System" />
             </conditions>
             <actions>
                 <action id="33" name="Stop all" sid="8962452811574406" type="Audio" />
-                <action id="0" name="Play" sid="5467934731901588" type="Audio">
-                    <param id="0" name="Audio file">Polarized</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-group description="" sid="5417656597200619" title="ButtonsFx" />
@@ -76,7 +71,7 @@
                     <param id="0" name="Scale">HomeButton2.scale</param>
                 </action>
                 <action id="0" name="Play" sid="9249002368318386" type="Audio">
-                    <param id="0" name="Audio file">Menu buttons (online-audio-converter.com)</param>
+                    <param id="0" name="Audio file">Menu buttons</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
