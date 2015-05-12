@@ -10,11 +10,15 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>20000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
@@ -1535,6 +1539,39 @@
                 <plugin id="Text" />
             </object-type>
         </object-folder>
+        <object-folder name="HighScore">
+            <object-type name="AJAX" sid="9686807443852849">
+                <plugin id="AJAX" />
+            </object-type>
+            <object-type global="1" name="Array" sid="3801160461978498">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="Mouse" sid="8132356534505886">
+                <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Submit" sid="1168412495475646">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9428588495263787" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\Stuff and Stuff\Submit.png">
+                            <collision-poly>
+                                <point x="0.0263158" y="0.0666667" />
+                                <point x="0.5" y="0" />
+                                <point x="0.964912" y="0.0888889" />
+                                <point x="1" y="0.488889" />
+                                <point x="0.973684" y="0.933333" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0350877" y="0.911111" />
+                                <point x="0" y="0.488889" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Touch" sid="4585166911831011">
+                <plugin id="Touch" />
+            </object-type>
+        </object-folder>
         <object-type name="Button" sid="3650483288887839">
             <plugin id="Button" />
         </object-type>
@@ -1546,9 +1583,6 @@
         </object-type>
         <object-type name="FileChooser" sid="2083577114932043">
             <plugin id="filechooser" />
-        </object-type>
-        <object-type name="Touch" sid="4585166911831011">
-            <plugin id="Touch" />
         </object-type>
         <object-type name="MuteTog" sid="4960842329283562">
             <plugin id="Sprite" />
@@ -1582,6 +1616,18 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="PlayerLevel" sid="9176287847893589">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="List" sid="4280195502898364">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="playerSCORE" sid="6503809070676058">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtPlayerName" sid="7088979726314275">
+            <plugin id="TextBox" />
         </object-type>
     </object-folder>
     <families>
@@ -1635,6 +1681,7 @@
         <layout>Level Select.xml</layout>
         <layout>GameWon.xml</layout>
         <layout>LoadScreen.xml</layout>
+        <layout>HighScores.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuScreen.xml</event-sheet>
@@ -1645,6 +1692,7 @@
         <event-sheet>Level Select EV.xml</event-sheet>
         <event-sheet>GameWon.xml</event-sheet>
         <event-sheet>LoadScreen.xml</event-sheet>
+        <event-sheet>HighScores EV.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="1">
@@ -1666,6 +1714,8 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="AJAX" uid="100" />
+        <global-instance type="Mouse" uid="102" />
     </global-instances>
     <sounds-folder>
         <file name="Menu buttons.ogg" />

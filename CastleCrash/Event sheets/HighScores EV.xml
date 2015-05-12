@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HighScores EV</name>
+    <events>
+        <variable constant="0" name="Eachx" sid="1279309374787162" static="0" type="number">0</variable>
+        <variable constant="0" name="Level" sid="6398314762346172" static="0" type="number">0</variable>
+        <variable constant="0" name="Score" sid="6924817855222548" static="0" type="number">0</variable>
+        <event-block sid="8081770175885457">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="3704399223903282" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="1954059995038241" type="playerSCORE">
+                    <param id="0" name="Text">&quot;Your Score:&quot; &amp;Score</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9183981288024465">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2917406900527605" type="Touch">
+                    <param id="0" name="Object">Submit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Post to URL" sid="539603898104416" type="AJAX">
+                    <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;Level &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Method">&quot;POST&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3898154279577794">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="93863598920408" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="1158044625691215" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4719759373398886">
+            <conditions>
+                <condition id="0" name="On completed" sid="5774337291385482" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="5675439319064195" type="System">
+                    <param id="0" name="Group name">&quot;Do Array&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="933441664204387">
+            <conditions>
+                <condition id="0" name="On completed" sid="5371285667937264" type="AJAX">
+                    <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="2234160791483574" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" inactive="1" sid="9924720962384912" title="Do Array">
+            <sub-events>
+                <event-block sid="1059036638516002">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="9482773511169408" type="Array">
+                            <param id="0" name="Axes">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="837253656061584" type="Array">
+                            <param id="0" name="X">Array.CurX</param>
+                            <param id="1" name="Value">tokenat(Ajax.LastData,Array.CurX, &quot;|&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1402712442483649">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="7695516712773672" type="System">
+                            <param id="0" name="Object">Text</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1538512602298608" type="Text">
+                            <param id="0" name="Text">Array.At(Text.IID)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2302408045761883">
+                    <conditions />
+                    <actions>
+                        <action id="-12" name="Set group active" sid="7341181334370301" type="System">
+                            <param id="0" name="Group name">&quot;Do Array&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
