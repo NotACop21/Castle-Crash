@@ -1540,20 +1540,20 @@
             </object-type>
         </object-folder>
         <object-folder name="HighScore">
-            <object-type name="AJAX" sid="9686807443852849">
-                <plugin id="AJAX" />
-            </object-type>
             <object-type global="1" name="Array" sid="3801160461978498">
                 <plugin id="Arr" />
             </object-type>
             <object-type name="Mouse" sid="8132356534505886">
                 <plugin id="Mouse" />
             </object-type>
-            <object-type name="Submit" sid="1168412495475646">
+            <object-type name="AJAX" sid="6428817611123762">
+                <plugin id="AJAX" />
+            </object-type>
+            <object-type name="Submit" sid="7960493041475715">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9428588495263787" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\Stuff and Stuff\Submit.png">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6244894327217695" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Zwick\Desktop\Stuff and Stuff\Submit.png">
                             <collision-poly>
                                 <point x="0.0263158" y="0.0666667" />
                                 <point x="0.5" y="0" />
@@ -1568,15 +1568,18 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Touch" sid="4585166911831011">
-                <plugin id="Touch" />
+            <object-type name="Text" sid="3303923955119323">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="txtPlayerName" sid="5828777152701711">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="PlayerScore" sid="4682869218076507">
+                <plugin id="Text" />
             </object-type>
         </object-folder>
         <object-type name="Button" sid="3650483288887839">
             <plugin id="Button" />
-        </object-type>
-        <object-type name="Text" sid="8671122060165519">
-            <plugin id="Text" />
         </object-type>
         <object-type name="Audio" sid="3139688062415707">
             <plugin id="Audio" />
@@ -1617,17 +1620,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="PlayerLevel" sid="9176287847893589">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="List" sid="4280195502898364">
             <plugin id="List" />
         </object-type>
-        <object-type name="playerSCORE" sid="6503809070676058">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="txtPlayerName" sid="7088979726314275">
-            <plugin id="TextBox" />
+        <object-type name="Touch" sid="4585166911831011">
+            <plugin id="Touch" />
         </object-type>
     </object-folder>
     <families>
@@ -1714,8 +1711,8 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="AJAX" uid="100" />
         <global-instance type="Mouse" uid="102" />
+        <global-instance type="AJAX" uid="69" />
     </global-instances>
     <sounds-folder>
         <file name="Menu buttons.ogg" />

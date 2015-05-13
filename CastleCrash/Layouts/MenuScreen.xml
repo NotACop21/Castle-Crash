@@ -305,6 +305,13 @@
                 <depth>1</depth>
             </properties>
         </instance>
+        <instance type="Array" uid="101">
+            <properties>
+                <width>30</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
     </nonworld-instances>
     <effects />
 </c2layout>
