@@ -42,6 +42,13 @@
                     <param id="0" name="Tag">&quot;GetScores&quot;</param>
                     <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
                 </action>
+                <action id="33" name="Stop all" sid="4313044980707582" type="Audio" />
+                <action id="0" name="Play" sid="6613267636570525" type="Audio">
+                    <param id="0" name="Audio file">Castle_Crash_menu2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="6366411662996507">
@@ -205,6 +212,40 @@
                 <action id="7" name="Set CSS style" sid="7414712354077265" type="txtPlayerName">
                     <param id="0" name="Property name">&quot;font-size&quot;</param>
                     <param id="1" name="Value">&quot;3em&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="360848745744054">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7686250227238563" type="Touch">
+                    <param id="0" name="Object">highscoremute</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set silent" sid="3703034758944769" type="Audio">
+                    <param id="0" name="Mode">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8107519213001079">
+            <conditions>
+                <condition id="3" name="Is silent" sid="5711087672748347" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7626493042688695" type="highscoremute">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="617470104038241">
+            <conditions>
+                <condition id="3" inverted="1" name="Is silent" sid="4429797340679784" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6921590475981195" type="highscoremute">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

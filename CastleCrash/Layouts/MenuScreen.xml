@@ -235,7 +235,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>360</x>
-                        <y>697</y>
+                        <y>828</y>
                         <z>0</z>
                         <width>370</width>
                         <height>110</height>
@@ -246,7 +246,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SettingsButton" uid="4">
+                <instance type="LvlSelectButton" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -261,7 +261,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>360</x>
-                        <y>828</y>
+                        <y>697</y>
                         <z>0</z>
                         <width>370</width>
                         <height>110</height>

@@ -17,6 +17,7 @@
         <plugin author="Scirra" id="List" version="1">List</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -123,6 +124,25 @@
                                 <point x="0.496774" y="1" />
                                 <point x="0.0258065" y="0.913043" />
                                 <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LvlSelectButton" sid="4500760117484994">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5787388259641095" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Michael\Downloads\lvlselect.png">
+                            <collision-poly>
+                                <point x="0.0191083" y="0.0666667" />
+                                <point x="0.496815" y="0" />
+                                <point x="0.974522" y="0.0888889" />
+                                <point x="1" y="0.488889" />
+                                <point x="0.980892" y="0.933333" />
+                                <point x="0.496815" y="1" />
+                                <point x="0.0254777" y="0.911111" />
+                                <point x="0" y="0.488889" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -745,6 +765,39 @@
                                 <point x="0.727273" y="0.575581" />
                                 <point x="0.942149" y="0.877907" />
                                 <point x="0.0606061" y="0.872093" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="lvlclearmute" sid="6858129268898311">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="4046205413067811" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOn.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="1576741272948033" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOff.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1518,6 +1571,39 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="GameTog" sid="4960842329283562">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="8385672090283445" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOn.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="7011426498060248" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOff.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="LoadScreen">
             <object-type name="tempMeowzer" sid="3651830283278872">
@@ -1581,6 +1667,39 @@
             <object-type name="Text2" sid="9350086401113207">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="highscoremute" sid="3337659924012606">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="647610034564181" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOn.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="7966040262146987" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOff.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="HighScoreLocal">
             <object-type name="TOPTENBACKGROUND" sid="8803103441338815">
@@ -1598,6 +1717,39 @@
             <object-type name="txtScoresONE2" sid="31292255311896">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="localtog" sid="6281910827536291">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="4485032300298958" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOn.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="7597463395442469" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOff.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Button" sid="3650483288887839">
             <plugin id="Button" />
@@ -1608,10 +1760,23 @@
         <object-type name="FileChooser" sid="2083577114932043">
             <plugin id="filechooser" />
         </object-type>
-        <object-type name="MuteTog" sid="4960842329283562">
+        <object-type name="List" sid="4280195502898364">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="Touch" sid="4585166911831011">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Numbers" sid="3163202435836034">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SpriteFont" sid="7329752597696998">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="lvlselecttog" sid="1476037444227316">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="8385672090283445" speed="5">
+                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="8988292783408213" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOn.png">
                         <collision-poly>
                             <point x="0.148438" y="0.148438" />
@@ -1625,7 +1790,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="7011426498060248" speed="5">
+                <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="2395900170043729" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\VolOff.png">
                         <collision-poly>
                             <point x="0.148438" y="0.148438" />
@@ -1640,15 +1805,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="List" sid="4280195502898364">
-            <plugin id="List" />
-        </object-type>
-        <object-type name="Touch" sid="4585166911831011">
-            <plugin id="Touch" />
-        </object-type>
-        <object-type name="Numbers" sid="3163202435836034">
-            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families>
@@ -1667,6 +1823,7 @@
         <family name="Buttons" plugin-id="Sprite" sid="8091503679131507">
             <members>
                 <member>HighScoreButton</member>
+                <member>LvlSelectButton</member>
                 <member>PlayButton</member>
                 <member>SettingsButton</member>
             </members>

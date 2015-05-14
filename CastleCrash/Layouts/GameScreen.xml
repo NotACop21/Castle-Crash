@@ -449,7 +449,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MuteTog" uid="44">
+                <instance type="GameTog" uid="44">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

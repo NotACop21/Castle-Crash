@@ -81,5 +81,39 @@
                 <action id="-21" name="Reset global variables" sid="1466742816126947" type="System" />
             </actions>
         </event-block>
+        <event-block sid="9631320083669375">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3096529716448024" type="Touch">
+                    <param id="0" name="Object">lvlselecttog</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set silent" sid="3102347681074619" type="Audio">
+                    <param id="0" name="Mode">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7698579647960553">
+            <conditions>
+                <condition id="3" name="Is silent" sid="8870842789141265" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="1753842222155419" type="lvlselecttog">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2006438280286575">
+            <conditions>
+                <condition id="3" inverted="1" name="Is silent" sid="6580580661223584" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="902829164014769" type="lvlselecttog">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

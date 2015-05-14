@@ -121,5 +121,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="6636895904392924">
+            <conditions>
+                <condition id="17" name="On tap object" sid="5399043100252433" type="Touch">
+                    <param id="0" name="Object">LvlSelectButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="2298642529058659" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="994157793438517" type="System">
+                    <param id="0" name="Layout">Level Select</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

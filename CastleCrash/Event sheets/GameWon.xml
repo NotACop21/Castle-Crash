@@ -81,7 +81,7 @@
                 <action id="0" name="Play" sid="3243228166781698" type="Audio">
                     <param id="0" name="Audio file">Menu buttons</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-15</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -97,7 +97,7 @@
                     <actions>
                         <action id="-10" name="Set value" sid="792297137179571" type="HomeButton">
                             <param id="0" name="Instance variable">grow</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -250,6 +250,52 @@
                 <action id="7" name="Set CSS style" sid="3296091688864457" type="txtPlayerName">
                     <param id="0" name="Property name">&quot;font-size&quot;</param>
                     <param id="1" name="Value">&quot;3em&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6869932491550577">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5914469304026657" type="Touch">
+                    <param id="0" name="Object">RestartGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8939526726434474" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="243347557390693">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2594137038274834" type="Touch">
+                    <param id="0" name="Object">lvlclearmute</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set silent" sid="1633708207952689" type="Audio">
+                    <param id="0" name="Mode">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9396563549606854">
+            <conditions>
+                <condition id="3" name="Is silent" sid="779074019849508" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="983245584459422" type="lvlclearmute">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1560093049781928">
+            <conditions>
+                <condition id="3" inverted="1" name="Is silent" sid="2404777825992051" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7559975066402062" type="lvlclearmute">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
