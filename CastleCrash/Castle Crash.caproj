@@ -21,6 +21,7 @@
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
     </used-plugins>
     <used-behaviors>
@@ -1577,6 +1578,26 @@
             <object-type name="PlayerScore" sid="4682869218076507">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="Text2" sid="9350086401113207">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="HighScoreLocal">
+            <object-type name="TOPTENBACKGROUND" sid="8803103441338815">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="WebStorage" sid="2588499995023323">
+                <plugin id="WebStorage" />
+            </object-type>
+            <object-type name="txtScoresONE" sid="4243819208849919">
+                <plugin id="Text" />
+            </object-type>
+            <object-type global="1" name="arScore" sid="9011738917887719">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="txtScoresONE2" sid="31292255311896">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-type name="Button" sid="3650483288887839">
             <plugin id="Button" />
@@ -1625,6 +1646,9 @@
         </object-type>
         <object-type name="Touch" sid="4585166911831011">
             <plugin id="Touch" />
+        </object-type>
+        <object-type name="Numbers" sid="3163202435836034">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families>
@@ -1679,6 +1703,7 @@
         <layout>GameWon.xml</layout>
         <layout>LoadScreen.xml</layout>
         <layout>HighScores.xml</layout>
+        <layout>HighScores Local.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuScreen.xml</event-sheet>
@@ -1690,6 +1715,7 @@
         <event-sheet>GameWon.xml</event-sheet>
         <event-sheet>LoadScreen.xml</event-sheet>
         <event-sheet>HighScores EV.xml</event-sheet>
+        <event-sheet>HighScoresLocal EV.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="1">
@@ -1713,6 +1739,7 @@
         </global-instance>
         <global-instance type="Mouse" uid="102" />
         <global-instance type="AJAX" uid="69" />
+        <global-instance type="WebStorage" uid="122" />
     </global-instances>
     <sounds-folder>
         <file name="Menu buttons.ogg" />

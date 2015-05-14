@@ -720,7 +720,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="8233740084724528" type="System">
-                    <param id="0" name="Layout">HighScores</param>
+                    <param id="0" name="Layout">GameWon</param>
                 </action>
                 <action id="-9" name="Set value" sid="2965511736218227" type="System">
                     <param id="0" name="Variable">Score</param>

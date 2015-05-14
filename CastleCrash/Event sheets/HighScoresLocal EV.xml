@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HighScoresLocal EV</name>
+    <events>
+        <variable constant="0" name="Level1" sid="3939373154217021" static="0" type="number">0</variable>
+        <variable constant="0" name="highscore" sid="4758174815787196" static="0" type="text">0,0,0,0,0,0,0,0,0,0</variable>
+        <event-block sid="6617838392953848">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="495279982146017" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9728331392927231">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="7952898452259988" type="WebStorage">
+                            <param id="0" name="Key">&quot;wHighScore&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9494426872717621" type="System">
+                            <param id="0" name="Variable">highscore</param>
+                            <param id="1" name="Value">WebStorage.LocalValue(&quot;wHighScore&quot;)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="3570183777403091">
+                            <conditions>
+                                <condition id="3" name="For each element" sid="9935249538335026" type="arScore">
+                                    <param id="0" name="Axes">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="2" name="Set at X" sid="5787260844936354" type="arScore">
+                                    <param id="0" name="X">arScore.CurX</param>
+                                    <param id="1" name="Value">int(tokenat(highscore, arScore.CurX, &quot;,&quot;))</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="1314542329422705" type="arScore">
+                                    <param id="0" name="X">arScore.At(0)</param>
+                                    <param id="1" name="Value">Level1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4367921503037863">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9349204760992512" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="3791354837597636">
+                            <conditions>
+                                <condition id="3" name="For each element" sid="4918321464177892" type="arScore">
+                                    <param id="0" name="Axes">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="2" name="Set at X" sid="7449871058989376" type="arScore">
+                                    <param id="0" name="X">arScore.CurX</param>
+                                    <param id="1" name="Value">int(tokenat(highscore, arScore.CurX, &quot;,&quot;))</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="2612653240618565" type="arScore">
+                                    <param id="0" name="X">arScore.At(0)</param>
+                                    <param id="1" name="Value">Level1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8984718791578951">
+                    <conditions />
+                    <actions>
+                        <action id="8" name="Sort" sid="8714177058034993" type="arScore">
+                            <param id="0" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4144183988321063">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="4416217198436184" type="System">
+                            <param id="0" name="First value">timer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">arScore.At(0)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Delete" sid="2701411034772823" type="arScore">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="7622258174032205" type="arScore">
+                            <param id="0" name="Value">timer</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="8" name="Sort" sid="5067295204594173" type="arScore">
+                            <param id="0" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="n" sid="6513920205631478" static="0" type="number">9</variable>
+                <event-block sid="2862965459332188">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="8824609496001292" type="System">
+                            <param id="0" name="Object">txtScoresONE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2107407874077234" type="txtScoresONE">
+                            <param id="0" name="Text">arScore.At(0)</param>
+                        </action>
+                        <action disabled="1" id="-11" name="Subtract from" sid="7601234894399747" type="System">
+                            <param id="0" name="Variable">n</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3540917290352379">
+                    <conditions />
+                    <actions>
+                        <action disabled="1" id="0" name="Set local value" sid="4318669713201742" type="WebStorage">
+                            <param id="0" name="Key">&quot;wHighScore&quot;</param>
+                            <param id="1" name="Value">arScore.At(0) &amp; &quot;,&quot; &amp; arScore.At(1) &amp; &quot;,&quot; &amp; arScore.At(2) &amp; &quot;,&quot; &amp; arScore.At(3) &amp; &quot;,&quot; &amp; arScore.At(4) &amp; &quot;,&quot; &amp; arScore.At(5) &amp; &quot;,&quot; &amp; arScore.At(6) &amp; &quot;,&quot; &amp; arScore.At(7) &amp; &quot;,&quot; &amp; arScore.At(8) &amp; &quot;,&quot; &amp; arScore.At(9) </param>
+                        </action>
+                        <action id="0" name="Set local value" sid="9405545781106503" type="WebStorage">
+                            <param id="0" name="Key">&quot;wHighScore&quot;</param>
+                            <param id="1" name="Value">arScore.At(0) </param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

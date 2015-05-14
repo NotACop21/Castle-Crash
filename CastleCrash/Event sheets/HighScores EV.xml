@@ -12,7 +12,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="6172380003374127" type="PlayerScore">
-                    <param id="0" name="Text">&quot;Your Score&quot;&amp;Score</param>
+                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  secs &amp; &quot;:&quot; &amp; millisecs</param>
                 </action>
             </actions>
         </event-block>
@@ -108,5 +108,105 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="7746557990570115">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="1457384661910557" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3331461573334043" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="4498381455137432" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="7829262570623326" type="HomeButton">
+                    <param id="0" name="Scale">HomeButton.scale</param>
+                </action>
+                <action id="0" name="Play" sid="521519121968337" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="5647880987092023">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9161728523229424" type="HomeButton">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="2561071384859293" type="HomeButton">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4188776959046914">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="9860374455247986" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="7037227165733525" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="7819143271533409" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="1170418390815864" type="HomeButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7820456688196292">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4044124763944105" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="4153231157892498" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3473745263572964" type="System">
+                    <param id="0" name="Layout">MenuScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6178644103461992">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="6210862732862617" type="txtPlayerName" />
+            </conditions>
+            <actions>
+                <action id="7" name="Set CSS style" sid="2601356802592938" type="txtPlayerName">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;black&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="7761772895856717" type="txtPlayerName">
+                    <param id="0" name="Property name">&quot;background&quot;</param>
+                    <param id="1" name="Value">&quot;#57CAFA&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="5387626967396078" type="txtPlayerName">
+                    <param id="0" name="Property name">&quot;web font&quot;</param>
+                    <param id="1" name="Value">&quot;snap itc&quot; </param>
+                </action>
+                <action id="7" name="Set CSS style" sid="7414712354077265" type="txtPlayerName">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;3em&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
