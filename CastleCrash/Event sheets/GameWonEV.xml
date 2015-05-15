@@ -126,14 +126,14 @@
                 <condition id="-1" name="Every tick" sid="6763289117760663" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="6912906499230959" type="PlayerScore">
-                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  secs &amp; &quot;:&quot; &amp; millisecs</param>
+                <action id="0" name="Set text" sid="5225614426158837" type="PlayerScore">
+                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  Score4 &amp; &quot;.&quot; &amp; score2</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="9561147065343474">
             <conditions>
-                <condition id="17" name="On tap object" sid="3658011565193067" type="Touch">
+                <condition id="3" name="On touched object" sid="3658011565193067" type="Touch">
                     <param id="0" name="Object">Submit</param>
                 </condition>
             </conditions>

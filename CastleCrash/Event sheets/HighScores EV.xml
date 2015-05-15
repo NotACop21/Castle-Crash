@@ -11,8 +11,8 @@
                 <condition id="-1" name="Every tick" sid="6773265833919475" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="6172380003374127" type="PlayerScore">
-                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  secs &amp; &quot;:&quot; &amp; millisecs</param>
+                <action id="0" name="Set text" sid="2463084103605657" type="PlayerScore">
+                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  Score4 &amp; &quot;:&quot; &amp; score2</param>
                 </action>
             </actions>
         </event-block>
