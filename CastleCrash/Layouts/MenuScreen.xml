@@ -2,7 +2,7 @@
 <c2layout>
     <name>MenuScreen</name>
     <sid>8873350371196689</sid>
-    <event-sheet>MenuScreen</event-sheet>
+    <event-sheet>MenuScreenEV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>
@@ -75,6 +75,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Disabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <BBValue>0</BBValue>
+                        <IsMatched>false</IsMatched>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -97,6 +101,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <BGrValue>0</BGrValue>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -119,6 +126,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <BRValue>0</BRValue>
+                        <IsMatched>false</IsMatched>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

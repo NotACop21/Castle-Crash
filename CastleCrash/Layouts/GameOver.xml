@@ -2,7 +2,7 @@
 <c2layout>
     <name>GameOver</name>
     <sid>3412173960429634</sid>
-    <event-sheet>GameOver</event-sheet>
+    <event-sheet>GameOverEV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>

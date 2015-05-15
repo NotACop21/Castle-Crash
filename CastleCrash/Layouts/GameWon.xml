@@ -2,7 +2,7 @@
 <c2layout>
     <name>GameWon</name>
     <sid>8056464522472136</sid>
-    <event-sheet>GameWon</event-sheet>
+    <event-sheet>GameWonEV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>

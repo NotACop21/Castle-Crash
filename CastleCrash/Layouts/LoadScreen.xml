@@ -2,7 +2,7 @@
 <c2layout>
     <name>LoadScreen</name>
     <sid>2814098431385404</sid>
-    <event-sheet>LoadScreen</event-sheet>
+    <event-sheet>LoadScreenEV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>

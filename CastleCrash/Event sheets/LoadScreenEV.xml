@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LoadScreenEV</name>
+    <events>
+        <event-block sid="1240833827869932">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="882692585405837" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="6248886494681161" type="Audio">
+                    <param id="0" name="Audio file">Castle_Crash_menu2</param>
+                </action>
+                <action id="4" name="Preload" sid="9470069861858062" type="Audio">
+                    <param id="0" name="Audio file">Game</param>
+                </action>
+                <action id="4" name="Preload" sid="46091075692868" type="Audio">
+                    <param id="0" name="Audio file">Polarized</param>
+                </action>
+                <action id="4" name="Preload" sid="1626487343270183" type="Audio">
+                    <param id="0" name="Audio file">Triumphant</param>
+                </action>
+                <action id="4" name="Preload" sid="6698247308674761" type="Audio">
+                    <param id="0" name="Audio file">Pre-GameCountdown</param>
+                </action>
+                <action id="0" name="Play" sid="2877824788805654" type="Audio">
+                    <param id="0" name="Audio file">Meowzer_logo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="965796658397685" type="Loadingtext">
+                    <param id="0" name="&apos;On&apos; time">0.5</param>
+                    <param id="1" name="&apos;Off&apos; time">0.5</param>
+                    <param id="2" name="Duration">6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1638231419715594">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="9164360194584759" type="System">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Time (seconds)">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9864536159379754" type="Loadingtext">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4977104098313995">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="1888439733596818" type="System">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Time (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="751634643549932" type="System">
+                    <param id="0" name="Layout">MenuScreen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

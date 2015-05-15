@@ -2,7 +2,7 @@
 <c2layout>
     <name>SettingsScreen</name>
     <sid>8901294882165933</sid>
-    <event-sheet>SettingScreen</event-sheet>
+    <event-sheet>SettingScreenEV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>

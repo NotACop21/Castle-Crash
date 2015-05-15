@@ -2,7 +2,7 @@
 <c2layout>
     <name>PreGameScreen</name>
     <sid>6536967823341781</sid>
-    <event-sheet>PreGameScreen</event-sheet>
+    <event-sheet>PreGameScreenEV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>
