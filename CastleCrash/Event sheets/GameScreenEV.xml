@@ -3,6 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameScreenEV</name>
     <events>
+        <variable constant="0" name="milliSecs2" sid="6785802635287549" static="0" type="number">0</variable>
+        <variable constant="0" name="secs2" sid="121463716256805" static="0" type="number">0</variable>
+        <variable constant="0" name="timer2" sid="8294699959544932" static="0" type="number">0</variable>
         <variable comment="Variable for the timer" constant="0" name="timer" sid="5271205138395318" static="0" type="number">30</variable>
         <variable constant="0" name="secs" sid="7034603717426056" static="0" type="number">0</variable>
         <variable constant="0" name="milliSecs" sid="3130942563536539" static="0" type="number">0</variable>
@@ -187,7 +190,7 @@
             </sub-events>
         </event-block>
         <event-group description="" sid="416865702785587" title="Timer" />
-        <event-block sid="6325758901364396">
+        <event-block any="1" sid="6325758901364396">
             <conditions>
                 <condition id="-1" name="Every tick" sid="4226083181037427" type="System" />
             </conditions>
@@ -723,7 +726,7 @@
                 <action id="-2" name="Go to layout" sid="8233740084724528" type="System">
                     <param id="0" name="Layout">GameWon</param>
                 </action>
-                <action id="-9" name="Set value" sid="1480672977092974" type="System">
+                <action disabled="1" id="-9" name="Set value" sid="1480672977092974" type="System">
                     <param id="0" name="Variable">score3</param>
                     <param id="1" name="Value">zeropad(floor(timer)%60,2) &amp; floor((timer*1000)/10)%100</param>
                 </action>
@@ -735,13 +738,17 @@
                     <param id="0" name="Variable">Scorex</param>
                     <param id="1" name="Value">score2</param>
                 </action>
-                <action id="-11" name="Subtract from" sid="8175861788750394" type="System">
+                <action disabled="1" id="-11" name="Subtract from" sid="8175861788750394" type="System">
                     <param id="0" name="Variable">score3</param>
                     <param id="1" name="Value">30</param>
                 </action>
+                <action disabled="1" id="-9" name="Set value" sid="3802829392230932" type="System">
+                    <param id="0" name="Variable">score3</param>
+                    <param id="1" name="Value">score4</param>
+                </action>
                 <action id="-9" name="Set value" sid="2965511736218227" type="System">
                     <param id="0" name="Variable">Score</param>
-                    <param id="1" name="Value">score3</param>
+                    <param id="1" name="Value">timer2</param>
                 </action>
             </actions>
         </event-block>
@@ -783,5 +790,31 @@
         <variable constant="0" name="score4" sid="1627468706292193" static="0" type="number">0</variable>
         <variable constant="0" name="score3" sid="4984056378455749" static="0" type="number">0</variable>
         <variable constant="0" name="score2" sid="2716267387927154" static="0" type="number">0</variable>
+        <event-group description="" sid="7382928181370124" title="Timer2" />
+        <event-block any="1" sid="4806829174833227">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7802415498054776" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6037490754168808" type="System">
+                    <param id="0" name="Variable">timer2</param>
+                    <param id="1" name="Value">dt</param>
+                </action>
+                <action id="-9" name="Set value" sid="3763431665182554" type="System">
+                    <param id="0" name="Variable">secs2</param>
+                    <param id="1" name="Value">floor(timer)%60</param>
+                </action>
+                <action id="-9" name="Set value" sid="6133919649916748" type="System">
+                    <param id="0" name="Variable">milliSecs2</param>
+                    <param id="1" name="Value">floor((timer*1000)/10)%100</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="5238540993229815">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>LoadScreenEV</name>
     <events>
-        <event-block sid="1240833827869932">
+        <event-block disabled="1" sid="1240833827869932">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="882692585405837" type="System" />
             </conditions>

@@ -987,7 +987,7 @@
                 </instance>
                 <instance type="Text2" uid="63">
                     <properties>
-                        <text>Score</text>
+                        <text>Time</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Snap ITC,-53,400,0</font>
                         <color>0,0,0</color>

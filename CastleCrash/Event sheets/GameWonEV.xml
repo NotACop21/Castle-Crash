@@ -126,8 +126,8 @@
                 <condition id="-1" name="Every tick" sid="3808488320126652" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="6486198673189875" type="PlayerScore">
-                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;Score</param>
+                <action id="0" name="Set text" sid="5004489260282107" type="PlayerScore">
+                    <param id="0" name="Text">&quot;Your Time:&quot; &amp; round((timer2)*100)/100</param>
                 </action>
             </actions>
         </event-block>
