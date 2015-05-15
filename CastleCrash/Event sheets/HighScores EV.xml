@@ -12,7 +12,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="2463084103605657" type="PlayerScore">
-                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  Score4 &amp; &quot;:&quot; &amp; score2</param>
+                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;Score</param>
                 </action>
             </actions>
         </event-block>

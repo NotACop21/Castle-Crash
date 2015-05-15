@@ -121,13 +121,13 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9405522927157938">
+        <event-block sid="1534468443689559">
             <conditions>
-                <condition id="-1" name="Every tick" sid="6763289117760663" type="System" />
+                <condition id="-1" name="Every tick" sid="3808488320126652" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="5225614426158837" type="PlayerScore">
-                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;  Score4 &amp; &quot;.&quot; &amp; score2</param>
+                <action id="0" name="Set text" sid="6486198673189875" type="PlayerScore">
+                    <param id="0" name="Text">&quot;Your Score: &quot; &amp;Score</param>
                 </action>
             </actions>
         </event-block>

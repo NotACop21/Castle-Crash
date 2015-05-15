@@ -16,9 +16,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="9">GameWon</layout>
         <event-sheet order="1">MenuScreenEV</event-sheet>
         <event-sheet order="2">PreGameScreenEV</event-sheet>
-        <event-sheet order="3">GameScreenEV</event-sheet>
+        <event-sheet active="1" order="3">GameScreenEV</event-sheet>
         <event-sheet order="6">GameScreenV2EV</event-sheet>
-        <event-sheet active="1" order="7">GameWonEV</event-sheet>
+        <event-sheet order="7">GameWonEV</event-sheet>
         <event-sheet order="8">HighScores EV</event-sheet>
     </open-tabs>
     <properties>
