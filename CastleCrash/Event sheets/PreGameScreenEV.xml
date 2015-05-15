@@ -136,7 +136,7 @@
                     <param id="0" name="Seconds">0.35</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="7781389958656454" type="System">
-                    <param id="0" name="Layout">GameScreenV2</param>
+                    <param id="0" name="Layout">GameScreen</param>
                 </action>
             </actions>
         </event-block>

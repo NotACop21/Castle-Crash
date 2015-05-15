@@ -810,7 +810,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="8999337219615787" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey2\Base\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -824,7 +824,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="8092521427001194" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey2\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -836,7 +836,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey2\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -848,7 +848,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey2\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -867,7 +867,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="8109391461250057" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey3\Base\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -881,7 +881,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="8206108329378483" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey3\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -893,7 +893,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey3\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -905,7 +905,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey3\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -924,7 +924,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="6454722648638174" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey4\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -938,7 +938,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="9459436251627444" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey4\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -950,7 +950,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey4\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -962,7 +962,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey4\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -981,7 +981,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="7023853120077562" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey5\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -995,7 +995,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="1269186695318414" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey5\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1007,7 +1007,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey5\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1019,7 +1019,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey5\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1038,7 +1038,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="1224964786639472" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey6\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1052,7 +1052,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="627630163064534" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey6\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1064,7 +1064,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey6\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1076,7 +1076,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey6\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1095,7 +1095,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="3361027456752482" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey7\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1109,7 +1109,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="5383097867415867" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey7\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1121,7 +1121,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey7\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1133,7 +1133,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey7\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1152,7 +1152,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="1587552618596499" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey8\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1166,7 +1166,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="5171913892946007" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey8\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1178,7 +1178,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey8\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1190,7 +1190,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey8\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1209,7 +1209,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="1292517530836218" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey10\Base\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1223,7 +1223,7 @@
                             </frame>
                         </animation>
                         <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="4365343825108586" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR1.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey10\Break\000.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1235,7 +1235,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR2.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey10\Break\001.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1247,7 +1247,7 @@
                                     <point x="0.08" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Desktop\Bricks\GR3.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Grey10\Break\002.png">
                                 <collision-poly>
                                     <point x="0.1" y="0.1" />
                                     <point x="0.5" y="0.06" />
@@ -1774,6 +1774,236 @@
                                 <point x="0.5" y="0.92" />
                                 <point x="0.12" y="0.88" />
                                 <point x="0.06" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="1 - HardCode">
+            <object-type name="Blue2" sid="5572547572378448">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="9023760891463904" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\psf\Home\Documents\Castle-Crash\CastleCrash\Animations\Blue2\Base\000.png">
+                            <collision-poly>
+                                <point x="0.116667" y="0.116667" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.883333" y="0.116667" />
+                                <point x="0.908333" y="0.5" />
+                                <point x="0.891667" y="0.891667" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.075" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="6161523161994196" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\psf\Home\Documents\Castle-Crash\CastleCrash\Animations\Blue2\Break\000.png">
+                            <collision-poly>
+                                <point x="0.116667" y="0.116667" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.883333" y="0.116667" />
+                                <point x="0.908333" y="0.5" />
+                                <point x="0.891667" y="0.891667" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.075" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\psf\Home\Documents\Castle-Crash\CastleCrash\Animations\Blue2\Break\001.png">
+                            <collision-poly>
+                                <point x="0.116667" y="0.116667" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.883333" y="0.116667" />
+                                <point x="0.916667" y="0.5" />
+                                <point x="0.891667" y="0.891667" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.075" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\psf\Home\Documents\Castle-Crash\CastleCrash\Animations\Blue2\Break\002.png">
+                            <collision-poly>
+                                <point x="0.116667" y="0.116667" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.883333" y="0.116667" />
+                                <point x="0.908333" y="0.5" />
+                                <point x="0.891667" y="0.891667" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.075" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Green2" sid="102101251893616">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="1694248278046386" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Green2\Base\000.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="1585650561699136" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Green2\Break\000.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Green2\Break\001.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Green2\Break\002.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Orange2" sid="8002418289137755">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="8368430116023543" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Orange2\Base\000.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="6629421078326561" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Orange2\Break\000.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Orange2\Break\001.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Orange2\Break\002.png">
+                            <collision-poly>
+                                <point x="0.0916667" y="0.0916667" />
+                                <point x="0.5" y="0.0583333" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.866667" y="0.866667" />
+                                <point x="0.5" y="0.891667" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Red2" sid="5155336611523879">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Base" pingpong="0" repeatcount="1" repeatto="0" sid="5850625801836986" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Red2\Base\000.png">
+                            <collision-poly>
+                                <point x="0.108333" y="0.108333" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.866667" y="0.133333" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.883333" y="0.883333" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.108333" y="0.891667" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="Break" pingpong="0" repeatcount="1" repeatto="0" sid="7402047172969907" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Red2\Base\000.png">
+                            <collision-poly>
+                                <point x="0.108333" y="0.108333" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.866667" y="0.133333" />
+                                <point x="0.891667" y="0.5" />
+                                <point x="0.883333" y="0.883333" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.108333" y="0.891667" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Red2\Break\001.png">
+                            <collision-poly>
+                                <point x="0.108333" y="0.108333" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.883333" y="0.883333" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.108333" y="0.891667" />
+                                <point x="0.0583333" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cantthinkofaname26\Dropbox\Set Awesome Shared\Projects Course 2910\CastleCrash(Zack&apos;s edit of Matt&apos;s edit) 2.0\Animations\Red2\Break\002.png">
+                            <collision-poly>
+                                <point x="0.108333" y="0.108333" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9" y="0.5" />
+                                <point x="0.883333" y="0.883333" />
+                                <point x="0.5" y="0.916667" />
+                                <point x="0.108333" y="0.891667" />
+                                <point x="0.0583333" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>

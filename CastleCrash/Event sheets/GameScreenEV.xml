@@ -249,11 +249,11 @@
         <event-block sid="2901821534905107">
             <conditions>
                 <condition id="3" name="On touched object" sid="6726673548292024" type="Touch">
-                    <param id="0" name="Object">Blue</param>
+                    <param id="0" name="Object">Blue2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="7915355068358195" type="Blue">
+                <action id="4" name="Set animation" sid="7915355068358195" type="Blue2">
                     <param id="0" name="Animation">&quot;Break&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -273,11 +273,11 @@
         <event-block sid="8700071221341371">
             <conditions>
                 <condition id="3" name="On touched object" sid="4553255318979384" type="Touch">
-                    <param id="0" name="Object">Green</param>
+                    <param id="0" name="Object">Green2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="9522366925303661" type="Green">
+                <action id="4" name="Set animation" sid="9522366925303661" type="Green2">
                     <param id="0" name="Animation">&quot;Break&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -297,11 +297,11 @@
         <event-block sid="8816661493348775">
             <conditions>
                 <condition id="3" name="On touched object" sid="9321547942285573" type="Touch">
-                    <param id="0" name="Object">Orange</param>
+                    <param id="0" name="Object">Orange2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="7779701173912417" type="Orange">
+                <action id="4" name="Set animation" sid="7779701173912417" type="Orange2">
                     <param id="0" name="Animation">&quot;Break&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -321,11 +321,11 @@
         <event-block sid="6998788056998159">
             <conditions>
                 <condition id="3" name="On touched object" sid="4713105800714363" type="Touch">
-                    <param id="0" name="Object">Red</param>
+                    <param id="0" name="Object">Red2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="2491090110393908" type="Red">
+                <action id="4" name="Set animation" sid="2491090110393908" type="Red2">
                     <param id="0" name="Animation">&quot;Break&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -345,11 +345,11 @@
         <event-block sid="4973934484580908">
             <conditions>
                 <condition id="3" name="On touched object" sid="2505573298380146" type="Touch">
-                    <param id="0" name="Object">Grey1</param>
+                    <param id="0" name="Object">Grey9</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="8409553645263273" type="Grey1">
+                <action id="4" name="Set animation" sid="8409553645263273" type="Grey9">
                     <param id="0" name="Animation">&quot;Break&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -557,8 +557,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="6927587560301613" type="Blue" />
-                <action id="-9" name="Destroy" sid="5633183653336683" type="Grey1" />
+                <action id="-9" name="Destroy" sid="6927587560301613" type="Blue2" />
+                <action id="-9" name="Destroy" sid="5633183653336683" type="Grey9" />
                 <action id="-9" name="Destroy" sid="1764147546965615" type="Grey2" />
             </actions>
         </event-block>
@@ -584,7 +584,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="2582283798618632" type="Green" />
+                <action id="-9" name="Destroy" sid="2582283798618632" type="Green2" />
                 <action id="-9" name="Destroy" sid="6517330096366575" type="Grey3" />
                 <action id="-9" name="Destroy" sid="7249725187966456" type="Grey4" />
             </actions>
@@ -611,7 +611,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="4606997127855353" type="Orange" />
+                <action id="-9" name="Destroy" sid="4606997127855353" type="Orange2" />
                 <action id="-9" name="Destroy" sid="7667589261340807" type="Grey5" />
                 <action id="-9" name="Destroy" sid="4706679993832895" type="Grey6" />
             </actions>
@@ -638,7 +638,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="864310851331966" type="Red" />
+                <action id="-9" name="Destroy" sid="864310851331966" type="Red2" />
                 <action id="-9" name="Destroy" sid="3669594539458241" type="Grey7" />
                 <action id="-9" name="Destroy" sid="2900170014164734" type="Grey8" />
             </actions>
