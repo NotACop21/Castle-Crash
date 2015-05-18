@@ -218,7 +218,7 @@
         <event-block sid="360848745744054">
             <conditions>
                 <condition id="3" name="On touched object" sid="7686250227238563" type="Touch">
-                    <param id="0" name="Object">highscoremute</param>
+                    <param id="0" name="Object">MuteTog</param>
                 </condition>
             </conditions>
             <actions>
@@ -232,7 +232,7 @@
                 <condition id="3" name="Is silent" sid="5711087672748347" type="Audio" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="7626493042688695" type="highscoremute">
+                <action id="4" name="Set animation" sid="7626493042688695" type="MuteTog">
                     <param id="0" name="Animation">&quot;Off&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -243,7 +243,7 @@
                 <condition id="3" inverted="1" name="Is silent" sid="4429797340679784" type="Audio" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="6921590475981195" type="highscoremute">
+                <action id="4" name="Set animation" sid="6921590475981195" type="MuteTog">
                     <param id="0" name="Animation">&quot;On&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>

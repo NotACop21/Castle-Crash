@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="0">
+                <instance type="MainMenuBG" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -103,6 +103,7 @@
                     </properties>
                     <instance-variables>
                         <BGrValue>0</BGrValue>
+                        <IsChosen>false</IsChosen>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -288,30 +289,9 @@
         </layer>
     </layers>
     <nonworld-instances>
-        <instance type="Plus" uid="18">
+        <instance type="Check" uid="36">
             <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-        <instance type="Minus" uid="36">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-        <instance type="Multiply" uid="52">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-        <instance type="Divide" uid="53">
-            <properties>
-                <width>10</width>
+                <width>8</width>
                 <height>1</height>
                 <depth>1</depth>
             </properties>
@@ -319,6 +299,23 @@
         <instance type="Array" uid="101">
             <properties>
                 <width>30</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+        <instance type="BrickStorage" uid="129">
+            <properties>
+                <width>7</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <Stored>0</Stored>
+            </instance-variables>
+        </instance>
+        <instance type="RNG" uid="130">
+            <properties>
+                <width>8</width>
                 <height>1</height>
                 <depth>1</depth>
             </properties>

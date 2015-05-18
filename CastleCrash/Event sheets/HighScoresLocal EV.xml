@@ -131,39 +131,5 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="4093337619084611">
-            <conditions>
-                <condition id="3" name="On touched object" sid="6144640385894561" type="Touch">
-                    <param id="0" name="Object">localtog</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="8" name="Set silent" sid="3775073061625913" type="Audio">
-                    <param id="0" name="Mode">2</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="6382234306628626">
-            <conditions>
-                <condition id="3" name="Is silent" sid="920743534668375" type="Audio" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="1824029394679934" type="localtog">
-                    <param id="0" name="Animation">&quot;Off&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3824024766258431">
-            <conditions>
-                <condition id="3" inverted="1" name="Is silent" sid="4943506817884143" type="Audio" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="6954986680412663" type="localtog">
-                    <param id="0" name="Animation">&quot;On&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground2" uid="49">
+                <instance type="MainGameBG" uid="49">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1012,7 +1012,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="highscoremute" uid="125">
+                <instance type="MuteTog" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1022,8 +1022,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>640</x>
-                        <y>1008</y>
+                        <x>632</x>
+                        <y>1007</y>
                         <z>0</z>
                         <width>128</width>
                         <height>128</height>
