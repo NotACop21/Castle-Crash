@@ -9,10 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <actions-namecolumn>69</actions-namecolumn>
     <condition-namecolumns>
         <nest>100</nest>
-        <nest>23</nest>
-        <nest>23</nest>
-        <nest>22</nest>
-        <nest>18</nest>
+        <nest>24</nest>
     </condition-namecolumns>
     <events />
 </c2uistate>

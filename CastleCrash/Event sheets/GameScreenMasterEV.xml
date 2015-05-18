@@ -153,7 +153,7 @@
                         <action id="-3" name="Create object" sid="6201623177223411" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25))</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125))</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125))</param>
                         </action>
                         <action id="-3" name="Create object" sid="8910449129708712" type="System">
