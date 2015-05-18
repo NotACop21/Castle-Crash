@@ -29,24 +29,22 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite3" uid="43">
+                <instance type="MainGameBG" uid="43">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <hotspot>Top-left</hotspot>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>361.002502441</x>
-                        <y>553</y>
+                        <x>-4</x>
+                        <y>-3</y>
                         <z>0</z>
-                        <width>722</width>
-                        <height>1104</height>
+                        <width>727</width>
+                        <height>1105</height>
                         <depth>0</depth>
-                        <hotspotX>0.501222491</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -74,7 +72,7 @@
                     <properties>
                         <text>Ready!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Comic Sans MS,-48,400,0</font>
+                        <font>Comic Sans MS,-200,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -91,11 +89,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>230</x>
-                        <y>156</y>
+                        <x>24.5</x>
+                        <y>271.5</y>
                         <z>0</z>
-                        <width>234</width>
-                        <height>79</height>
+                        <width>671</width>
+                        <height>557</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

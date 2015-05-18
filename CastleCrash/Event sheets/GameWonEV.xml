@@ -245,25 +245,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="243347557390693">
-            <conditions />
-            <actions>
-                <action id="8" name="Set silent" sid="1633708207952689" type="Audio">
-                    <param id="0" name="Mode">2</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="9396563549606854">
-            <conditions>
-                <condition id="3" name="Is silent" sid="779074019849508" type="Audio" />
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="1560093049781928">
-            <conditions>
-                <condition id="3" inverted="1" name="Is silent" sid="2404777825992051" type="Audio" />
-            </conditions>
-            <actions />
-        </event-block>
     </events>
 </c2eventsheet>

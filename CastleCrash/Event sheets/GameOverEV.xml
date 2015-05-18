@@ -81,5 +81,31 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1817174674439506">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1110539066645425" type="Touch">
+                    <param id="0" name="Object">lvlselect</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6884662155951479" type="System">
+                    <param id="0" name="Layout">Level Select</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="2839691648817185" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="9176455780395868">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1091695345083167" type="Touch">
+                    <param id="0" name="Object">RestartGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1642224669205822" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="1166609963724672" type="System" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

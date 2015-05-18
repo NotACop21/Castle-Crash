@@ -98,7 +98,7 @@
                     <param id="0" name="Seconds">0.5</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="7013826050173664" type="System">
-                    <param id="0" name="Layout">GameScreenMaster</param>
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
