@@ -153,6 +153,79 @@
         </event-block>
         <event-group description="" sid="943687378945592" title="Menu/Retry/Next Buttons" />
         <comment>Menu Button</comment>
+        <event-block sid="8592383876629076">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="5300099631818223" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="1439619609139678" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4604356096422082">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="2422523721502739" type="Touch">
+                    <param id="0" name="Object">NextLevel</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3480874337640392" type="NextLevel">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="7587753103650756" type="NextLevel">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="9929675622212733" type="NextLevel">
+                    <param id="0" name="Scale">NextLevel.scale</param>
+                </action>
+                <action id="0" name="Play" sid="9183783788312761" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9661817419089458">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9458065287659827" type="NextLevel">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9448038878924372" type="NextLevel">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5041711187214252">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="5054135302658482" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="3607556827506177" type="NextLevel">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="8790632126438259" type="NextLevel">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="3218035212701376" type="NextLevel">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Next Level Button</comment>
         <event-block sid="744426912644021">
             <conditions>
                 <condition id="3" name="On touched object" sid="1859546025244279" type="Touch">
@@ -231,19 +304,251 @@
                 </action>
             </actions>
         </event-block>
-        <comment>Restart button</comment>
-        <event-block sid="6869932491550577">
+        <event-block sid="9679031647029089">
             <conditions>
-                <condition id="3" name="On touched object" sid="5914469304026657" type="Touch">
+                <condition id="3" name="On touched object" sid="34879049683064" type="Touch">
+                    <param id="0" name="Object">NextLevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3506308541735423" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="3864720182079039">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7433504408588786" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3661925078056839" type="System">
+                            <param id="0" name="Layout">AddLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5660796638679214">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9956147352430162" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="8034724126831887" type="System">
+                            <param id="0" name="Layout">SubLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1082250978994446">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5394110090642238" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="877179647832213" type="System">
+                            <param id="0" name="Layout">SubLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="941264076373967">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7186579245510653" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6773962765220421" type="System">
+                            <param id="0" name="Layout">AddSubLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9506888895329239">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1271949467266414" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9201730200249281" type="System">
+                            <param id="0" name="Layout">AddSubLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Restart button</comment>
+        <event-block sid="8780889761887556">
+            <conditions>
+                <condition id="3" name="On touched object" sid="496127254815079" type="Touch">
+                    <param id="0" name="Object">RestartGame</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="9946210330504955" type="RestartGame">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="1277731799143367" type="RestartGame">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="2019071378176701" type="RestartGame">
+                    <param id="0" name="Scale">RestartGame.scale</param>
+                </action>
+                <action id="0" name="Play" sid="4804201714798375" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6883345129527385">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7318075572498738" type="RestartGame">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9440788430280275" type="RestartGame">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7114431760144855">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="5870388607057197" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="2990485691311367" type="RestartGame">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="9281149190398364" type="RestartGame">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="1365758689416543" type="RestartGame">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1009179571249187">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5723760629304158" type="Touch">
                     <param id="0" name="Object">RestartGame</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-21" name="Reset global variables" sid="4622607258786706" type="System" />
-                <action id="-2" name="Go to layout" sid="8939526726434474" type="System">
-                    <param id="0" name="Layout">GameScreenMaster</param>
+                <action id="-16" name="Wait" sid="7034581487102334" type="System">
+                    <param id="0" name="Seconds">0.5</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="4607925634705752">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3980528179023506" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3580330638016497" type="System">
+                            <param id="0" name="Layout">AddLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="430512993944741">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1780040663453428" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9969321933043406" type="System">
+                            <param id="0" name="Layout">AddLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8446099129921237">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8336602446986911" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4216125174468177" type="System">
+                            <param id="0" name="Layout">SubLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3245512872339565">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3941740263165101" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7498606482029531" type="System">
+                            <param id="0" name="Layout">SubLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3051498618876405">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3903200475967612" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3150010948851224" type="System">
+                            <param id="0" name="Layout">AddSubLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2880614227158708">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9892566481828607" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7224084034795286" type="System">
+                            <param id="0" name="Layout">AddSubLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

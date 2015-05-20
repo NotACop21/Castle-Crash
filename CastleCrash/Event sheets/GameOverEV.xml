@@ -107,5 +107,105 @@
                 <action id="-21" name="Reset global variables" sid="1166609963724672" type="System" />
             </actions>
         </event-block>
+        <event-block sid="9422487312380545">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3000762161837558" type="Touch">
+                    <param id="0" name="Object">RestartGame</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6058381147897324">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7869482787023195" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3625984049205439" type="System">
+                            <param id="0" name="Layout">AddLvl1</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="1830512015072997" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="6242234130180199">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4730662777155332" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="1703994174112098" type="System">
+                            <param id="0" name="Layout">AddLvl2</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="6644237606201066" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="2319696776619668">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2657000307188208" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4758484932559334" type="System">
+                            <param id="0" name="Layout">SubLvl1</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="4186359836474473" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="785413256012336">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5127146846641827" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9331629882754173" type="System">
+                            <param id="0" name="Layout">SubLvl2</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="6047227983611446" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="4994707395638348">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9092760337717504" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7414201696133604" type="System">
+                            <param id="0" name="Layout">AddSubLvl1</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="9127653472013944" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="2388656778503719">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9165006776554392" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="5416720160592928" type="System">
+                            <param id="0" name="Layout">AddSubLvl2</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="4139174086899715" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

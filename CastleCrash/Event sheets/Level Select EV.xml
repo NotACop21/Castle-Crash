@@ -81,5 +81,77 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="5681101054405381">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6409622735068912" type="Touch">
+                    <param id="0" name="Object">lvl1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4847063681478394" type="System">
+                    <param id="0" name="Layout">AddLvl1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6604197454315962">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4379171447958886" type="Touch">
+                    <param id="0" name="Object">lvl2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8356694334693727" type="System">
+                    <param id="0" name="Layout">AddLvl2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7313808605979738">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2189094551326117" type="Touch">
+                    <param id="0" name="Object">lvl3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5675483688234799" type="System">
+                    <param id="0" name="Layout">SubLvl1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3629737027313392">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2180716887063911" type="Touch">
+                    <param id="0" name="Object">lvl4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8994328705094716" type="System">
+                    <param id="0" name="Layout">SubLvl2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8896894927657711">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8805830424484486" type="Touch">
+                    <param id="0" name="Object">lvl5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3627587029726446" type="System">
+                    <param id="0" name="Layout">AddSubLvl1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8101946952577231">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1268910607234915" type="Touch">
+                    <param id="0" name="Object">lvl6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3120358078401314" type="System">
+                    <param id="0" name="Layout">AddSubLvl2</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

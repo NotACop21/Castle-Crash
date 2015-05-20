@@ -10,10 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">GameOver</layout>
-        <layout order="2">MenuScreen</layout>
-        <layout active="1" order="3">PreGameScreen</layout>
-        <event-sheet order="1">GameOverEV</event-sheet>
+        <layout order="0">MenuScreen</layout>
+        <layout order="1">GameWon</layout>
+        <layout order="4">AddScreen</layout>
+        <event-sheet order="2">GameWonEV</event-sheet>
+        <event-sheet order="3">MenuScreenEV</event-sheet>
+        <event-sheet active="1" order="5">AddScreen EV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -28,21 +30,27 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/MenuSprites/" />
-        <folder expanded="1" path="object-folder/GameOver/" />
+        <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
         <folder expanded="1" path="object-folder/PreGameScreen/" />
         <folder expanded="0" path="object-folder/LevelSelectSprites/" />
-        <folder expanded="1" path="object-folder/Backgrounds/" />
-        <folder expanded="0" path="object-folder/Arrays/" />
+        <folder expanded="0" path="object-folder/Backgrounds/" />
+        <folder expanded="1" path="object-folder/Arrays/" />
         <folder expanded="0" path="object-folder/GameWon/" />
-        <folder expanded="1" path="object-folder/GameScreenSprites/" />
+        <folder expanded="0" path="object-folder/GameScreenSprites/" />
         <folder expanded="0" path="object-folder/HighScore/" />
         <folder expanded="0" path="object-folder/HighScoreLocal/" />
         <folder expanded="0" path="object-folder/1 - GSBricks/" />
-        <folder expanded="1" path="object-folder/TutorialBricks/" />
+        <folder expanded="0" path="object-folder/TutorialBricks/" />
         <folder expanded="1" path="object-folder/TutScreensSprites/" />
         <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Levels/" />
+        <folder expanded="0" path="layout-folder/Main Screens/" />
+        <folder expanded="1" path="layout-folder/PreGame/" />
         <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/Levels/" />
+        <folder expanded="1" path="event-folder/Main Screens/" />
+        <folder expanded="1" path="event-folder/PreGame/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
@@ -54,10 +62,30 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/HomeButton/" />
         <folder expanded="1" path="animation-folder/GameOverText/" />
         <folder expanded="1" path="animation-folder/lvlselect/" />
-        <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/lvl1/" />
+        <folder expanded="1" path="animation-folder/addlevel/" />
+        <folder expanded="1" path="animation-folder/lvl2/" />
+        <folder expanded="1" path="animation-folder/lvl3/" />
+        <folder expanded="1" path="animation-folder/lvl4/" />
+        <folder expanded="1" path="animation-folder/lvl5/" />
+        <folder expanded="1" path="animation-folder/lvl6/" />
+        <folder expanded="1" path="animation-folder/lvl7/" />
+        <folder expanded="1" path="animation-folder/lvl8/" />
+        <folder expanded="1" path="animation-folder/lvl9/" />
+        <folder expanded="1" path="animation-folder/lvl10/" />
+        <folder expanded="1" path="animation-folder/sublevel/" />
+        <folder expanded="1" path="animation-folder/sublevel2/" />
+        <folder expanded="1" path="animation-folder/addlevel2/" />
+        <folder expanded="1" path="animation-folder/multiplylevel/" />
+        <folder expanded="1" path="animation-folder/multiplylevel2/" />
+        <folder expanded="1" path="animation-folder/divlevel/" />
+        <folder expanded="1" path="animation-folder/divlevel2/" />
+        <folder expanded="1" path="animation-folder/addsublevel/" />
+        <folder expanded="1" path="animation-folder/SAMDselect/" />
+        <folder expanded="1" path="animation-folder/redorangeselect/" />
         <folder expanded="1" path="animation-folder/LevelClearedText/" />
         <folder expanded="1" path="animation-folder/playbtn/" />
+        <folder expanded="1" path="animation-folder/NextLevel/" />
         <folder expanded="1" path="animation-folder/RestartGame/" />
         <folder expanded="1" path="animation-folder/MuteTog/" />
         <folder expanded="1" path="animation-folder/Submit/" />
@@ -67,6 +95,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Orange/" />
         <folder expanded="1" path="animation-folder/Red/" />
         <folder expanded="1" path="animation-folder/Complete/" />
+        <folder expanded="1" path="animation-folder/Green2/" />
+        <folder expanded="1" path="animation-folder/Green3/" />
+        <folder expanded="1" path="animation-folder/Green4/" />
+        <folder expanded="1" path="animation-folder/Blue2/" />
+        <folder expanded="1" path="animation-folder/Blue3/" />
+        <folder expanded="1" path="animation-folder/Blue4/" />
+        <folder expanded="1" path="animation-folder/Orange2/" />
+        <folder expanded="1" path="animation-folder/Orange3/" />
+        <folder expanded="1" path="animation-folder/Orange4/" />
+        <folder expanded="1" path="animation-folder/Red2/" />
+        <folder expanded="1" path="animation-folder/Red3/" />
+        <folder expanded="1" path="animation-folder/Red4/" />
         <folder expanded="1" path="animation-folder/Grey2/" />
         <folder expanded="1" path="animation-folder/Grey3/" />
         <folder expanded="1" path="animation-folder/Grey4/" />
