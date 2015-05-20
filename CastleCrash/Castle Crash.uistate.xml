@@ -13,9 +13,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">MenuScreen</layout>
         <layout order="1">GameWon</layout>
         <layout order="4">AddScreen</layout>
+        <layout order="8">SAMDLvl1</layout>
+        <layout active="1" order="9">SAMDLvl2</layout>
         <event-sheet order="2">GameWonEV</event-sheet>
         <event-sheet order="3">MenuScreenEV</event-sheet>
-        <event-sheet active="1" order="5">AddScreen EV</event-sheet>
+        <event-sheet order="5">AddScreen EV</event-sheet>
+        <event-sheet order="6">SAMDLvl1EV</event-sheet>
+        <event-sheet order="7">SAMDLvl2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -44,11 +48,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/TutorialBricks/" />
         <folder expanded="1" path="object-folder/TutScreensSprites/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Levels/" />
+        <folder expanded="1" path="layout-folder/Levels/" />
         <folder expanded="0" path="layout-folder/Main Screens/" />
-        <folder expanded="1" path="layout-folder/PreGame/" />
+        <folder expanded="0" path="layout-folder/PreGame/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Levels/" />
+        <folder expanded="1" path="event-folder/Levels/" />
         <folder expanded="1" path="event-folder/Main Screens/" />
         <folder expanded="1" path="event-folder/PreGame/" />
         <folder expanded="0" path="file-folder/" />

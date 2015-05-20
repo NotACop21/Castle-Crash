@@ -2758,6 +2758,8 @@
     <layout-folder>
         <layout-folder name="Levels">
             <layout>AddLvl1.xml</layout>
+            <layout>SAMDLvl2.xml</layout>
+            <layout>SAMDLvl1.xml</layout>
             <layout>AddSubLvl2.xml</layout>
             <layout>AddSubLvl1.xml</layout>
             <layout>SubLvl2.xml</layout>
@@ -2790,6 +2792,8 @@
             <event-sheet>SubLvl2EV.xml</event-sheet>
             <event-sheet>AddSubLvl1.xml</event-sheet>
             <event-sheet>AddSubLvl2.xml</event-sheet>
+            <event-sheet>SAMDLvl1EV.xml</event-sheet>
+            <event-sheet>SAMDLvl2.xml</event-sheet>
         </event-folder>
         <event-folder name="Main Screens">
             <event-sheet>GameOverEV.xml</event-sheet>
