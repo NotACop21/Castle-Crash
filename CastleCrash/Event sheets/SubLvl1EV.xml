@@ -142,13 +142,13 @@
                         <action id="-3" name="Create object" sid="2737658857847128" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125)) + 25</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125)) - 375</param>
                         </action>
                         <action id="-3" name="Create object" sid="5660461116064671" type="System">
                             <param id="0" name="Object to create">Complete</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) + 25</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125)) - 375</param>
                         </action>
                         <action id="-10" name="Set value" sid="4151741545139394" type="Grey1">
@@ -196,13 +196,13 @@
                         <action id="-3" name="Create object" sid="1295086434994881" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 65</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
                         </action>
                         <action id="-3" name="Create object" sid="2803630933489927" type="System">
                             <param id="0" name="Object to create">Complete</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 62</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) +50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
                         </action>
                         <action id="-10" name="Set value" sid="1200433097008342" type="Grey1">
@@ -290,13 +290,13 @@
                 <action id="-3" name="Create object" sid="9318730919301048" type="System">
                     <param id="0" name="Object to create">Blue</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 275</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
                     <param id="3" name="Y">SPAWNY - 375</param>
                 </action>
                 <action id="-3" name="Create object" sid="3916903287333989" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 275</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
                     <param id="3" name="Y">SPAWNY - 375</param>
                 </action>
                 <action id="-10" name="Set value" sid="1037692865134911" type="Blue">
@@ -322,14 +322,14 @@
                 <action id="-3" name="Create object" sid="5395408016787721" type="System">
                     <param id="0" name="Object to create">Blue2</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 123</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-50)</param>
+                    <param id="2" name="X">SPAWNX + 120</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-48)</param>
                 </action>
                 <action id="-3" name="Create object" sid="3581181599145543" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 123</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-50)</param>
+                    <param id="2" name="X">SPAWNX + 120</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-48)</param>
                 </action>
                 <action id="-10" name="Set value" sid="8558364752448896" type="Blue2">
                     <param id="0" name="Instance variable">BBValue</param>
@@ -354,14 +354,14 @@
                 <action id="-3" name="Create object" sid="4423720878665289" type="System">
                     <param id="0" name="Object to create">Blue3</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX -63</param>
+                    <param id="2" name="X">SPAWNX +50</param>
                     <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-170)</param>
                 </action>
                 <action id="-3" name="Create object" sid="1970703969330813" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX - 63</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-170)</param>
+                    <param id="2" name="X">SPAWNX +50</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-173)</param>
                 </action>
                 <action id="-10" name="Set value" sid="3882942747132865" type="Blue3">
                     <param id="0" name="Instance variable">BBValue</param>
@@ -571,7 +571,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="4287702734195028" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">235</param>
+                    <param id="1" name="X co-ordinate">260</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="9283022416969925" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -672,7 +672,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="1110419205796101" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">360</param>
+                    <param id="1" name="X co-ordinate">385</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="2485427830906684" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -773,7 +773,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="1896260126074175" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">395</param>
+                    <param id="1" name="X co-ordinate">510</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="8467143762625872" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -874,7 +874,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="7823569935074914" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">270</param>
+                    <param id="1" name="X co-ordinate">385</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="2458496334277373" type="Grey1">
                     <param id="0" name="Comparison">0</param>

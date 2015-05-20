@@ -153,5 +153,53 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="5250363831666166">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2333004599991175" type="Touch">
+                    <param id="0" name="Object">lvl7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7161374293516565" type="System">
+                    <param id="0" name="Layout">MultLvl1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="442037828494406">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5038019389388209" type="Touch">
+                    <param id="0" name="Object">lvl8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6975173086762072" type="System">
+                    <param id="0" name="Layout">MultLvl2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3508085093944111">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7961912310854222" type="Touch">
+                    <param id="0" name="Object">lvl9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4904578456943862" type="System">
+                    <param id="0" name="Layout">DivLvl1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8826468676938235">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6725822076727109" type="Touch">
+                    <param id="0" name="Object">lvl10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3454746320923281" type="System">
+                    <param id="0" name="Layout">DivLvl2</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

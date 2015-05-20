@@ -10,16 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">MenuScreen</layout>
-        <layout order="1">GameWon</layout>
-        <layout order="4">AddScreen</layout>
-        <layout order="8">SAMDLvl1</layout>
-        <layout active="1" order="9">SAMDLvl2</layout>
-        <event-sheet order="2">GameWonEV</event-sheet>
-        <event-sheet order="3">MenuScreenEV</event-sheet>
-        <event-sheet order="5">AddScreen EV</event-sheet>
-        <event-sheet order="6">SAMDLvl1EV</event-sheet>
-        <event-sheet order="7">SAMDLvl2</event-sheet>
+        <layout order="0">Level Select</layout>
+        <event-sheet active="1" order="1">Level Select EV</event-sheet>
+        <event-sheet order="2">PreGameScreenEV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -36,8 +29,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/MenuSprites/" />
         <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
-        <folder expanded="1" path="object-folder/PreGameScreen/" />
-        <folder expanded="0" path="object-folder/LevelSelectSprites/" />
+        <folder expanded="0" path="object-folder/PreGameScreen/" />
+        <folder expanded="1" path="object-folder/LevelSelectSprites/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
         <folder expanded="1" path="object-folder/Arrays/" />
         <folder expanded="0" path="object-folder/GameWon/" />
@@ -46,13 +39,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/HighScoreLocal/" />
         <folder expanded="0" path="object-folder/1 - GSBricks/" />
         <folder expanded="0" path="object-folder/TutorialBricks/" />
-        <folder expanded="1" path="object-folder/TutScreensSprites/" />
+        <folder expanded="0" path="object-folder/TutScreensSprites/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Levels/" />
+        <folder expanded="0" path="layout-folder/Levels/" />
         <folder expanded="0" path="layout-folder/Main Screens/" />
         <folder expanded="0" path="layout-folder/PreGame/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Levels/" />
+        <folder expanded="0" path="event-folder/Levels/" />
         <folder expanded="1" path="event-folder/Main Screens/" />
         <folder expanded="1" path="event-folder/PreGame/" />
         <folder expanded="0" path="file-folder/" />

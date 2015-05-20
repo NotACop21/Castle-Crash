@@ -632,7 +632,7 @@
                     <instance-variable name="Stored" sid="8269651195484572" type="number" />
                 </instance-variables>
             </object-type>
-            <object-type global="1" name="RNG" sid="2588893628427803">
+            <object-type global="1" name="RNG8" sid="2588893628427803">
                 <plugin id="Arr" />
             </object-type>
             <object-type global="1" name="RNG6" sid="6040968722134954">
@@ -2758,14 +2758,20 @@
     <layout-folder>
         <layout-folder name="Levels">
             <layout>AddLvl1.xml</layout>
-            <layout>SAMDLvl2.xml</layout>
-            <layout>SAMDLvl1.xml</layout>
-            <layout>AddSubLvl2.xml</layout>
-            <layout>AddSubLvl1.xml</layout>
-            <layout>SubLvl2.xml</layout>
             <layout>AddLvl2.xml</layout>
             <layout>SubLvl1.xml</layout>
-            <layout>GameScreenMaster.xml</layout>
+            <layout>SubLvl2.xml</layout>
+            <layout>AddSubLvl1.xml</layout>
+            <layout>AddSubLvl2.xml</layout>
+            <layout>MultLvl1.xml</layout>
+            <layout>MultLvl2.xml</layout>
+            <layout>DivLvl1.xml</layout>
+            <layout>DivLvl2.xml</layout>
+            <layout>MultDivLvl1.xml</layout>
+            <layout>MultDivLvl2.xml</layout>
+            <layout>SAMDLvl1.xml</layout>
+            <layout>SAMDLvl2.xml</layout>
+            <layout>SAMDLvl3.xml</layout>
         </layout-folder>
         <layout-folder name="Main Screens">
             <layout>MenuScreen.xml</layout>
@@ -2785,15 +2791,21 @@
     </layout-folder>
     <event-folder>
         <event-folder name="Levels">
-            <event-sheet>GameScreenMasterEV.xml</event-sheet>
+            <event-sheet>SAMDLvl3EV.xml</event-sheet>
             <event-sheet>AddLvl1EV.xml</event-sheet>
             <event-sheet>AddLvl2EV.xml</event-sheet>
             <event-sheet>SubLvl1EV.xml</event-sheet>
             <event-sheet>SubLvl2EV.xml</event-sheet>
-            <event-sheet>AddSubLvl1.xml</event-sheet>
-            <event-sheet>AddSubLvl2.xml</event-sheet>
+            <event-sheet>AddSubLvl1EV.xml</event-sheet>
+            <event-sheet>AddSubLvl2EV.xml</event-sheet>
             <event-sheet>SAMDLvl1EV.xml</event-sheet>
-            <event-sheet>SAMDLvl2.xml</event-sheet>
+            <event-sheet>SAMDLvl2EV.xml</event-sheet>
+            <event-sheet>MultLvl1EV.xml</event-sheet>
+            <event-sheet>MultLvl2EV.xml</event-sheet>
+            <event-sheet>DivLvl1EV.xml</event-sheet>
+            <event-sheet>DivLvl2EV.xml</event-sheet>
+            <event-sheet>MultDivLvl1EV.xml</event-sheet>
+            <event-sheet>MultDivLvl2EV.xml</event-sheet>
         </event-folder>
         <event-folder name="Main Screens">
             <event-sheet>GameOverEV.xml</event-sheet>

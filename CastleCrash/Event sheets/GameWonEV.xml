@@ -327,7 +327,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="3661925078056839" type="System">
-                            <param id="0" name="Layout">AddLvl2</param>
+                            <param id="0" name="Layout">PreGameScreen</param>
                         </action>
                     </actions>
                 </event-block>
@@ -341,7 +341,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="8034724126831887" type="System">
-                            <param id="0" name="Layout">SubLvl1</param>
+                            <param id="0" name="Layout">SubScreen</param>
                         </action>
                     </actions>
                 </event-block>
@@ -355,7 +355,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="877179647832213" type="System">
-                            <param id="0" name="Layout">SubLvl2</param>
+                            <param id="0" name="Layout">PreGameScreen</param>
                         </action>
                     </actions>
                 </event-block>
@@ -369,7 +369,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="6773962765220421" type="System">
-                            <param id="0" name="Layout">AddSubLvl1</param>
+                            <param id="0" name="Layout">PreGameScreen</param>
                         </action>
                     </actions>
                 </event-block>
@@ -383,7 +383,91 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="9201730200249281" type="System">
-                            <param id="0" name="Layout">AddSubLvl2</param>
+                            <param id="0" name="Layout">PreGameScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4214643982023219">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8811436828360551" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="1238925259997874" type="System">
+                            <param id="0" name="Layout">MultiplyScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7854464815643106">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4725822730411445" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6617143041115" type="System">
+                            <param id="0" name="Layout">PreGameScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9491101314474477">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2761250181024942" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6675985182725141" type="System">
+                            <param id="0" name="Layout">DivisionScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9932910915744057">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4393616391220032" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4472640727375412" type="System">
+                            <param id="0" name="Layout">PreGameScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4859682952165788">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9737547959870519" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9384829812061183" type="System">
+                            <param id="0" name="Layout">PreGameScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="810921596879354">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9711478620474222" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="5362157787706859" type="System">
+                            <param id="0" name="Layout">PreGameScreen</param>
                         </action>
                     </actions>
                 </event-block>

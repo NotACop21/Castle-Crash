@@ -11,7 +11,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Clear" sid="4041078172155439" type="BrickStorage" />
-                <action id="0" name="Clear" sid="3732437974925305" type="RNG" />
+                <action id="0" name="Clear" sid="3732437974925305" type="RNG8" />
                 <action id="33" name="Stop all" sid="1985861555597761" type="Audio" />
                 <action id="0" name="Play" sid="3716074664675796" type="Audio">
                     <param id="0" name="Audio file">Game</param>
@@ -25,7 +25,7 @@
                 </action>
                 <action id="-9" name="Set value" sid="6192740909961211" type="System">
                     <param id="0" name="Variable">ArrayWidth</param>
-                    <param id="1" name="Value">RNG.Width</param>
+                    <param id="1" name="Value">RNG8.Width</param>
                 </action>
                 <action id="10" name="Insert" sid="7549182668665989" type="Check">
                     <param id="0" name="Value">100</param>
@@ -75,7 +75,7 @@
                         <condition id="-14" name="Compare variable" sid="1821219547260267" type="System">
                             <param id="0" name="Variable">i</param>
                             <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">RNG.Width</param>
+                            <param id="2" name="Value">RNG8.Width</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -87,12 +87,12 @@
                     <sub-events>
                         <event-block sid="8938576266862211">
                             <conditions>
-                                <condition id="5" inverted="1" name="Contains value" sid="3031965427610743" type="RNG">
+                                <condition id="5" inverted="1" name="Contains value" sid="3031965427610743" type="RNG8">
                                     <param id="0" name="Value">randomNumber</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="2" name="Set at X" sid="9539976651287266" type="RNG">
+                                <action id="2" name="Set at X" sid="9539976651287266" type="RNG8">
                                     <param id="0" name="X">i</param>
                                     <param id="1" name="Value">randomNumber</param>
                                 </action>
@@ -343,7 +343,7 @@
                 </action>
                 <action id="-10" name="Set value" sid="6836552025668718" type="Blue">
                     <param id="0" name="Instance variable">BBValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(0) - 1) - BrickStorage.At(RNG.At(1) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(0) - 1) - BrickStorage.At(RNG8.At(1) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="2601440850944098" type="System">
                     <param id="0" name="Object to create">BrickText</param>
@@ -375,7 +375,7 @@
                 </action>
                 <action id="-10" name="Set value" sid="1354686385647925" type="Green">
                     <param id="0" name="Instance variable">BGValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(2) - 1) + BrickStorage.At(RNG.At(3) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(2) - 1) + BrickStorage.At(RNG8.At(3) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="8636415934445461" type="System">
                     <param id="0" name="Object to create">BrickText</param>
@@ -410,15 +410,15 @@
                 <event-block sid="2738202696932037">
                     <conditions>
                         <condition id="0" name="Compare at X" sid="4726205781687604" type="BrickStorage">
-                            <param id="0" name="X">(RNG.At(4)-1)</param>
+                            <param id="0" name="X">(RNG8.At(4)-1)</param>
                             <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Value">(BrickStorage.At(RNG.At(5)-1))</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(5)-1))</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Set value" sid="9599949486387281" type="Orange">
                             <param id="0" name="Instance variable">BOValue</param>
-                            <param id="1" name="Value">round((BrickStorage.At(RNG.At(5) - 1) / BrickStorage.At(RNG.At(4) - 1))*10)/10</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(5) - 1) / BrickStorage.At(RNG8.At(4) - 1))*10)/10</param>
                         </action>
                         <action id="-3" name="Create object" sid="8697042335252259" type="System">
                             <param id="0" name="Object to create">BrickText</param>
@@ -434,15 +434,15 @@
                 <event-block sid="5696996317574433">
                     <conditions>
                         <condition id="0" name="Compare at X" sid="5603713130314869" type="BrickStorage">
-                            <param id="0" name="X">(RNG.At(4)-1)</param>
+                            <param id="0" name="X">(RNG8.At(4)-1)</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">(BrickStorage.At(RNG.At(5)-1))</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(5)-1))</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Set value" sid="855422608380937" type="Orange">
                             <param id="0" name="Instance variable">BOValue</param>
-                            <param id="1" name="Value">round((BrickStorage.At(RNG.At(4) - 1) / BrickStorage.At(RNG.At(5) - 1))*10)/10</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(4) - 1) / BrickStorage.At(RNG8.At(5) - 1))*10)/10</param>
                         </action>
                         <action id="-3" name="Create object" sid="9846758813763949" type="System">
                             <param id="0" name="Object to create">BrickText</param>
@@ -476,7 +476,7 @@
                 </action>
                 <action id="-10" name="Set value" sid="7321493251226009" type="Red">
                     <param id="0" name="Instance variable">BRValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(6) - 1) * BrickStorage.At(RNG.At(7) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(6) - 1) * BrickStorage.At(RNG8.At(7) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="6369713296146866" type="System">
                     <param id="0" name="Object to create">BrickText</param>

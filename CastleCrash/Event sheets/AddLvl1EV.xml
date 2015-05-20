@@ -493,7 +493,7 @@
                     <param id="0" name="Variable">Green2Select</param>
                     <param id="1" name="Value">0</param>
                 </action>
-                <action id="4" name="Set animation" sid="7668331051531539" type="Green">
+                <action id="4" name="Set animation" sid="7668331051531539" type="Green2">
                     <param id="0" name="Animation">&quot;Base&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>

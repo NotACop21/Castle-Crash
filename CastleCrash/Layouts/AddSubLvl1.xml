@@ -2,7 +2,7 @@
 <c2layout>
     <name>AddSubLvl1</name>
     <sid>5852420025217877</sid>
-    <event-sheet>AddSubLvl1</event-sheet>
+    <event-sheet>AddSubLvl1EV</event-sheet>
     <size>
         <width>720</width>
         <height>1100</height>

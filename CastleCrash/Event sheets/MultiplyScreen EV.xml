@@ -2,5 +2,83 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MultiplyScreen EV</name>
-    <events />
+    <events>
+        <event-block sid="5872591889037184">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4178740759771157" type="Touch">
+                    <param id="0" name="Object">Continue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="2939413147645291" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3106787228857833" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="667009231269484">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="9845649207082927" type="Touch">
+                    <param id="0" name="Object">Continue</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="2686413810843404" type="Continue">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="880196624416822" type="Continue">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="2858627172048232" type="Continue">
+                    <param id="0" name="Scale">Buttons.scale</param>
+                </action>
+                <action id="0" name="Play" sid="2520422336695071" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9160488722958578">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="729278521716747" type="Continue">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8395520814396675" type="Continue">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="886643991041119">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="7814735945403247" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="6271269280952773" type="Continue">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="2133125580141309" type="Continue">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="8414390676743953" type="Continue">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

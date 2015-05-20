@@ -804,7 +804,7 @@
                 <Stored>0</Stored>
             </instance-variables>
         </instance>
-        <instance type="RNG" uid="130">
+        <instance type="RNG8" uid="130">
             <properties>
                 <width>8</width>
                 <height>1</height>

@@ -12,7 +12,7 @@
             <actions>
                 <action id="-21" name="Reset global variables" sid="5524273460004377" type="System" />
                 <action id="0" name="Clear" sid="6494791447930474" type="BrickStorage" />
-                <action id="0" name="Clear" sid="2264855784179629" type="RNG" />
+                <action id="0" name="Clear" sid="2264855784179629" type="RNG8" />
                 <action id="33" name="Stop all" sid="2097155015256701" type="Audio" />
                 <action disabled="1" id="0" name="Play" sid="4307420268402857" type="Audio">
                     <param id="0" name="Audio file">Game</param>
@@ -80,7 +80,7 @@
                         <condition id="-14" name="Compare variable" sid="7715844555200606" type="System">
                             <param id="0" name="Variable">i</param>
                             <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">RNG.Width</param>
+                            <param id="2" name="Value">RNG8.Width</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -92,12 +92,12 @@
                     <sub-events>
                         <event-block sid="9231768737665553">
                             <conditions>
-                                <condition id="5" inverted="1" name="Contains value" sid="7484057237672193" type="RNG">
+                                <condition id="5" inverted="1" name="Contains value" sid="7484057237672193" type="RNG8">
                                     <param id="0" name="Value">randomNumber</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="2" name="Set at X" sid="7368797251266508" type="RNG">
+                                <action id="2" name="Set at X" sid="7368797251266508" type="RNG8">
                                     <param id="0" name="X">i</param>
                                     <param id="1" name="Value">randomNumber</param>
                                 </action>
@@ -135,13 +135,13 @@
                         <action id="-3" name="Create object" sid="1361679460706828" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125)) + 25</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125)) - 375</param>
                         </action>
                         <action id="-3" name="Create object" sid="2498151999466073" type="System">
                             <param id="0" name="Object to create">Complete</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) + 25</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125)) - 375</param>
                         </action>
                         <action id="-10" name="Set value" sid="1694407392526551" type="Grey1">
@@ -189,13 +189,13 @@
                         <action id="-3" name="Create object" sid="6643835099071838" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 90</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 75</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
                         </action>
                         <action id="-3" name="Create object" sid="4679114890877779" type="System">
                             <param id="0" name="Object to create">Complete</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 90</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 75</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
                         </action>
                         <action id="-10" name="Set value" sid="1180884237035256" type="Grey1">
@@ -337,18 +337,18 @@
                 <action id="-3" name="Create object" sid="9433719754120327" type="System">
                     <param id="0" name="Object to create">Blue</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 275</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
                     <param id="3" name="Y">SPAWNY - 375</param>
                 </action>
                 <action id="-3" name="Create object" sid="1871431939183709" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 275</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
                     <param id="3" name="Y">SPAWNY - 375</param>
                 </action>
                 <action id="-10" name="Set value" sid="5711752555343203" type="Blue">
                     <param id="0" name="Instance variable">BBValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(0) - 1) - BrickStorage.At(RNG.At(1) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(0) - 1) - BrickStorage.At(RNG8.At(1) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="7976840822351518" type="System">
                     <param id="0" name="Object to create">BrickText</param>
@@ -369,18 +369,18 @@
                 <action id="-3" name="Create object" sid="2065060022648838" type="System">
                     <param id="0" name="Object to create">Blue2</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 123</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-50)</param>
+                    <param id="2" name="X">SPAWNX + 120</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-48)</param>
                 </action>
                 <action id="-3" name="Create object" sid="9489577445169686" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 123</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-50)</param>
+                    <param id="2" name="X">SPAWNX + 120</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-48)</param>
                 </action>
                 <action id="-10" name="Set value" sid="5263835093592447" type="Blue2">
                     <param id="0" name="Instance variable">BBValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(2) - 1) - BrickStorage.At(RNG.At(3) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(2) - 1) - BrickStorage.At(RNG8.At(3) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="4970407843738439" type="System">
                     <param id="0" name="Object to create">BrickText</param>
@@ -401,18 +401,18 @@
                 <action id="-3" name="Create object" sid="1752602214548845" type="System">
                     <param id="0" name="Object to create">Blue3</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 285</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-170)</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-173)</param>
                 </action>
                 <action id="-3" name="Create object" sid="1657646493649715" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 285</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-170)</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-173)</param>
                 </action>
                 <action id="-10" name="Set value" sid="6344014738685918" type="Blue3">
                     <param id="0" name="Instance variable">BBValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(4) - 1) - BrickStorage.At(RNG.At(5) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(4) - 1) - BrickStorage.At(RNG8.At(5) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="927013316779301" type="System">
                     <param id="0" name="Object to create">BrickText</param>
@@ -444,7 +444,7 @@
                 </action>
                 <action id="-10" name="Set value" sid="2253611649116217" type="Blue4">
                     <param id="0" name="Instance variable">BBValue</param>
-                    <param id="1" name="Value">BrickStorage.At(RNG.At(6) - 1) - BrickStorage.At(RNG.At(7) - 1)</param>
+                    <param id="1" name="Value">BrickStorage.At(RNG8.At(6) - 1) - BrickStorage.At(RNG8.At(7) - 1)</param>
                 </action>
                 <action id="-3" name="Create object" sid="3898951305549881" type="System">
                     <param id="0" name="Object to create">BrickText</param>
@@ -730,7 +730,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="294867615855405" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">235</param>
+                    <param id="1" name="X co-ordinate">260</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="4344476072808596" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -831,7 +831,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="6349671933845368" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">360</param>
+                    <param id="1" name="X co-ordinate">385</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="3791080421580371" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -932,7 +932,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="7875725713474599" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">370</param>
+                    <param id="1" name="X co-ordinate">385</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="7940959076813076" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -1033,7 +1033,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="1200237591312964" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">245</param>
+                    <param id="1" name="X co-ordinate">260</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="233432316091929" type="Grey1">
                     <param id="0" name="Comparison">0</param>

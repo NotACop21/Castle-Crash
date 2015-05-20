@@ -1,0 +1,2467 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>DivLvl2EV</name>
+    <events>
+        <event-group description="" sid="7898863604908065" title="Start/Spawn13" />
+        <comment>Set up Arrays</comment>
+        <event-block sid="1219633190576043">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8846782379961897" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="2180099258158192" type="System" />
+                <action id="0" name="Clear" sid="5939044245192973" type="BrickStorage" />
+                <action id="0" name="Clear" sid="4455742910960954" type="RNG8" />
+                <action id="33" name="Stop all" sid="576121267779514" type="Audio" />
+                <action disabled="1" id="0" name="Play" sid="4813160353107119" type="Audio">
+                    <param id="0" name="Audio file">Game</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;In Game&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="4920719114851503" type="System">
+                    <param id="0" name="Variable">milliSecs</param>
+                    <param id="1" name="Value">time</param>
+                </action>
+                <action id="-9" name="Set value" sid="9460517034262742" type="System">
+                    <param id="0" name="Variable">ArrayWidth</param>
+                    <param id="1" name="Value">RNG8.Width</param>
+                </action>
+                <action id="10" name="Insert" sid="3340499094970642" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">0</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="9516773056339113" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="9764166389063412" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">2</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2628346426301046" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">3</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1127926680662301" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">4</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7201806928948769" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">5</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1722294304166165" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">6</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5693361757308806" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">7</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="7049814825752123" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9068618777813583">
+                    <conditions>
+                        <condition id="-23" name="While" sid="7140799455273409" type="System" />
+                        <condition id="-14" name="Compare variable" sid="4541193379259124" type="System">
+                            <param id="0" name="Variable">i</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">RNG8.Width</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6576484862226356" type="System">
+                            <param id="0" name="Variable">randomNumber</param>
+                            <param id="1" name="Value">floor(random(1,9))</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9439875146685122">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Contains value" sid="1115791941901377" type="RNG8">
+                                    <param id="0" name="Value">randomNumber</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Set at X" sid="4119200971799023" type="RNG8">
+                                    <param id="0" name="X">i</param>
+                                    <param id="1" name="Value">randomNumber</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="9821984180217032" type="System">
+                                    <param id="0" name="Variable">i</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Spawn Greys</comment>
+        <event-block sid="5284822245133762">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7528997411008128" type="System" />
+                <condition id="-10" name="For" sid="1949457142364669" type="System">
+                    <param id="0" name="Name">&quot;Y&quot;</param>
+                    <param id="1" name="Start index">0</param>
+                    <param id="2" name="End index">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="8248536338264172">
+                    <conditions>
+                        <condition id="-10" name="For" sid="3639919756981606" type="System">
+                            <param id="0" name="Name">&quot;X&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="4902098136883673" type="System">
+                            <param id="0" name="Object to create">Grey1</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width + 125))</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125))</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="3984363567484498" type="System">
+                            <param id="0" name="Object to create">Complete</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) </param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="1177691815123082" type="Grey1">
+                            <param id="0" name="Instance variable">BGrValue</param>
+                            <param id="1" name="Value">floor(random(1,10))</param>
+                        </action>
+                        <action id="10" name="Insert" sid="2782378844495639" type="BrickStorage">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="3512434253974591" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Grey1.X -15</param>
+                            <param id="3" name="Y">Grey1.Y -15</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8923150404450272" type="BrickText">
+                            <param id="0" name="Text">BrickStorage.CurValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5569238182792574">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7084338520408076" type="System" />
+                <condition id="-10" name="For" sid="6052916358840049" type="System">
+                    <param id="0" name="Name">&quot;Y&quot;</param>
+                    <param id="1" name="Start index">1</param>
+                    <param id="2" name="End index">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6479395123545725">
+                    <conditions>
+                        <condition id="-10" name="For" sid="2867792540271482" type="System">
+                            <param id="0" name="Name">&quot;X&quot;</param>
+                            <param id="1" name="Start index">2</param>
+                            <param id="2" name="End index">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="8257868898870038" type="System">
+                            <param id="0" name="Object to create">Grey1</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width + 100)) - 190</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="2088478040747372" type="System">
+                            <param id="0" name="Object to create">Complete</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 62</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="3330996173261494" type="Grey1">
+                            <param id="0" name="Instance variable">BGrValue</param>
+                            <param id="1" name="Value">floor(random(1,10))</param>
+                        </action>
+                        <action id="10" name="Insert" sid="2507968977790191" type="BrickStorage">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="2525318991397964" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Grey1.X -15</param>
+                            <param id="3" name="Y">Grey1.Y -25</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3121409202373392" type="BrickText">
+                            <param id="0" name="Text">BrickStorage.CurValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4135953830524524">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3059305934526766" type="System" />
+                <condition id="-10" name="For" sid="5951322111024096" type="System">
+                    <param id="0" name="Name">&quot;Y&quot;</param>
+                    <param id="1" name="Start index">2</param>
+                    <param id="2" name="End index">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9270635501917545">
+                    <conditions>
+                        <condition id="-10" name="For" sid="3930967756491914" type="System">
+                            <param id="0" name="Name">&quot;X&quot;</param>
+                            <param id="1" name="Start index">2</param>
+                            <param id="2" name="End index">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="1699808346233437" type="System">
+                            <param id="0" name="Object to create">Grey1</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) -2</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="6536237617257691" type="System">
+                            <param id="0" name="Object to create">Complete</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width + 100)) - 252</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="1229329731679872" type="Grey1">
+                            <param id="0" name="Instance variable">BGrValue</param>
+                            <param id="1" name="Value">floor(random(1,10))</param>
+                        </action>
+                        <action id="10" name="Insert" sid="3322688077822418" type="BrickStorage">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="8105519207234097" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Grey1.X -15</param>
+                            <param id="3" name="Y">Grey1.Y -25</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2163169745269113" type="BrickText">
+                            <param id="0" name="Text">BrickStorage.CurValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2486970477044431">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4687114259330709" type="System" />
+                <condition id="-10" name="For" sid="9408501524209282" type="System">
+                    <param id="0" name="Name">&quot;Y&quot;</param>
+                    <param id="1" name="Start index">3</param>
+                    <param id="2" name="End index">3</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6297211100316687">
+                    <conditions>
+                        <condition id="-10" name="For" sid="3301259029713495" type="System">
+                            <param id="0" name="Name">&quot;X&quot;</param>
+                            <param id="1" name="Start index">2</param>
+                            <param id="2" name="End index">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="4823814970855877" type="System">
+                            <param id="0" name="Object to create">Grey1</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25))  + 50</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="361693653305813" type="System">
+                            <param id="0" name="Object to create">Complete</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25))  + 50</param>
+                            <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="2709499728926658" type="Grey1">
+                            <param id="0" name="Instance variable">BGrValue</param>
+                            <param id="1" name="Value">floor(random(1,10))</param>
+                        </action>
+                        <action id="10" name="Insert" sid="7097097587170498" type="BrickStorage">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="3253924247090655" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Grey1.X -15</param>
+                            <param id="3" name="Y">Grey1.Y -25</param>
+                        </action>
+                        <action id="0" name="Set text" sid="5536542071026677" type="BrickText">
+                            <param id="0" name="Text">BrickStorage.CurValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Spawn Coloured Bricks</comment>
+        <event-block sid="2901781417388337">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6112755520571301" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8810109830161429" type="System">
+                    <param id="0" name="Object to create">Orange</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">SPAWNX +55</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2) + 75)</param>
+                </action>
+                <action id="-3" name="Create object" sid="7939014247346756" type="System">
+                    <param id="0" name="Object to create">Complete</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">SPAWNX + 50</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2) + 75)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1093259215809614">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="3156813199757519" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(0)-1)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(1)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9538266574607657" type="Orange">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(1) - 1) / BrickStorage.At(RNG8.At(0) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="7970594825525358" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange.X -27</param>
+                            <param id="3" name="Y">Orange.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9276439144818244" type="BrickText">
+                            <param id="0" name="Text">Orange.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8966289714676996">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="2595785326942208" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(0)-1)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(1)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7541651931951503" type="Orange">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(0) - 1) / BrickStorage.At(RNG8.At(1) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="1658639152029514" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange.X -27</param>
+                            <param id="3" name="Y">Orange.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8066855530295719" type="BrickText">
+                            <param id="0" name="Text">Orange.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4430339467839587">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6619116030258464" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8264769111491235" type="System">
+                    <param id="0" name="Object to create">Orange2</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">SPAWNX</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2) - 50)</param>
+                </action>
+                <action id="-3" name="Create object" sid="756383358738281" type="System">
+                    <param id="0" name="Object to create">Complete</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">SPAWNX + 123</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2) - 50)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="8615243274176609">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="5901794900096259" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(2)-1)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(3)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="5540202559690953" type="Orange2">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(3) - 1) / BrickStorage.At(RNG8.At(2) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="6805919634250226" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange2.X -27</param>
+                            <param id="3" name="Y">Orange2.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="446616600175576" type="BrickText">
+                            <param id="0" name="Text">Orange2.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5996366316009633">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="7548973079593883" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(2)-1)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(3)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9167228036110105" type="Orange2">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(2) - 1) / BrickStorage.At(RNG8.At(3) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="4445408812200893" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange2.X -27</param>
+                            <param id="3" name="Y">Orange2.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8188553985477961" type="BrickText">
+                            <param id="0" name="Text">Orange2.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9855110457590212">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8321422180610108" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8795879311863418" type="System">
+                    <param id="0" name="Object to create">Orange3</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">SPAWNX +188</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2) - 175)</param>
+                </action>
+                <action id="-3" name="Create object" sid="6581536774135052" type="System">
+                    <param id="0" name="Object to create">Complete</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">SPAWNX + 313</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2) - 175)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9897922490448743">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="3894506994958351" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(4)-1)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(5)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8713905563190322" type="Orange3">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(5) - 1) / BrickStorage.At(RNG8.At(4) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="1939819014703862" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange3.X -27</param>
+                            <param id="3" name="Y">Orange3.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="96711214733246" type="BrickText">
+                            <param id="0" name="Text">Orange3.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9980541356649506">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="8583143536889286" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(4)-1)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(5)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7669520159611445" type="Orange3">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(4) - 1) / BrickStorage.At(RNG8.At(5) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="7591048081875753" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange3.X -27</param>
+                            <param id="3" name="Y">Orange3.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1742895071916523" type="BrickText">
+                            <param id="0" name="Text">Orange3.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4526967752364068">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4762889283809635" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="5379531634209189" type="System">
+                    <param id="0" name="Object to create">Orange4</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">SPAWNX + 253</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-300)</param>
+                </action>
+                <action id="-3" name="Create object" sid="2831200649844358" type="System">
+                    <param id="0" name="Object to create">Complete</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">SPAWNX + 253</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-300)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="3450475273554547">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="1041318573270694" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(6)-1)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(7)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="2379140878086885" type="Orange4">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(7) - 1) / BrickStorage.At(RNG8.At(6) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="1813893273867955" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange4.X -27</param>
+                            <param id="3" name="Y">Orange4.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3890337618144088" type="BrickText">
+                            <param id="0" name="Text">Orange4.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2590218399069429">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="1320055147080387" type="BrickStorage">
+                            <param id="0" name="X">(RNG8.At(6)-1)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">(BrickStorage.At(RNG8.At(7)-1))</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7137994055150523" type="Orange4">
+                            <param id="0" name="Instance variable">BOValue</param>
+                            <param id="1" name="Value">round((BrickStorage.At(RNG8.At(6) - 1) / BrickStorage.At(RNG8.At(7) - 1))*10)/10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="1030991544352783" type="System">
+                            <param id="0" name="Object to create">BrickText</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Orange4.X -27</param>
+                            <param id="3" name="Y">Orange4.Y -30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="767705983016435" type="BrickText">
+                            <param id="0" name="Text">Orange4.BOValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="2660993027814466" title="Touch13" />
+        <comment>Touch Orange</comment>
+        <event-block sid="6110633245601334">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4092895177312433" type="Touch">
+                    <param id="0" name="Object">Orange</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1217884759012356" type="System">
+                    <param id="0" name="Variable">Orange2Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="3300081055153193" type="System">
+                    <param id="0" name="Variable">Orange3Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="911242265228416" type="System">
+                    <param id="0" name="Variable">Orange4Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="172617076164704" type="Orange" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8482223020887283" type="System">
+                    <param id="0" name="Variable">OrangeSelect</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="4009612648506287" type="Orange">
+                    <param id="0" name="Animation">&quot;Break&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-14" name="Toggle boolean" sid="4670524216400396" type="Orange">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </action>
+                <action id="0" name="Play" sid="8692253830183268" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1900634530537777">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1829429953598483" type="Orange">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5465328541461967" type="System">
+                    <param id="0" name="Variable">OrangeSelect</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6877578478537342" type="System">
+                    <param id="0" name="Variable">OrangeSelect</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="5319272659960399" type="Orange">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Touch Orange 2</comment>
+        <event-block sid="3081361980062157">
+            <conditions>
+                <condition id="3" name="On touched object" sid="135358308948035" type="Touch">
+                    <param id="0" name="Object">Orange2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1695063115935045" type="System">
+                    <param id="0" name="Variable">OrangeSelect</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="16451764286186" type="System">
+                    <param id="0" name="Variable">Orange3Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8343776291816442" type="System">
+                    <param id="0" name="Variable">Orange4Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="1236909706227425" type="Orange2" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9917410727373159" type="System">
+                    <param id="0" name="Variable">Orange2Select</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="4042910194651819" type="Orange2">
+                    <param id="0" name="Animation">&quot;Break&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-14" name="Toggle boolean" sid="4227876122801505" type="Orange2">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </action>
+                <action id="0" name="Play" sid="5400443503513901" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1478934361732067">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2113185706230858" type="Orange2">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1432639570238103" type="System">
+                    <param id="0" name="Variable">Orange2Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8337473643569097" type="System">
+                    <param id="0" name="Variable">Orange2Select</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="772672344057493" type="Orange2">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Touch Orange 3</comment>
+        <event-block sid="975969091485575">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4718565534372435" type="Touch">
+                    <param id="0" name="Object">Orange3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2536184354574253" type="System">
+                    <param id="0" name="Variable">OrangeSelect</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8721892348606216" type="System">
+                    <param id="0" name="Variable">Orange2Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2690588850370694" type="System">
+                    <param id="0" name="Variable">Orange4Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="1859695118868086" type="Orange3" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2621333029849144" type="System">
+                    <param id="0" name="Variable">Orange3Select</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="1617569309628539" type="Orange3">
+                    <param id="0" name="Animation">&quot;Break&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-14" name="Toggle boolean" sid="522174581225964" type="Orange3">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </action>
+                <action id="0" name="Play" sid="2054894153582919" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7185286353457393">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7098439577466944" type="Orange3">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7670837896526808" type="System">
+                    <param id="0" name="Variable">Orange3Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1432730211756593" type="System">
+                    <param id="0" name="Variable">Orange3Select</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="9053508842593556" type="Orange3">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Touch Orange 4</comment>
+        <event-block sid="2456114439399662">
+            <conditions>
+                <condition id="3" name="On touched object" sid="372153781051589" type="Touch">
+                    <param id="0" name="Object">Orange4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="9705178410977523" type="System">
+                    <param id="0" name="Variable">OrangeSelect</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="734457324938295" type="System">
+                    <param id="0" name="Variable">Orange2Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4845263890871695" type="System">
+                    <param id="0" name="Variable">Orange3Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="8192237715114074" type="Orange4" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9870219506525753" type="System">
+                    <param id="0" name="Variable">Orange4Select</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="5702467118347238" type="Orange4">
+                    <param id="0" name="Animation">&quot;Break&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-14" name="Toggle boolean" sid="7024180879249895" type="Orange4">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </action>
+                <action id="0" name="Play" sid="9788591191281214" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8389155328665504">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9032758304140273" type="Orange4">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="3370459755354068" type="System">
+                    <param id="0" name="Variable">Orange4Select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2230293623454603" type="System">
+                    <param id="0" name="Variable">Orange4Select</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="1945663743260275" type="Orange4">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Touch Greys</comment>
+        <comment>Touch 0</comment>
+        <event-block sid="6469622788596706">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4628912969042136" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="4511019481238302" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="2485112045043447" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">210</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="737417152654533" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">750</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="6049039715484281" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="8897886726308408">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7852836185082992" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="8042636641322822" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="5490184647771337" type="Check">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="8418313295599574" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5175405737762662" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="7947249141362688" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="2874820708970121" type="Check">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="5602377482759461" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="3202466971605087" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8248900814805747">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="749677714150049" type="System" />
+                        <condition id="0" name="Compare at X" sid="3424568497969631" type="Check">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="788783767527535" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="6255397233419137" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="516939244022453" type="Check">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="4263206830739019" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="850548081772669" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 1</comment>
+        <event-block sid="725911795239745">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8590128146466443" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="3562173068808537" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="4893116909970218" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">335</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="5679116551182514" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">750</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="8132457185525445" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6049108463012027">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1338870064757689" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2603946464741908" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="9886076170183757" type="Check">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="2149643653481805" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8056725637489962" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="6986317937015535" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="113159006895725" type="Check">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="5969819668584957" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="2445519982229333" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3458911028711558">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3909182910829175" type="System" />
+                        <condition id="0" name="Compare at X" sid="5670560921485429" type="Check">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="4555016683240851" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="1594614205660016" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="267017139063796" type="Check">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="1102254010677782" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="6137851353983373" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 2</comment>
+        <event-block sid="7814120407507492">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6619707335658031" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="5110174832794275" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="1632238068672131" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">520</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="4431798081576687" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">625</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="125808912514564" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6419106785494163">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6208157494885241" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5947427783952022" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="3195398526664954" type="Check">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="427439939105395" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1963448062853339" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="78486975355403" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="2550552759961237" type="Check">
+                            <param id="0" name="Index">2</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="398860982140145" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">2</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="3274732857805179" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9659598353525995">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="1813957056306903" type="System" />
+                        <condition id="0" name="Compare at X" sid="4551476838990466" type="Check">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="4107025913511295" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="690095263051147" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="2460781984131883" type="Check">
+                            <param id="0" name="Index">2</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="2184922651644926" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">2</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="3109501696950141" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 3</comment>
+        <event-block sid="5582944812268787">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5242986608795527" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="8685837050166662" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="8213098332440517" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">270</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="4140165715393465" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">625</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5658535993342441" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9779376661982529">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4739455697746973" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9716190491043675" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="1833044920724374" type="Check">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1236841519615783" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6764288278952156" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="9807124558638506" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="7956667445998693" type="Check">
+                            <param id="0" name="Index">3</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="5644202448358537" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">3</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="7642870363202564" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1466246993592964">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="189897464743399" type="System" />
+                        <condition id="0" name="Compare at X" sid="5376466050463126" type="Check">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="894855558509636" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="2044268118949746" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="8430361328267226" type="Check">
+                            <param id="0" name="Index">3</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="101877607343806" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">3</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="2188347710734147" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 4</comment>
+        <event-block sid="7119671033892895">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6960747239836178" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="8015122660742628" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="2225332834225096" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">458</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="925156655806268" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">500</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="199265212852916" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="99398383570842">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7363328545208012" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1853291715049161" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="5341549738002943" type="Check">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="5570462353505259" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8830337518014401" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="5464999799536276" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="9516983295846244" type="Check">
+                            <param id="0" name="Index">4</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="1150118142407532" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">4</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="2297546055718322" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9153097291153606">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="7298398697741671" type="System" />
+                        <condition id="0" name="Compare at X" sid="7155641378865101" type="Check">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="9260144015104517" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="8265364252612632" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="1194962613219875" type="Check">
+                            <param id="0" name="Index">4</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="7207060460419433" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">4</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="7592313325235579" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 5</comment>
+        <event-block sid="1845853395560295">
+            <conditions>
+                <condition id="3" name="On touched object" sid="895853622731871" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="3872362186014229" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="7147226198889402" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">333</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="1085713094587037" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">500</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5980888762449862" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7547950499341378">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3650171422581447" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5480200892025391" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="5364074235821383" type="Check">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="4335632898726519" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2755236717789432" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="5821812114715634" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="5999970581738203" type="Check">
+                            <param id="0" name="Index">5</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="3977764113322166" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">5</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="2380052840131536" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="685734853403033">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9914620260299944" type="System" />
+                        <condition id="0" name="Compare at X" sid="4232437847781403" type="Check">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="6517595911889517" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="8249493780623943" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="7802002544606862" type="Check">
+                            <param id="0" name="Index">5</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="8875266037394462" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">5</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="3624492736492851" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 6</comment>
+        <event-block sid="6230788979274519">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8031202362365884" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="2160572599722053" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="1802616133345942" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">510</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="5067130300063455" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">375</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7030931824675617" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6265465647141585">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="409317653524509" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3334809889569998" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="6331092455724079" type="Check">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="6305257574089885" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2807257161369392" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="4339103164463672" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="9454936450537233" type="Check">
+                            <param id="0" name="Index">6</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="5014687323186499" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">6</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="7370841313824195" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7327488410705257">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5898373861287017" type="System" />
+                        <condition id="0" name="Compare at X" sid="3721554106440126" type="Check">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="6338497125337958" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="4965030819308281" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="881826356182709" type="Check">
+                            <param id="0" name="Index">6</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="93840789221196" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">6</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="1803541402921397" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Touch 7</comment>
+        <event-block sid="6905480103082834">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1794819645308884" type="Touch">
+                    <param id="0" name="Object">Grey1</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="6442605093051553" type="Grey1">
+                    <param id="0" name="Unique ID">Grey1.UID</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="5050641088532973" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">385</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="55591650396117" type="Grey1">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">375</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="2748327397942075" type="Audio">
+                    <param id="0" name="Audio file">brickhit</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7170695856435255">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6209724310692611" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6423000676608222" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="9246300316197784" type="Check">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="8965226699274962" type="Grey1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2676439622359863" type="Grey1">
+                            <param id="0" name="Animation">&quot;Break&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="7674736797456561" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="9" name="Delete" sid="1319336136382915" type="Check">
+                            <param id="0" name="Index">7</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="3634205016643938" type="Check">
+                            <param id="0" name="Value">Grey1.BGrValue</param>
+                            <param id="1" name="Index">7</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="8433873254518044" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="159290925998501">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5017440862620895" type="System" />
+                        <condition id="0" name="Compare at X" sid="2044867856561602" type="Check">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="7616040617201162" type="Grey1">
+                            <param id="0" name="Instance variable">IsChosen</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="9675007838176168" type="Grey1">
+                            <param id="0" name="Animation">&quot;Base&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Delete" sid="5167607974803616" type="Check">
+                            <param id="0" name="Index">7</param>
+                            <param id="1" name="Axis">0</param>
+                        </action>
+                        <action id="10" name="Insert" sid="2489895601070286" type="Check">
+                            <param id="0" name="Value">100</param>
+                            <param id="1" name="Index">7</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="4964261117519152" type="System">
+                            <param id="0" name="Variable">TotalSelected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="1472166221074705" title="Breaking13" />
+        <comment>Break Orange</comment>
+        <event-block sid="8151026823363666">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="8375620221974252" type="Orange">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="128330162875267" type="Grey1">
+                    <param id="0" name="Instance variable">IsChosen</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4660872260940709" type="System">
+                    <param id="0" name="Variable">TotalSelected</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1415149540726513">
+                    <conditions>
+                        <condition id="-10" name="For" sid="1949900875224103" type="System">
+                            <param id="0" name="Name">&quot;J&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">7</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4209076831587923">
+                            <conditions>
+                                <condition id="-10" name="For" sid="6585378485317533" type="System">
+                                    <param id="0" name="Name">&quot;K&quot;</param>
+                                    <param id="1" name="Start index">0</param>
+                                    <param id="2" name="End index">7</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="1958412710802359">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="9029455495037136" type="Orange">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;J&quot;)) / Check.At(loopindex(&quot;K&quot;)))*10)/10</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="9082401456174877" type="Orange">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;K&quot;)) / Check.At(loopindex(&quot;J&quot;)))*10)/10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="6262055951894368" type="Orange">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="5126444549531464" type="Orange">
+                                            <param id="0" name="Instance variable">IsMatched</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="8517511568984192" type="Grey1">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="2606002464901654" type="Grey1">
+                                            <param id="0" name="Instance variable">IsChosen</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="8858729839487505" type="System">
+                                            <param id="0" name="Variable">TotalSelected</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="561480882625667" type="System">
+                                            <param id="0" name="Variable">OrangeSelect</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="7608103447821285" type="System">
+                                            <param id="0" name="Variable">DestroyOrange</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="3616708459004908" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;J&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="9834096253315373" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;K&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Break Orange 2</comment>
+        <event-block sid="3020301374659141">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="6688951961059584" type="Orange2">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="3347057153362148" type="Grey1">
+                    <param id="0" name="Instance variable">IsChosen</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="758937752810112" type="System">
+                    <param id="0" name="Variable">TotalSelected</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2933304888193326">
+                    <conditions>
+                        <condition id="-10" name="For" sid="3543405325343166" type="System">
+                            <param id="0" name="Name">&quot;J&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">7</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6232661443734949">
+                            <conditions>
+                                <condition id="-10" name="For" sid="6730748885377965" type="System">
+                                    <param id="0" name="Name">&quot;K&quot;</param>
+                                    <param id="1" name="Start index">0</param>
+                                    <param id="2" name="End index">7</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="1879735687128639">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="8551143048519902" type="Orange2">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;J&quot;)) / Check.At(loopindex(&quot;K&quot;)))*10)/10</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="647468625159962" type="Orange2">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;K&quot;)) / Check.At(loopindex(&quot;J&quot;)))*10)/10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="2982362859979391" type="Orange2">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="9917775991818922" type="Orange2">
+                                            <param id="0" name="Instance variable">IsMatched</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="7823642862771112" type="Grey1">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="7079999409613585" type="Grey1">
+                                            <param id="0" name="Instance variable">IsChosen</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="303768258709107" type="System">
+                                            <param id="0" name="Variable">TotalSelected</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="9111463889665892" type="System">
+                                            <param id="0" name="Variable">Orange2Select</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="2547265356878229" type="System">
+                                            <param id="0" name="Variable">DestroyOrange2</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="4167724061843942" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;J&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="9493827327844526" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;K&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Break Orange 3</comment>
+        <event-block sid="3383837270397655">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="9981623871502154" type="Orange3">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="6534925405055042" type="Grey1">
+                    <param id="0" name="Instance variable">IsChosen</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="3597070088574227" type="System">
+                    <param id="0" name="Variable">TotalSelected</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9299823190243868">
+                    <conditions>
+                        <condition id="-10" name="For" sid="3850890851926673" type="System">
+                            <param id="0" name="Name">&quot;J&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">7</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="3364963028908176">
+                            <conditions>
+                                <condition id="-10" name="For" sid="3236547747911588" type="System">
+                                    <param id="0" name="Name">&quot;K&quot;</param>
+                                    <param id="1" name="Start index">0</param>
+                                    <param id="2" name="End index">7</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="5697122599173563">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="6682363281737619" type="Orange3">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;J&quot;)) / Check.At(loopindex(&quot;K&quot;)))*10)/10</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="5560644605645993" type="Orange3">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;K&quot;)) / Check.At(loopindex(&quot;J&quot;)))*10)/10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="1935968776040641" type="Orange3">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="113073945541881" type="Orange3">
+                                            <param id="0" name="Instance variable">IsMatched</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="9798456051535853" type="Grey1">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="1472076202397996" type="Grey1">
+                                            <param id="0" name="Instance variable">IsChosen</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="4788495260736663" type="System">
+                                            <param id="0" name="Variable">TotalSelected</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="1275449770541215" type="System">
+                                            <param id="0" name="Variable">Orange3Select</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="7065625643263154" type="System">
+                                            <param id="0" name="Variable">DestroyOrange3</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="2932188386218432" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;J&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="6109912684437041" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;K&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Break Orange 4</comment>
+        <event-block sid="9020121274153731">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="6724495142256582" type="Orange4">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="7859314410793171" type="Grey1">
+                    <param id="0" name="Instance variable">IsChosen</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8528755318876706" type="System">
+                    <param id="0" name="Variable">TotalSelected</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5789332427316725">
+                    <conditions>
+                        <condition id="-10" name="For" sid="9989146760961763" type="System">
+                            <param id="0" name="Name">&quot;J&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">7</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1807251083286704">
+                            <conditions>
+                                <condition id="-10" name="For" sid="3903457233164087" type="System">
+                                    <param id="0" name="Name">&quot;K&quot;</param>
+                                    <param id="1" name="Start index">0</param>
+                                    <param id="2" name="End index">7</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="5162275019328786">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="1149274674971619" type="Orange4">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;J&quot;)) / Check.At(loopindex(&quot;K&quot;)))*10)/10</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="2011620468600341" type="Orange4">
+                                            <param id="0" name="Instance variable">BOValue</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">round((Check.At(loopindex(&quot;K&quot;)) / Check.At(loopindex(&quot;J&quot;)))*10)/10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="9691061899415738" type="Orange4">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="4787595127867003" type="Orange4">
+                                            <param id="0" name="Instance variable">IsMatched</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="1034707932930827" type="Grey1">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="6292804478685208" type="Grey1">
+                                            <param id="0" name="Instance variable">IsChosen</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="1530235126445174" type="System">
+                                            <param id="0" name="Variable">TotalSelected</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="5928655233254494" type="System">
+                                            <param id="0" name="Variable">Orange4Select</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="9523498892862843" type="System">
+                                            <param id="0" name="Variable">DestroyOrange4</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="1732801458634217" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;J&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                        <action id="2" name="Set at X" sid="2653674200635217" type="Check">
+                                            <param id="0" name="X">loopindex(&quot;K&quot;)</param>
+                                            <param id="1" name="Value">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="9314304133357892" title="GS1 Menu Button13" />
+        <event-block sid="2686504089948334">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="5116856671081533" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="2617992571555853" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="5303324845020009" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="9109224458765078" type="HomeButton">
+                    <param id="0" name="Scale">HomeButton.scale</param>
+                </action>
+                <action id="0" name="Play" sid="6478492273196649" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6250996959241857">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7505141520198585" type="HomeButton">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="1801643210781062" type="HomeButton">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="60304394772928">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="4595558423786517" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="7260060947602217" type="HomeButton">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="3173312992278737" type="HomeButton">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="8010412009222009" type="HomeButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9448379391376885">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8237089331423434" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="6721858157097097" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3556803385545057" type="System">
+                    <param id="0" name="Layout">MenuScreen</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="7903382996752544" type="System" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="9696783834909915" title="GS1 Mute/Toggle13" />
+        <event-block sid="537434076849081">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5392144323627277" type="Touch">
+                    <param id="0" name="Object">MuteTog</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set silent" sid="4097054160269128" type="Audio">
+                    <param id="0" name="Mode">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9511256167910268">
+            <conditions>
+                <condition id="3" name="Is silent" sid="2488001240885867" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="8128352623565998" type="MuteTog">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4629542538451775">
+            <conditions>
+                <condition id="3" inverted="1" name="Is silent" sid="7366743315341024" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="8593390819748537" type="MuteTog">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="7706796975539518" title="GS1 Reset13" />
+        <event-block sid="4264903454252088">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3104983242002334" type="Touch">
+                    <param id="0" name="Object">RestartGame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Clear" sid="243999828917854" type="Check" />
+                <action id="10" name="Insert" sid="7367600468662069" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">0</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="3179679203308247" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7858767834283144" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">2</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="7682130307767761" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">3</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="1609248582352549" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">4</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="5437484635152466" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">5</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="2988519952762872" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">6</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="10" name="Insert" sid="776450650213327" type="Check">
+                    <param id="0" name="Value">100</param>
+                    <param id="1" name="Index">7</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1398924829175094" type="Grey1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="776988255842987" type="Grey1">
+                    <param id="0" name="Instance variable">IsChosen</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="991715850332158" type="Grey1">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2074344217431422" type="Orange">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="6440647922566431" type="Orange">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="1731218324343803" type="Orange">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="207884368150304" type="Orange2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4495259422606564" type="Orange2">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="2303293280926798" type="Orange2">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9861463175189675" type="Orange3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="4127935067767174" type="Orange3">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="2862405600210415" type="Orange3">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5340372824539782" type="Orange4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="8856533728309357" type="Orange4">
+                    <param id="0" name="Instance variable">IsMatched</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="3806639376456644" type="Orange4">
+                    <param id="0" name="Animation">&quot;Base&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="8549590340230527" type="System">
+                    <param id="0" name="Variable">DestroyOrange</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="906014153290106" type="System">
+                    <param id="0" name="Variable">DestroyOrange2</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="6099491564406686" type="System">
+                    <param id="0" name="Variable">DestroyOrange3</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="8737326810903334" type="System">
+                    <param id="0" name="Variable">DestroyOrange4</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="1888987080732665" type="System">
+                    <param id="0" name="Variable">TotalSelected</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6003536472174475">
+            <conditions>
+                <condition id="3" name="On touched object" sid="729561244748779" type="Touch">
+                    <param id="0" name="Object">RestartGame</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="5601745826469119" type="RestartGame">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="6434705226571352" type="RestartGame">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="1791168721766344" type="RestartGame">
+                    <param id="0" name="Scale">RestartGame.scale</param>
+                </action>
+                <action id="0" name="Play" sid="804802314230388" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="4569098155914242">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2182844479042173" type="RestartGame">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="1623322252270653" type="RestartGame">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3785940907365503">
+                    <conditions>
+                        <condition id="2" inverted="1" name="Is in touch" sid="4112103908457241" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7698357599757179" type="RestartGame">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="3797385644661128" type="RestartGame">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="1301694546142" type="RestartGame">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="5072679972637739" title="GS1 Timer14" />
+        <event-block disabled="1" sid="9391297013143158">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="4736319391976262" type="System" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="6023608709096001" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">dt</param>
+                </action>
+                <action id="0" name="Set text" sid="2763738668390965" type="Timer">
+                    <param id="0" name="Text">Timer*1000</param>
+                </action>
+                <action id="-9" name="Set value" sid="6006791740690188" type="System">
+                    <param id="0" name="Variable">secs</param>
+                    <param id="1" name="Value">floor(timer)%60</param>
+                </action>
+                <action id="-9" name="Set value" sid="2220700698667637" type="System">
+                    <param id="0" name="Variable">milliSecs</param>
+                    <param id="1" name="Value">floor((timer*1000)/10)%100</param>
+                </action>
+                <action id="0" name="Set text" sid="8128162612164851" type="Timer">
+                    <param id="0" name="Text">zeropad(secs,2) &amp; &quot;:&quot; &amp; zeropad(milliSecs,2)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="6538076136972047">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="816856986516914" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="3932716533845447" type="Timer">
+                            <param id="0" name="Color">rgb(225, 0, 0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="2610004310283586">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1870270254589739" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-16" name="Wait" sid="1861555173222441" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1680631359162526" type="System">
+                            <param id="0" name="Layout">GameOver</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" disabled="1" sid="8414571459406219" title="GS1 Timer14" />
+        <event-block disabled="1" sid="6561649880026635">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6931395250389133" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8080073803278971" type="System">
+                    <param id="0" name="Variable">timer2</param>
+                    <param id="1" name="Value">dt</param>
+                </action>
+                <action id="-9" name="Set value" sid="4712581013649323" type="System">
+                    <param id="0" name="Variable">secs2</param>
+                    <param id="1" name="Value">floor(timer)%60</param>
+                </action>
+                <action id="-9" name="Set value" sid="7543086096834451" type="System">
+                    <param id="0" name="Variable">milliSecs2</param>
+                    <param id="1" name="Value">floor((timer*1000)/10)%100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="195753346729291" title="GS1 Complete13" />
+        <event-block sid="535581155083862">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7047203522795299" type="System">
+                    <param id="0" name="Variable">DestroyOrange</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5222091629049648" type="System">
+                    <param id="0" name="Variable">DestroyOrange2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7936827422853935" type="System">
+                    <param id="0" name="Variable">DestroyOrange3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7940951108574361" type="System">
+                    <param id="0" name="Variable">DestroyOrange4</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6367680587788976" type="System">
+                    <param id="0" name="Layout">GameWon</param>
+                </action>
+                <action id="-9" name="Set value" sid="3211659113633543" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">timer2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -132,17 +132,217 @@
                 <action id="-16" name="Set opacity" sid="7804099527458178" type="PreLevelText">
                     <param id="0" name="Opacity">100</param>
                 </action>
-                <action disabled="1" id="-16" name="Wait" sid="7350981639604819" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="457215630494597" type="System">
-                    <param id="0" name="Layout">AddLvl1</param>
-                </action>
             </actions>
-        </event-block>
-        <event-block sid="2835355764424792">
-            <conditions />
-            <actions />
+            <sub-events>
+                <event-block sid="3067865054374916">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8513303947775786" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="457215630494597" type="System">
+                            <param id="0" name="Layout">AddLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7299672269784723">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8180643836787208" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7618223181749569" type="System">
+                            <param id="0" name="Layout">AddLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="832871632882713">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1450927073349953" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="8698608797034824" type="System">
+                            <param id="0" name="Layout">SubLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9840290600169255">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5259861190534137" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6247445385273932" type="System">
+                            <param id="0" name="Layout">SubLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7621248439553409">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3113522708906177" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7650827257116753" type="System">
+                            <param id="0" name="Layout">AddSubLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6155396024179662">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9873844370629456" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3694675171627599" type="System">
+                            <param id="0" name="Layout">AddSubLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9191729712432506">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="341565342578212" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6036926751207656" type="System">
+                            <param id="0" name="Layout">MultLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2165484172914826">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3341934033102104" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4146290576599183" type="System">
+                            <param id="0" name="Layout">MultLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3116917019289076">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3955382085581424" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="275160596878837" type="System">
+                            <param id="0" name="Layout">DivLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="301343114152886">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7248245147544719" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6209591390853939" type="System">
+                            <param id="0" name="Layout">DivLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4203393337162636">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3060081126512425" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3648012401544" type="System">
+                            <param id="0" name="Layout">MultDivLvl1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8951682616409052">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1071313445032929" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3749232692534239" type="System">
+                            <param id="0" name="Layout">MultDivLvl2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9590451203321219">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4047056520503157" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="5061020715580223">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5848328258365802" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="8857712902748505">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="775309426438668" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="2700640672135595">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8002179050133576" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="6139208992095186">
             <conditions>
