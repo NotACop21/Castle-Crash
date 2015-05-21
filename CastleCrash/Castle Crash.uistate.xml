@@ -15,6 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">GameWon</layout>
         <layout order="6">AddLvl1</layout>
         <layout active="1" order="7">HighScores</layout>
+        <layout order="8">HS2</layout>
         <event-sheet order="1">GameOverEV</event-sheet>
         <event-sheet order="3">GameWonEV</event-sheet>
         <event-sheet order="5">HighScores EV</event-sheet>
@@ -38,10 +39,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/LevelSelectSprites/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
         <folder expanded="0" path="object-folder/Arrays/" />
-        <folder expanded="0" path="object-folder/GameWon/" />
+        <folder expanded="1" path="object-folder/GameWon/" />
         <folder expanded="0" path="object-folder/GameScreenSprites/" />
         <folder expanded="1" path="object-folder/HighScore/" />
-        <folder expanded="1" path="object-folder/HighScore/LEVEL BUTTONS/" />
+        <folder expanded="0" path="object-folder/HighScore/LEVEL BUTTONS/" />
         <folder expanded="0" path="object-folder/HighScoreLocal/" />
         <folder expanded="0" path="object-folder/1 - GSBricks/" />
         <folder expanded="0" path="object-folder/TutorialBricks/" />
@@ -106,6 +107,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/L16SCORE/" />
         <folder expanded="1" path="animation-folder/ACHIEVEMENTS/" />
         <folder expanded="1" path="animation-folder/Submit/" />
+        <folder expanded="1" path="animation-folder/back/" />
         <folder expanded="1" path="animation-folder/Blue/" />
         <folder expanded="1" path="animation-folder/Green/" />
         <folder expanded="1" path="animation-folder/Grey1/" />

@@ -1077,6 +1077,29 @@
             <object-type name="Text2" sid="9350086401113207">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="back" sid="5941037443608712">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="grow" sid="6052103431556785" type="number" />
+                    <instance-variable name="scale" sid="2919015885410789" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6489929760895526" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Desktop\NextLevel.png">
+                            <collision-poly>
+                                <point x="1" y="0.5" />
+                                <point x="0.854167" y="0.854167" />
+                                <point x="0.5" y="1" />
+                                <point x="0.145833" y="0.854167" />
+                                <point x="0" y="0.5" />
+                                <point x="0.145833" y="0.145833" />
+                                <point x="0.5" y="0" />
+                                <point x="0.854167" y="0.145833" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="HighScoreLocal">
             <object-type name="TOPTENBACKGROUND" sid="8803103441338815">
