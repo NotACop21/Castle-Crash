@@ -20,7 +20,7 @@
                 <action id="0" name="Clear" sid="9508040373484427" type="BrickStorage" />
                 <action id="0" name="Clear" sid="7024575264497389" type="RNG6" />
                 <action id="33" name="Stop all" sid="4032191713465968" type="Audio" />
-                <action disabled="1" id="0" name="Play" sid="2794598943608315" type="Audio">
+                <action id="0" name="Play" sid="2794598943608315" type="Audio">
                     <param id="0" name="Audio file">Game</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>

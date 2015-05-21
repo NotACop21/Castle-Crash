@@ -10,9 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Level Select</layout>
-        <event-sheet active="1" order="1">Level Select EV</event-sheet>
-        <event-sheet order="2">PreGameScreenEV</event-sheet>
+        <layout order="0">MenuScreen</layout>
+        <layout order="2">SAMDLvl4</layout>
+        <layout order="4">GameWon</layout>
+        <event-sheet order="1">GameOverEV</event-sheet>
+        <event-sheet active="1" order="3">GameWonEV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -30,9 +32,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
         <folder expanded="0" path="object-folder/PreGameScreen/" />
-        <folder expanded="1" path="object-folder/LevelSelectSprites/" />
+        <folder expanded="0" path="object-folder/LevelSelectSprites/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
-        <folder expanded="1" path="object-folder/Arrays/" />
+        <folder expanded="0" path="object-folder/Arrays/" />
         <folder expanded="0" path="object-folder/GameWon/" />
         <folder expanded="0" path="object-folder/GameScreenSprites/" />
         <folder expanded="0" path="object-folder/HighScore/" />
@@ -42,12 +44,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/TutScreensSprites/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Levels/" />
-        <folder expanded="0" path="layout-folder/Main Screens/" />
+        <folder expanded="1" path="layout-folder/Main Screens/" />
         <folder expanded="0" path="layout-folder/PreGame/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Levels/" />
         <folder expanded="1" path="event-folder/Main Screens/" />
-        <folder expanded="1" path="event-folder/PreGame/" />
+        <folder expanded="0" path="event-folder/PreGame/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
@@ -59,17 +61,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/HomeButton/" />
         <folder expanded="1" path="animation-folder/GameOverText/" />
         <folder expanded="1" path="animation-folder/lvlselect/" />
-        <folder expanded="1" path="animation-folder/lvl1/" />
         <folder expanded="1" path="animation-folder/addlevel/" />
-        <folder expanded="1" path="animation-folder/lvl2/" />
-        <folder expanded="1" path="animation-folder/lvl3/" />
-        <folder expanded="1" path="animation-folder/lvl4/" />
-        <folder expanded="1" path="animation-folder/lvl5/" />
-        <folder expanded="1" path="animation-folder/lvl6/" />
-        <folder expanded="1" path="animation-folder/lvl7/" />
-        <folder expanded="1" path="animation-folder/lvl8/" />
-        <folder expanded="1" path="animation-folder/lvl9/" />
-        <folder expanded="1" path="animation-folder/lvl10/" />
         <folder expanded="1" path="animation-folder/sublevel/" />
         <folder expanded="1" path="animation-folder/sublevel2/" />
         <folder expanded="1" path="animation-folder/addlevel2/" />
@@ -80,6 +72,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/addsublevel/" />
         <folder expanded="1" path="animation-folder/SAMDselect/" />
         <folder expanded="1" path="animation-folder/redorangeselect/" />
+        <folder expanded="1" path="animation-folder/redorangeselect2/" />
+        <folder expanded="1" path="animation-folder/addsublevel2/" />
+        <folder expanded="1" path="animation-folder/SAMDselect2/" />
+        <folder expanded="1" path="animation-folder/SAMDselect3/" />
+        <folder expanded="1" path="animation-folder/SAMDselect4/" />
         <folder expanded="1" path="animation-folder/LevelClearedText/" />
         <folder expanded="1" path="animation-folder/playbtn/" />
         <folder expanded="1" path="animation-folder/NextLevel/" />

@@ -10,6 +10,7 @@
                 <condition id="-2" name="On start of layout" sid="1347334240992708" type="System" />
             </conditions>
             <actions>
+                <action id="-21" name="Reset global variables" sid="5767004120959645" type="System" />
                 <action id="0" name="Clear" sid="4041078172155439" type="BrickStorage" />
                 <action id="0" name="Clear" sid="3732437974925305" type="RNG8" />
                 <action id="33" name="Stop all" sid="1985861555597761" type="Audio" />
@@ -66,6 +67,10 @@
                     <param id="0" name="Value">100</param>
                     <param id="1" name="Index">7</param>
                     <param id="2" name="Axis">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="5755929557210538" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">13</param>
                 </action>
             </actions>
             <sub-events>
@@ -130,13 +135,13 @@
                         <action id="-3" name="Create object" sid="5611579407331543" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125)) + 25</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width +125)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125)) - 375</param>
                         </action>
                         <action id="-3" name="Create object" sid="1296467322814051" type="System">
                             <param id="0" name="Object to create">Complete</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) + 25</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width - 25)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width + 125)) - 375</param>
                         </action>
                         <action id="-10" name="Set value" sid="2943989363071053" type="Grey1">
@@ -152,7 +157,7 @@
                             <param id="0" name="Object to create">BrickText</param>
                             <param id="1" name="Layer">1</param>
                             <param id="2" name="X">Grey1.X -15</param>
-                            <param id="3" name="Y">Grey1.Y -15</param>
+                            <param id="3" name="Y">Grey1.Y -25</param>
                         </action>
                         <action id="0" name="Set text" sid="1922270039783353" type="BrickText">
                             <param id="0" name="Text">BrickStorage.CurValue</param>
@@ -184,13 +189,13 @@
                         <action id="-3" name="Create object" sid="7728140768178034" type="System">
                             <param id="0" name="Object to create">Grey1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 90</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
                         </action>
                         <action id="-3" name="Create object" sid="6576976003569038" type="System">
                             <param id="0" name="Object to create">Complete</param>
                             <param id="1" name="Layer">0</param>
-                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) - 90</param>
+                            <param id="2" name="X"> (SPAWNX + (loopIndex(&quot;X&quot;))*(Grey1.Width-25)) + 50</param>
                             <param id="3" name="Y">(SPAWNY - (loopIndex(&quot;Y&quot;))*(Grey1.Width - 25))</param>
                         </action>
                         <action id="-10" name="Set value" sid="2810151954567053" type="Grey1">
@@ -332,13 +337,13 @@
                 <action id="-3" name="Create object" sid="3991583103518244" type="System">
                     <param id="0" name="Object to create">Blue</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 275</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
                     <param id="3" name="Y">SPAWNY - 375</param>
                 </action>
                 <action id="-3" name="Create object" sid="4929897542888802" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 275</param>
+                    <param id="2" name="X">SPAWNX + 300</param>
                     <param id="3" name="Y">SPAWNY - 375</param>
                 </action>
                 <action id="-10" name="Set value" sid="6836552025668718" type="Blue">
@@ -380,7 +385,7 @@
                 <action id="-3" name="Create object" sid="8636415934445461" type="System">
                     <param id="0" name="Object to create">BrickText</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">Green.X -22</param>
+                    <param id="2" name="X">Green.X -27</param>
                     <param id="3" name="Y">Green.Y -30</param>
                 </action>
                 <action id="0" name="Set text" sid="4274288331211389" type="BrickText">
@@ -396,14 +401,14 @@
                 <action id="-3" name="Create object" sid="5705910935224645" type="System">
                     <param id="0" name="Object to create">Orange</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 285</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-170)</param>
+                    <param id="2" name="X">SPAWNX + 250</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-300)</param>
                 </action>
                 <action id="-3" name="Create object" sid="7739096054821296" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 285</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-170)</param>
+                    <param id="2" name="X">SPAWNX + 250</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-300)</param>
                 </action>
             </actions>
             <sub-events>
@@ -465,14 +470,14 @@
                 <action id="-3" name="Create object" sid="5179399995989499" type="System">
                     <param id="0" name="Object to create">Red</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">SPAWNX + 250</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-300)</param>
+                    <param id="2" name="X">SPAWNX + 53</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-173)</param>
                 </action>
                 <action id="-3" name="Create object" sid="3885466749802352" type="System">
                     <param id="0" name="Object to create">Complete</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">SPAWNX + 250</param>
-                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-300)</param>
+                    <param id="2" name="X">SPAWNX + 53</param>
+                    <param id="3" name="Y">SPAWNY - ((Grey1.Height*2)-173)</param>
                 </action>
                 <action id="-10" name="Set value" sid="7321493251226009" type="Red">
                     <param id="0" name="Instance variable">BRValue</param>
@@ -762,7 +767,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="9172734326747391" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">235</param>
+                    <param id="1" name="X co-ordinate">260</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="7158662089468773" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -863,7 +868,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="2846946160176179" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">360</param>
+                    <param id="1" name="X co-ordinate">385</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="7367194463099124" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -964,7 +969,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="4383050523468918" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">370</param>
+                    <param id="1" name="X co-ordinate">510</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="5380691771414842" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -1065,7 +1070,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="1140277850556013" type="Grey1">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">245</param>
+                    <param id="1" name="X co-ordinate">385</param>
                 </condition>
                 <condition id="-2" name="Compare Y" sid="7728599244728613" type="Grey1">
                     <param id="0" name="Comparison">0</param>
@@ -2225,7 +2230,7 @@
             </actions>
         </event-block>
         <event-group description="" sid="5680260335112509" title="GS1 Timer9" />
-        <event-block disabled="1" sid="8220844163138936">
+        <event-block sid="8220844163138936">
             <conditions>
                 <condition id="-1" name="Every tick" sid="8454904299983905" type="System" />
             </conditions>
@@ -2250,7 +2255,7 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block disabled="1" sid="7861449279326739">
+                <event-block sid="7861449279326739">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="4742863856925033" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -2264,7 +2269,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="4775805197027161">
+                <event-block sid="4775805197027161">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="3836449967082942" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -2284,7 +2289,7 @@
             </sub-events>
         </event-block>
         <event-group description="" sid="8452474001759232" title="GS1 Timer9" />
-        <event-block disabled="1" sid="9449234871046438">
+        <event-block sid="9449234871046438">
             <conditions>
                 <condition id="-1" name="Every tick" sid="7560670623534124" type="System" />
             </conditions>
@@ -2330,6 +2335,10 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="7283821787169561" type="System">
                     <param id="0" name="Layout">GameWon</param>
+                </action>
+                <action id="-9" name="Set value" sid="24507735358552" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">timer2</param>
                 </action>
             </actions>
         </event-block>

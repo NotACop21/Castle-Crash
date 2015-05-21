@@ -14,7 +14,7 @@
                 <action id="0" name="Clear" sid="4300195394311828" type="BrickStorage" />
                 <action id="0" name="Clear" sid="2563381037988915" type="RNG8" />
                 <action id="33" name="Stop all" sid="2290386690311989" type="Audio" />
-                <action disabled="1" id="0" name="Play" sid="4787588908682898" type="Audio">
+                <action id="0" name="Play" sid="4787588908682898" type="Audio">
                     <param id="0" name="Audio file">Game</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
@@ -2288,6 +2288,10 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="7065297823668747" type="System">
                     <param id="0" name="Layout">GameWon</param>
+                </action>
+                <action id="-9" name="Set value" sid="2627815916355461" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">timer2</param>
                 </action>
             </actions>
         </event-block>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuScreenEV</name>
     <events>
-        <variable constant="0" name="ProperSelect" sid="3196988970359327" static="0" type="number">0</variable>
+        <variable constant="0" name="ProperSelect" sid="3196988970359327" static="0" type="number">1</variable>
         <event-block sid="3495500455726847">
             <conditions>
                 <condition id="4" name="Is touching object" sid="7457667275660479" type="Touch">

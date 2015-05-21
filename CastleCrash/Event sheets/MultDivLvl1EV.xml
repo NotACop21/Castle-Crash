@@ -14,7 +14,7 @@
                 <action id="0" name="Clear" sid="2849968294595105" type="BrickStorage" />
                 <action id="0" name="Clear" sid="8597986862154921" type="RNG8" />
                 <action id="33" name="Stop all" sid="6370848456328519" type="Audio" />
-                <action disabled="1" id="0" name="Play" sid="1881549109497799" type="Audio">
+                <action id="0" name="Play" sid="1881549109497799" type="Audio">
                     <param id="0" name="Audio file">Game</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
@@ -2267,7 +2267,7 @@
             </sub-events>
         </event-block>
         <event-group description="" sid="8423773284645573" title="GS1 Timer15" />
-        <event-block disabled="1" sid="513387102967302">
+        <event-block sid="513387102967302">
             <conditions>
                 <condition id="-1" name="Every tick" sid="5323212974748729" type="System" />
             </conditions>
@@ -2292,7 +2292,7 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block disabled="1" sid="8784372076396757">
+                <event-block sid="8784372076396757">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="2681200768351937" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -2306,7 +2306,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="7733791447533329">
+                <event-block sid="7733791447533329">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="5166061231710223" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -2325,8 +2325,8 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-group description="" disabled="1" sid="5235188050507207" title="GS1 Timer15" />
-        <event-block disabled="1" sid="4778433690978646">
+        <event-group description="" sid="5235188050507207" title="GS1 Timer15" />
+        <event-block sid="4778433690978646">
             <conditions>
                 <condition id="-1" name="Every tick" sid="776818947787612" type="System" />
             </conditions>

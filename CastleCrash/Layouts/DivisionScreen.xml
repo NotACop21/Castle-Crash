@@ -101,7 +101,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>599</x>
-                        <y>553</y>
+                        <y>551.5</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -123,7 +123,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>128</x>
-                        <y>552</y>
+                        <y>550.5</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -145,7 +145,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>360</x>
-                        <y>550</y>
+                        <y>548.5</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -172,7 +172,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>455</x>
-                        <y>517</y>
+                        <y>515.5</y>
                         <z>0</z>
                         <width>100</width>
                         <height>93</height>
@@ -199,7 +199,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>226</x>
-                        <y>512</y>
+                        <y>510.5</y>
                         <z>0</z>
                         <width>115</width>
                         <height>92</height>
@@ -225,8 +225,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>62</x>
-                        <y>699</y>
+                        <x>57</x>
+                        <y>734</y>
                         <z>0</z>
                         <width>606</width>
                         <height>93</height>
@@ -252,13 +252,40 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>360</x>
-                        <y>883</y>
+                        <y>884</y>
                         <z>0</z>
-                        <width>250</width>
-                        <height>100</height>
+                        <width>350</width>
+                        <height>125</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.51111114</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tuttxt" uid="254">
+                    <properties>
+                        <text>You have 30 seconds!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-32,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>198.5</x>
+                        <y>700</y>
+                        <z>0</z>
+                        <width>323</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

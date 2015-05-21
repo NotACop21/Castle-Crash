@@ -212,25 +212,6 @@
             </object-type>
         </object-folder>
         <object-folder name="LevelSelectSprites">
-            <object-type name="lvl1" sid="5738568812078647">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1140730929843298" speed="5">
-                        <frame duration="1" hotspotX="0.504762" hotspotY="0.510638" original-source="C:\Users\Zwick\Desktop\Stuff and Stuff\Level1.png">
-                            <collision-poly>
-                                <point x="0.00952381" y="0.0212766" />
-                                <point x="0.495238" y="0" />
-                                <point x="0.971429" y="0.0638298" />
-                                <point x="1" y="0.489362" />
-                                <point x="0.980952" y="0.957447" />
-                                <point x="0.495238" y="1" />
-                                <point x="0.0285714" y="0.93617" />
-                                <point x="0" y="0.489362" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="addlevel" sid="3688869438671274">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -245,177 +226,6 @@
                                 <point x="0.5" y="0.97" />
                                 <point x="0.06" y="0.94" />
                                 <point x="0.02" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl2" sid="9975828725825002">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8610290476346986" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl2.png">
-                            <collision-poly>
-                                <point x="0.00943396" y="0.0222222" />
-                                <point x="0.5" y="0" />
-                                <point x="0.981132" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981132" y="0.955556" />
-                                <point x="0.5" y="1" />
-                                <point x="0.0188679" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl3" sid="8275433561934336">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7582213744869916" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl3.png">
-                            <collision-poly>
-                                <point x="0.00925926" y="0.0222222" />
-                                <point x="0.5" y="0" />
-                                <point x="0.981481" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981481" y="0.955556" />
-                                <point x="0.5" y="1" />
-                                <point x="0.0185185" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl4" sid="925793641272669">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4749656519442402" speed="5">
-                        <frame duration="1" hotspotX="0.504587" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl4.png">
-                            <collision-poly>
-                                <point x="0.00917431" y="0.0222222" />
-                                <point x="0.495413" y="0" />
-                                <point x="0.981651" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981651" y="0.955556" />
-                                <point x="0.495413" y="1" />
-                                <point x="0.0183486" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl5" sid="616130357222575">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3218733091886828" speed="5">
-                        <frame duration="1" hotspotX="0.504673" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl5.png">
-                            <collision-poly>
-                                <point x="0.00934579" y="0.0222222" />
-                                <point x="0.495327" y="0" />
-                                <point x="0.981308" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981308" y="0.955556" />
-                                <point x="0.495327" y="1" />
-                                <point x="0.0186916" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl6" sid="1568279849761434">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2950868390997187" speed="5">
-                        <frame duration="1" hotspotX="0.504673" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl6.png">
-                            <collision-poly>
-                                <point x="0.00934579" y="0.0222222" />
-                                <point x="0.495327" y="0" />
-                                <point x="0.981308" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981308" y="0.955556" />
-                                <point x="0.495327" y="1" />
-                                <point x="0.0186916" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl7" sid="107061973127809">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6392480929410112" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl7.png">
-                            <collision-poly>
-                                <point x="0.00943396" y="0.0222222" />
-                                <point x="0.5" y="0" />
-                                <point x="0.981132" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981132" y="0.955556" />
-                                <point x="0.5" y="1" />
-                                <point x="0.0188679" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl8" sid="5222213259294107">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5575402504068147" speed="5">
-                        <frame duration="1" hotspotX="0.504673" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl8.png">
-                            <collision-poly>
-                                <point x="0.00934579" y="0.0222222" />
-                                <point x="0.495327" y="0" />
-                                <point x="0.981308" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981308" y="0.955556" />
-                                <point x="0.495327" y="1" />
-                                <point x="0.0186916" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl9" sid="2679102809179688">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551691496214623" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl9.png">
-                            <collision-poly>
-                                <point x="0.00925926" y="0.0222222" />
-                                <point x="0.5" y="0" />
-                                <point x="0.981481" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981481" y="0.955556" />
-                                <point x="0.5" y="1" />
-                                <point x="0.0185185" y="0.955556" />
-                                <point x="0" y="0.488889" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="lvl10" sid="95357571611325">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2052717737259032" speed="5">
-                        <frame duration="1" hotspotX="0.504505" hotspotY="0.511111" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\lvl10.png">
-                            <collision-poly>
-                                <point x="0.00900901" y="0.0222222" />
-                                <point x="0.495495" y="0" />
-                                <point x="0.981982" y="0.0444444" />
-                                <point x="1" y="0.488889" />
-                                <point x="0.981982" y="0.955556" />
-                                <point x="0.495495" y="1" />
-                                <point x="0.018018" y="0.955556" />
-                                <point x="0" y="0.488889" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -597,6 +407,149 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6427815796537822" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\subaddlvlselect.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.06" />
+                                <point x="0.5" y="0.03" />
+                                <point x="0.94" y="0.06" />
+                                <point x="0.96" y="0.5" />
+                                <point x="0.94" y="0.94" />
+                                <point x="0.5" y="0.97" />
+                                <point x="0.06" y="0.94" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Level1" sid="1869330008713633">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level2" sid="7385626081741928">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level3" sid="7884266367586559">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level4" sid="327652390649952">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level5" sid="4574630325246666">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level6" sid="9689019079525897">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level7" sid="1777297016651288">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level8" sid="8841529173530482">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level9" sid="5811297174176752">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level10" sid="9120785504268179">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level11" sid="7387430275217205">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level12" sid="3865969340444202">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level13" sid="6284537247761431">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level14" sid="1514494387239901">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level15" sid="708433138113757">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Level16" sid="8802917129470465">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="redorangeselect2" sid="6395559518441898">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6846407469347458" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\subaddlvlselect.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.06" />
+                                <point x="0.5" y="0.03" />
+                                <point x="0.94" y="0.06" />
+                                <point x="0.96" y="0.5" />
+                                <point x="0.94" y="0.94" />
+                                <point x="0.5" y="0.97" />
+                                <point x="0.06" y="0.94" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="addsublevel2" sid="347879628848134">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2129954609192636" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\subaddlvlselect.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.06" />
+                                <point x="0.5" y="0.03" />
+                                <point x="0.94" y="0.06" />
+                                <point x="0.96" y="0.5" />
+                                <point x="0.94" y="0.94" />
+                                <point x="0.5" y="0.97" />
+                                <point x="0.06" y="0.94" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SAMDselect2" sid="3484961243249384">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9583940179209595" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\foursqaurelevelselect.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.06" />
+                                <point x="0.5" y="0.03" />
+                                <point x="0.94" y="0.06" />
+                                <point x="0.96" y="0.5" />
+                                <point x="0.94" y="0.94" />
+                                <point x="0.5" y="0.97" />
+                                <point x="0.06" y="0.94" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SAMDselect3" sid="3850447641211745">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6307735280542395" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\foursqaurelevelselect.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.06" />
+                                <point x="0.5" y="0.03" />
+                                <point x="0.94" y="0.06" />
+                                <point x="0.96" y="0.5" />
+                                <point x="0.94" y="0.94" />
+                                <point x="0.5" y="0.97" />
+                                <point x="0.06" y="0.94" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SAMDselect4" sid="4118276674599489">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7541668913209588" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Matt\Dropbox\Shared\Projects Course 2910\foursqaurelevelselect.png">
                             <collision-poly>
                                 <point x="0.06" y="0.06" />
                                 <point x="0.5" y="0.03" />
@@ -2772,6 +2725,7 @@
             <layout>SAMDLvl1.xml</layout>
             <layout>SAMDLvl2.xml</layout>
             <layout>SAMDLvl3.xml</layout>
+            <layout>SAMDLvl4.xml</layout>
         </layout-folder>
         <layout-folder name="Main Screens">
             <layout>MenuScreen.xml</layout>
@@ -2806,6 +2760,7 @@
             <event-sheet>DivLvl2EV.xml</event-sheet>
             <event-sheet>MultDivLvl1EV.xml</event-sheet>
             <event-sheet>MultDivLvl2EV.xml</event-sheet>
+            <event-sheet>SAMDLVL4EV.xml</event-sheet>
         </event-folder>
         <event-folder name="Main Screens">
             <event-sheet>GameOverEV.xml</event-sheet>

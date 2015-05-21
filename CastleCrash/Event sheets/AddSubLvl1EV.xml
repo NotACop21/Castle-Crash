@@ -14,7 +14,7 @@
                 <action id="0" name="Clear" sid="4673222999106486" type="BrickStorage" />
                 <action id="0" name="Clear" sid="4832201112411413" type="RNG8" />
                 <action id="33" name="Stop all" sid="1195593596091271" type="Audio" />
-                <action disabled="1" id="0" name="Play" sid="2280885761645346" type="Audio">
+                <action id="0" name="Play" sid="2280885761645346" type="Audio">
                     <param id="0" name="Audio file">Game</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
@@ -2193,7 +2193,7 @@
             </actions>
         </event-block>
         <event-group description="" sid="4548370424516002" title="GS1 Timer7" />
-        <event-block disabled="1" sid="6259025429615773">
+        <event-block sid="6259025429615773">
             <conditions>
                 <condition id="-1" name="Every tick" sid="9009471711163132" type="System" />
             </conditions>
@@ -2218,7 +2218,7 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block disabled="1" sid="1801607994823394">
+                <event-block sid="1801607994823394">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="6332193951723511" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -2232,7 +2232,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="3537072509340282">
+                <event-block sid="3537072509340282">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="8365925211594187" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -2252,7 +2252,7 @@
             </sub-events>
         </event-block>
         <event-group description="" sid="8741679588389174" title="GS1 Timer7" />
-        <event-block disabled="1" sid="7093084519711708">
+        <event-block sid="7093084519711708">
             <conditions>
                 <condition id="-1" name="Every tick" sid="4703439255590134" type="System" />
             </conditions>
@@ -2298,6 +2298,10 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="3419268620233005" type="System">
                     <param id="0" name="Layout">GameWon</param>
+                </action>
+                <action id="-9" name="Set value" sid="4129126772769355" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">timer2</param>
                 </action>
             </actions>
         </event-block>

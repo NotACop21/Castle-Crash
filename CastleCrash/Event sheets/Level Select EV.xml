@@ -81,123 +81,403 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="5681101054405381">
+        <event-block sid="6896783918090992">
             <conditions>
-                <condition id="3" name="On touched object" sid="6409622735068912" type="Touch">
-                    <param id="0" name="Object">lvl1</param>
+                <condition id="3" name="On touched object" sid="6799606192646587" type="Touch">
+                    <param id="0" name="Object">addlevel</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="4847063681478394" type="System">
-                    <param id="0" name="Layout">AddLvl1</param>
+                <action id="0" name="Play" sid="9034346140761214" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="7727690812703138" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="5569474088324372" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="7451495533440424" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="6604197454315962">
+        <event-block sid="5415204854691741">
             <conditions>
-                <condition id="3" name="On touched object" sid="4379171447958886" type="Touch">
-                    <param id="0" name="Object">lvl2</param>
+                <condition id="3" name="On touched object" sid="4605989198816772" type="Touch">
+                    <param id="0" name="Object">addlevel2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="8356694334693727" type="System">
-                    <param id="0" name="Layout">AddLvl2</param>
+                <action id="0" name="Play" sid="4201600343469841" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="8735123742376155" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-16" name="Wait" sid="9697672064790526" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2566191524630141" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7313808605979738">
+        <event-block sid="9847725826432043">
             <conditions>
-                <condition id="3" name="On touched object" sid="2189094551326117" type="Touch">
-                    <param id="0" name="Object">lvl3</param>
+                <condition id="3" name="On touched object" sid="8642755292713158" type="Touch">
+                    <param id="0" name="Object">sublevel</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="5675483688234799" type="System">
-                    <param id="0" name="Layout">SubLvl1</param>
+                <action id="0" name="Play" sid="3381228027552426" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2773965840886343" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-16" name="Wait" sid="980971189874851" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2207223280619528" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3629737027313392">
+        <event-block sid="5405267175280002">
             <conditions>
-                <condition id="3" name="On touched object" sid="2180716887063911" type="Touch">
-                    <param id="0" name="Object">lvl4</param>
+                <condition id="3" name="On touched object" sid="6092369456569276" type="Touch">
+                    <param id="0" name="Object">sublevel2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="8994328705094716" type="System">
-                    <param id="0" name="Layout">SubLvl2</param>
+                <action id="0" name="Play" sid="9564545647745391" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="5272467545748194" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-16" name="Wait" sid="4047243342251979" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8939800789191868" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8896894927657711">
+        <event-block sid="7758452533846822">
             <conditions>
-                <condition id="3" name="On touched object" sid="8805830424484486" type="Touch">
-                    <param id="0" name="Object">lvl5</param>
+                <condition id="3" name="On touched object" sid="6646562121069222" type="Touch">
+                    <param id="0" name="Object">addsublevel</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="3627587029726446" type="System">
-                    <param id="0" name="Layout">AddSubLvl1</param>
+                <action id="0" name="Play" sid="8656037101293254" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2184585394788069" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-16" name="Wait" sid="308955746937211" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5796747827781636" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8101946952577231">
+        <event-block sid="7767266595587462">
             <conditions>
-                <condition id="3" name="On touched object" sid="1268910607234915" type="Touch">
-                    <param id="0" name="Object">lvl6</param>
+                <condition id="3" name="On touched object" sid="4358032594870011" type="Touch">
+                    <param id="0" name="Object">addsublevel2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="3120358078401314" type="System">
-                    <param id="0" name="Layout">AddSubLvl2</param>
+                <action id="0" name="Play" sid="6975871910852697" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="9368560430326364" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">6</param>
+                </action>
+                <action id="-16" name="Wait" sid="7972519012507028" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="7264702764497531" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="5250363831666166">
+        <event-block sid="2682616614374692">
             <conditions>
-                <condition id="3" name="On touched object" sid="2333004599991175" type="Touch">
-                    <param id="0" name="Object">lvl7</param>
+                <condition id="3" name="On touched object" sid="6686698352088159" type="Touch">
+                    <param id="0" name="Object">multiplylevel</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="7161374293516565" type="System">
-                    <param id="0" name="Layout">MultLvl1</param>
+                <action id="0" name="Play" sid="2606326269428422" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="8553835441582443" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">7</param>
+                </action>
+                <action id="-16" name="Wait" sid="6940769628253873" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4795198870436962" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="442037828494406">
+        <event-block sid="4277389620543338">
             <conditions>
-                <condition id="3" name="On touched object" sid="5038019389388209" type="Touch">
-                    <param id="0" name="Object">lvl8</param>
+                <condition id="3" name="On touched object" sid="1539245955635609" type="Touch">
+                    <param id="0" name="Object">multiplylevel2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="6975173086762072" type="System">
-                    <param id="0" name="Layout">MultLvl2</param>
+                <action id="-9" name="Set value" sid="4099283106819732" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">8</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5987564917051837" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+                <action id="-16" name="Wait" sid="9991797184825903" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Play" sid="2725229689746842" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3508085093944111">
+        <event-block sid="4205239257499858">
             <conditions>
-                <condition id="3" name="On touched object" sid="7961912310854222" type="Touch">
-                    <param id="0" name="Object">lvl9</param>
+                <condition id="3" name="On touched object" sid="9330488990727628" type="Touch">
+                    <param id="0" name="Object">divlevel</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="4904578456943862" type="System">
-                    <param id="0" name="Layout">DivLvl1</param>
+                <action id="0" name="Play" sid="198967355583374" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="1578307246809035" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">9</param>
+                </action>
+                <action id="-16" name="Wait" sid="113242956570266" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2359165947811672" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8826468676938235">
+        <event-block sid="6921851904639192">
             <conditions>
-                <condition id="3" name="On touched object" sid="6725822076727109" type="Touch">
-                    <param id="0" name="Object">lvl10</param>
+                <condition id="3" name="On touched object" sid="109043087082164" type="Touch">
+                    <param id="0" name="Object">divlevel2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="3454746320923281" type="System">
-                    <param id="0" name="Layout">DivLvl2</param>
+                <action id="0" name="Play" sid="8094787590553686" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="352728380527786" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-16" name="Wait" sid="8916787792187035" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3476244363532718" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4102976768025452">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3823132444586752" type="Touch">
+                    <param id="0" name="Object">redorangeselect</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1578165800266571" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="6161936249668311" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">11</param>
+                </action>
+                <action id="-16" name="Wait" sid="3184380001156968" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9461226516379059" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6151544838107678">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8460631759026358" type="Touch">
+                    <param id="0" name="Object">redorangeselect2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1580169784425739" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="4945376293861412" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">12</param>
+                </action>
+                <action id="-16" name="Wait" sid="3827260352055022" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2756775406488145" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5258050866516961">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8040330437597999" type="Touch">
+                    <param id="0" name="Object">SAMDselect</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7249370731439856" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="329888651906731" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">13</param>
+                </action>
+                <action id="-16" name="Wait" sid="1727205322157148" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="254534848793977" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7149425325473741">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6557120139935611" type="Touch">
+                    <param id="0" name="Object">SAMDselect2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="6569264181635369" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="1153179216819378" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">14</param>
+                </action>
+                <action id="-16" name="Wait" sid="723192719349567" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="3194187114628907" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5333987210048808">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9133087420205317" type="Touch">
+                    <param id="0" name="Object">SAMDselect3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5632620660944567" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="1093279623738341" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">15</param>
+                </action>
+                <action id="-16" name="Wait" sid="838972311183158" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="239417907791447" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3054069236869534">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4736117764296388" type="Touch">
+                    <param id="0" name="Object">SAMDselect4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="3014458140624153" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="1330672778479258" type="System">
+                    <param id="0" name="Variable">ProperSelect</param>
+                    <param id="1" name="Value">16</param>
+                </action>
+                <action id="-16" name="Wait" sid="624839981013408" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1107263245083866" type="System">
+                    <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
         </event-block>
