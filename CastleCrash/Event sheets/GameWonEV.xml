@@ -16,6 +16,8 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="0" name="Request player details" sid="2685702621809647" type="GooglePlay" />
+                <action id="6" name="Get metadata" sid="5641626215171674" type="GooglePlay" />
             </actions>
         </event-block>
         <event-group description="" sid="2498795061017766" title="Scoring / Submit" />
@@ -803,6 +805,114 @@
                     <param id="0" name="Layout">PreGameScreen</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="4178134820643823">
+            <conditions>
+                <condition id="15" name="On achievement metadata success" sid="4717348388247976" type="GooglePlay" />
+            </conditions>
+            <actions>
+                <action id="5" name="List achievements" sid="6277710565823883" type="GooglePlay">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7005318963104971">
+            <conditions>
+                <condition id="12" name="On achievement list success" sid="8760574356795838" type="GooglePlay" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="232420866789566">
+                    <conditions>
+                        <condition id="14" name="Compare achievement state" sid="2726839034663387" type="GooglePlay">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="State">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="8285315846378667" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9335184711736279" type="GWAchText">
+                            <param id="0" name="Text">&quot;Your an addition magician!&quot;</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="80818667517364" type="GWTrophySprite">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(0)</param>
+                            <param id="1" name="Size">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1933320820660576">
+                    <conditions>
+                        <condition id="14" name="Compare achievement state" sid="6210261984886555" type="GooglePlay">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="State">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="7264671340826714" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7743919100394012" type="GWAchText">
+                            <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="6062205301205329" type="GWTrophySprite">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(1)</param>
+                            <param id="1" name="Size">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3980834204255241">
+                    <conditions>
+                        <condition id="14" name="Compare achievement state" sid="1669810484581115" type="GooglePlay">
+                            <param id="0" name="Index">2</param>
+                            <param id="1" name="State">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="3896881570465723" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7828877790784735" type="GWAchText">
+                            <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="7185319798068505" type="GWTrophySprite">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(2)</param>
+                            <param id="1" name="Size">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9596061897187811">
+                    <conditions>
+                        <condition id="14" name="Compare achievement state" sid="8247058720635086" type="GooglePlay">
+                            <param id="0" name="Index">3</param>
+                            <param id="1" name="State">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="81392660493376" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8416661331002258" type="GWAchText">
+                            <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="266454019438047" type="GWTrophySprite">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(3)</param>
+                            <param id="1" name="Size">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6867283898247753">
+                    <conditions>
+                        <condition id="14" name="Compare achievement state" sid="7633987387961992" type="GooglePlay">
+                            <param id="0" name="Index">4</param>
+                            <param id="1" name="State">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="5252571433975639" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4673703294535057" type="GWAchText">
+                            <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="2845978375303971" type="GWTrophySprite">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(4)</param>
+                            <param id="1" name="Size">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

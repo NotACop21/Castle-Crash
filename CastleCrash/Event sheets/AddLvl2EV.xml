@@ -2294,6 +2294,26 @@
                     <param id="1" name="Value">timer2</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="1493071475844095">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="2525872171948368" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Increment" sid="7861590946454955" type="GooglePlay">
+                            <param id="0" name="Achievement ID">BeatAdditionAchv</param>
+                            <param id="1" name="Steps">1</param>
+                        </action>
+                        <action id="8" name="Unlock" sid="9542623953169306" type="GooglePlay">
+                            <param id="0" name="Achievement ID">BeatAdditionAchv</param>
+                        </action>
+                        <action id="9" name="Increment" sid="2618723922956909" type="GooglePlay">
+                            <param id="0" name="Achievement ID">Beat8Lvls</param>
+                            <param id="1" name="Steps">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

@@ -561,5 +561,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="381420554075971">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1462713705599422" type="Touch">
+                    <param id="0" name="Object">AchvButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4439432620651705" type="System">
+                    <param id="0" name="Layout">Achievements</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

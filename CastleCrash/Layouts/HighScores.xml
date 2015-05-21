@@ -495,7 +495,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ACHIEVEMENTS" uid="76">
+                <instance type="AchvButton" uid="320">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -505,11 +505,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>336</x>
-                        <y>1024</y>
+                        <x>360</x>
+                        <y>1008</y>
                         <z>0</z>
-                        <width>182</width>
-                        <height>46</height>
+                        <width>128</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

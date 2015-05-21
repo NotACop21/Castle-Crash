@@ -24,6 +24,7 @@
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
+        <plugin author="Scirra" id="googleplay" version="1">Google Play</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
@@ -648,6 +649,17 @@
                                 <point x="0" y="0.5" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GWAchText" sid="8771146539751977">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="GWTrophySprite" sid="5654446735649287">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9453667847046398" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2989,6 +3001,165 @@
                 <plugin id="Text" />
             </object-type>
         </object-folder>
+        <object-folder name="Achievements">
+            <object-type name="GooglePlay" sid="1047172361802217">
+                <plugin id="googleplay" />
+            </object-type>
+            <object-type name="Beat8Lvls" sid="5135339315589584">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9875263885075622" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BeatAdd" sid="4956136755596059">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2500336398127426" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BeatDiv" sid="5955181572970439">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3768071739370963" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BeatMulti" sid="3527053209620215">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3881049247990405" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BeatSub" sid="9036364068105906">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8735218813265376" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UnlockTrophy" sid="5656761007121773">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2205123969434672" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\GreyedOut.png">
+                            <collision-poly>
+                                <point x="0.0800781" y="0.0800781" />
+                                <point x="0.5" y="0.0566406" />
+                                <point x="0.917969" y="0.0820313" />
+                                <point x="0.642578" y="0.5" />
+                                <point x="0.785156" y="0.785156" />
+                                <point x="0.5" y="0.984375" />
+                                <point x="0.214844" y="0.785156" />
+                                <point x="0.353516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UnlockTrophy2" sid="4151509802056338">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5637996356809659" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\GreyedOut.png">
+                            <collision-poly>
+                                <point x="0.0800781" y="0.0800781" />
+                                <point x="0.5" y="0.0566406" />
+                                <point x="0.917969" y="0.0820313" />
+                                <point x="0.642578" y="0.5" />
+                                <point x="0.785156" y="0.785156" />
+                                <point x="0.5" y="0.984375" />
+                                <point x="0.214844" y="0.785156" />
+                                <point x="0.353516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UnlockTrophy3" sid="449426879305022">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5474214777814237" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\GreyedOut.png">
+                            <collision-poly>
+                                <point x="0.0800781" y="0.0800781" />
+                                <point x="0.5" y="0.0566406" />
+                                <point x="0.917969" y="0.0820313" />
+                                <point x="0.642578" y="0.5" />
+                                <point x="0.785156" y="0.785156" />
+                                <point x="0.5" y="0.984375" />
+                                <point x="0.214844" y="0.785156" />
+                                <point x="0.353516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UnlockTrophy4" sid="1405168469427899">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5309049211538133" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\GreyedOut.png">
+                            <collision-poly>
+                                <point x="0.0800781" y="0.0800781" />
+                                <point x="0.5" y="0.0566406" />
+                                <point x="0.917969" y="0.0820313" />
+                                <point x="0.642578" y="0.5" />
+                                <point x="0.785156" y="0.785156" />
+                                <point x="0.5" y="0.984375" />
+                                <point x="0.214844" y="0.785156" />
+                                <point x="0.353516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UnlockTrophy8" sid="8196619792924843">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8906608173246669" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\GreyRainbow.png">
+                            <collision-poly>
+                                <point x="0.240234" y="0.240234" />
+                                <point x="0.5" y="0.152344" />
+                                <point x="0.759766" y="0.240234" />
+                                <point x="0.927734" y="0.5" />
+                                <point x="0.822266" y="0.822266" />
+                                <point x="0.5" y="0.494141" />
+                                <point x="0.277344" y="0.722656" />
+                                <point x="0.078125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AchvButton" sid="2284269982773185">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2984332293622844" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\trophybutton.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Button" sid="3650483288887839">
             <plugin id="Button" />
         </object-type>
@@ -3015,6 +3186,17 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6212329071556972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="7165349415016125">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite3" sid="6221198372660893">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5852984155272124" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -3098,6 +3280,7 @@
             <layout>HighScores.xml</layout>
             <layout>HS3.xml</layout>
             <layout>HS2.xml</layout>
+            <layout>Achievements.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -3134,6 +3317,7 @@
         </event-folder>
         <event-folder name="HighScores">
             <event-sheet>HighScores EV.xml</event-sheet>
+            <event-sheet>Achievements EV.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
@@ -3159,6 +3343,13 @@
         <global-instance type="Mouse" uid="102" />
         <global-instance type="AJAX" uid="69" />
         <global-instance type="WebStorage" uid="122" />
+        <global-instance type="GooglePlay" uid="82">
+            <properties>
+                <application-id>538858165588</application-id>
+                <client-id>538858165588-s48261io49b7sk33i867vt6idqd96ntl.apps.googleusercontent.com</client-id>
+                <client-secret>OOwAxIs9cznektL6oqkwympc</client-secret>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder>
         <file name="Menu buttons.ogg" />
