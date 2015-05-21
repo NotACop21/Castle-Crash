@@ -35,15 +35,280 @@
                     <param id="0" name="Object">Submit</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="2" name="Post to URL" sid="336018512209131" type="AJAX">
-                    <param id="0" name="Tag">&quot;PostScore&quot;</param>
-                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;Level &amp; &quot;&amp;score=&quot;&amp;Score</param>
-                    <param id="2" name="Data">&quot;&quot;</param>
-                    <param id="3" name="Method">&quot;POST&quot;</param>
-                </action>
-            </actions>
+            <actions />
             <sub-events>
+                <event-block sid="1360024829768724">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4845171655941988" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="336018512209131" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="580054131639857">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5620812448988626" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="6858343676301368" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1210491517497425">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6344699878667056" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="8465189490093736" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3182983904157113">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2784895542750736" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="61431783737902" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9279912850161233">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1905062009633836" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="4120775989734863" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3785632628994866">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8176253444599441" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="8087514912981223" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6407522784446819">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="623968791360268" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="9524050656135825" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1602701249169983">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2268811974688258" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="4548974489930395" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4835334449250622">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9136382078246331" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="1562278215243335" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1343461058415581">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1373497470659121" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="3919889994720127" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4268199341362819">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7709166922847696" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="9974189686456688" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6183844438211171">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="898845193924027" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="6087220360715259" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8263056246449465">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2659105029314141" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="4921170404254322" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2256690257723875">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5107613020977988" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="474391021830517" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7383552021271255">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9591808017302102" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="7247778188675381" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="889973217859827">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2530094710688606" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Post to URL" sid="434244008835427" type="AJAX">
+                            <param id="0" name="Tag">&quot;PostScore&quot;</param>
+                            <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;ProperSelect &amp; &quot;&amp;score=&quot;&amp;Score</param>
+                            <param id="2" name="Data">&quot;&quot;</param>
+                            <param id="3" name="Method">&quot;POST&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="9874146569402558">
                     <conditions />
                     <actions>
@@ -53,81 +318,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="943489618032448">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="8188011909917505" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Request URL" sid="5256449690750207" type="AJAX">
-                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
-                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="4609268985059341">
-            <conditions>
-                <condition id="0" name="On completed" sid="1588712029784417" type="AJAX">
-                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-12" name="Set group active" sid="6078772639169257" type="System">
-                    <param id="0" name="Group name">&quot;Do Array2&quot;</param>
-                    <param id="1" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3095336505166219">
-            <conditions>
-                <condition id="0" name="On completed" sid="6915264914619349" type="AJAX">
-                    <param id="0" name="Tag">&quot;PostScore&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Request URL" sid="6193799367812744" type="AJAX">
-                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
-                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-group description="" sid="2151466982977166" title="Do Array2">
-            <sub-events>
-                <event-block sid="9795451878638472">
-                    <conditions>
-                        <condition id="3" name="For each element" sid="7735824144202104" type="Array">
-                            <param id="0" name="Axes">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="2" name="Set at X" sid="4185396709572948" type="Array">
-                            <param id="0" name="X">Array.CurX</param>
-                            <param id="1" name="Value">tokenat(Ajax.LastData,Array.CurX, &quot;|&quot;)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="865398280604588">
-                    <conditions>
-                        <condition id="-11" name="For Each" sid="1916331088043738" type="System">
-                            <param id="0" name="Object">Text</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="5984711155709667" type="Text">
-                            <param id="0" name="Text">Array.At(Text.IID)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="7696031650793038">
-                    <conditions />
-                    <actions>
-                        <action id="-12" name="Set group active" sid="1643288183082004" type="System">
-                            <param id="0" name="Group name">&quot;Do Array2&quot;</param>
-                            <param id="1" name="State">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-block sid="348909820237588">
             <conditions>
                 <condition id="-3" name="Is on-screen" sid="8112013191632613" type="txtPlayerName" />

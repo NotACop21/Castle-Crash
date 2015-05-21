@@ -16,32 +16,11 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="6876921171329858">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="9211849720226387" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Submit</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="2" name="Post to URL" sid="8012187447961758" type="AJAX">
-                    <param id="0" name="Tag">&quot;PostScore&quot;</param>
-                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/savescores.php?name=&quot;&amp;txtPlayerName.Text &amp; &quot;&amp;level=&quot;&amp;Level &amp; &quot;&amp;score=&quot;&amp;Score</param>
-                    <param id="2" name="Data">&quot;&quot;</param>
-                    <param id="3" name="Method">&quot;POST&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="8409714791468147">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="3336397167145654" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Request URL" sid="3622219614934058" type="AJAX">
-                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
-                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
-                </action>
                 <action id="33" name="Stop all" sid="4313044980707582" type="Audio" />
                 <action id="0" name="Play" sid="6613267636570525" type="Audio">
                     <param id="0" name="Audio file">Castle_Crash_menu2</param>
@@ -73,7 +52,263 @@
             <actions>
                 <action id="0" name="Request URL" sid="2554475543551019" type="AJAX">
                     <param id="0" name="Tag">&quot;GetScores&quot;</param>
-                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores.php&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores1.php&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1018467663623927">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4466557736869386" type="Touch">
+                    <param id="0" name="Object">L1SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="1064271310221117" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores1.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5284312155743309" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4874949954587325">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6367723555058133" type="Touch">
+                    <param id="0" name="Object">L2SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="3643951682910381" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores2.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6652333872154788" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5359465514086983">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6828243446223795" type="Touch">
+                    <param id="0" name="Object">L3SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="2884743287477292" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores3.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6962416131049336" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="921856355263688">
+            <conditions>
+                <condition id="3" name="On touched object" sid="567689184371446" type="Touch">
+                    <param id="0" name="Object">L4SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="7677582659885375" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores4.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4136525363571309" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1929142006834068">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1251252253763986" type="Touch">
+                    <param id="0" name="Object">L5SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="4666578236291023" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores5.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8363086666030928" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8403505671217571">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5853984567101521" type="Touch">
+                    <param id="0" name="Object">L6SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="4734376968689034" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores6.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6022236078017185" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2581671576507634">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6957412121716557" type="Touch">
+                    <param id="0" name="Object">L7SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="2139243908042851" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores7.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4587447831216473" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9246633133376193">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7313296088339285" type="Touch">
+                    <param id="0" name="Object">L8SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="914332836000273" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores8.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8209228441383019" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5710656178689297">
+            <conditions>
+                <condition id="3" name="On touched object" sid="870949532332255" type="Touch">
+                    <param id="0" name="Object">L9SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="3819884607663438" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores9.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5427080306980186" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1178707957476358">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9788346944555918" type="Touch">
+                    <param id="0" name="Object">L10SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="4664750343113407" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores10.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2527710245144001" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8344543416063823">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3537913133747197" type="Touch">
+                    <param id="0" name="Object">L11SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="8897698658790388" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores11.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="7822339546166318" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7380069465480044">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6560533277895585" type="Touch">
+                    <param id="0" name="Object">L12SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="9670773249771665" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores12.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4415287823123356" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2163951836171729">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6296608241972929" type="Touch">
+                    <param id="0" name="Object">L13SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="9554049156656989" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores13.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="8965781921920043" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="466042479701135">
+            <conditions>
+                <condition id="3" name="On touched object" sid="123676775467718" type="Touch">
+                    <param id="0" name="Object">L14SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="8725778413623988" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores14.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="887430740464364" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8990009821988633">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8208966533362991" type="Touch">
+                    <param id="0" name="Object">L15SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="4166179646169729" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores15.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="7231545458733589" type="System">
+                    <param id="0" name="Layout">HS2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9110536899709759">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2828149036179942" type="Touch">
+                    <param id="0" name="Object">L16SCORE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="6324429278414665" type="AJAX">
+                    <param id="0" name="Tag">&quot;GetScores&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.meowzergames.com/cgi-bin/getscores16.php&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4559239419747386" type="System">
+                    <param id="0" name="Layout">HS2</param>
                 </action>
             </actions>
         </event-block>

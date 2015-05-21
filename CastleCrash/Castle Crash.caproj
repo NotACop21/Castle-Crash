@@ -714,6 +714,329 @@
             </object-type>
         </object-folder>
         <object-folder name="HighScore">
+            <object-folder name="LEVEL BUTTONS">
+                <object-type name="L1SCORE" sid="34265710623109">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1775686195858856" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (5).png">
+                                <collision-poly>
+                                    <point x="0.00961538" y="0.0217391" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.980769" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.980769" y="0.956522" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0192308" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L2SCORE" sid="713716459922431">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3510370049583792" speed="5">
+                            <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (6).png">
+                                <collision-poly>
+                                    <point x="0.00900901" y="0.0217391" />
+                                    <point x="0.495495" y="0" />
+                                    <point x="0.981982" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.981982" y="0.956522" />
+                                    <point x="0.495495" y="1" />
+                                    <point x="0.018018" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L3SCORE" sid="5376167114317977">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7082840609714035" speed="5">
+                            <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (7).png">
+                                <collision-poly>
+                                    <point x="0.00900901" y="0.0217391" />
+                                    <point x="0.495495" y="0" />
+                                    <point x="0.981982" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.981982" y="0.956522" />
+                                    <point x="0.495495" y="1" />
+                                    <point x="0.018018" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L4SCORE" sid="5853769838801479">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7920544473367814" speed="5">
+                            <frame duration="1" hotspotX="0.504425" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (8).png">
+                                <collision-poly>
+                                    <point x="0.00884956" y="0.0217391" />
+                                    <point x="0.495575" y="0" />
+                                    <point x="0.982301" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982301" y="0.956522" />
+                                    <point x="0.495575" y="1" />
+                                    <point x="0.0176991" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L5SCORE" sid="2099845618151181">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="641718735147897" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (10).png">
+                                <collision-poly>
+                                    <point x="0.00884956" y="0.0217391" />
+                                    <point x="0.495575" y="0" />
+                                    <point x="0.982301" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982301" y="0.956522" />
+                                    <point x="0.495575" y="1" />
+                                    <point x="0.0176991" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L6SCORE" sid="6682606051971006">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4959128445346856" speed="5">
+                            <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (11).png">
+                                <collision-poly>
+                                    <point x="0.00900901" y="0.0217391" />
+                                    <point x="0.495495" y="0" />
+                                    <point x="0.981982" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.981982" y="0.956522" />
+                                    <point x="0.495495" y="1" />
+                                    <point x="0.018018" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L7SCORE" sid="4011734466220558">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1369169433292563" speed="5">
+                            <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (12).png">
+                                <collision-poly>
+                                    <point x="0.00900901" y="0.0217391" />
+                                    <point x="0.495495" y="0" />
+                                    <point x="0.981982" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.981982" y="0.956522" />
+                                    <point x="0.495495" y="1" />
+                                    <point x="0.018018" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L8SCORE" sid="8615623821500712">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410720802045844" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (13).png">
+                                <collision-poly>
+                                    <point x="0.00909091" y="0.0217391" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.981818" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.981818" y="0.956522" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0181818" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L11SCORE" sid="5456263929169385">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7383222840322671" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (16).png">
+                                <collision-poly>
+                                    <point x="0.00909091" y="0.0217391" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.981818" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.981818" y="0.956522" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0181818" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L9SCORE" sid="7006978092287216">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3594782854562731" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (14).png">
+                                <collision-poly>
+                                    <point x="0.00892857" y="0.0217391" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.982143" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982143" y="0.956522" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0178571" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L10SCORE" sid="5439130683334256">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2550975806678947" speed="5">
+                            <frame duration="1" hotspotX="0.504348" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\LEVEL10.png">
+                                <collision-poly>
+                                    <point x="0.00869565" y="0.0217391" />
+                                    <point x="0.495652" y="0" />
+                                    <point x="0.982609" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982609" y="0.956522" />
+                                    <point x="0.495652" y="1" />
+                                    <point x="0.0173913" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L12SCORE" sid="9803773173716184">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4530672941709478" speed="5">
+                            <frame duration="1" hotspotX="0.504274" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (17).png">
+                                <collision-poly>
+                                    <point x="0.00854701" y="0.0217391" />
+                                    <point x="0.495726" y="0" />
+                                    <point x="0.982906" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982906" y="0.956522" />
+                                    <point x="0.495726" y="1" />
+                                    <point x="0.017094" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L13SCORE" sid="2460058584206498">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6688335197529762" speed="5">
+                            <frame duration="1" hotspotX="0.504274" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (18).png">
+                                <collision-poly>
+                                    <point x="0.00854701" y="0.0217391" />
+                                    <point x="0.495726" y="0" />
+                                    <point x="0.982906" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982906" y="0.956522" />
+                                    <point x="0.495726" y="1" />
+                                    <point x="0.017094" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L14SCORE" sid="609987692550533">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1988547047729562" speed="5">
+                            <frame duration="1" hotspotX="0.504202" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (19).png">
+                                <collision-poly>
+                                    <point x="0.00854701" y="0.0217391" />
+                                    <point x="0.495726" y="0" />
+                                    <point x="0.982906" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982906" y="0.956522" />
+                                    <point x="0.495726" y="1" />
+                                    <point x="0.017094" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L15SCORE" sid="3682012060376063">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1334455090418413" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (20).png">
+                                <collision-poly>
+                                    <point x="0.00862069" y="0.0217391" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.982759" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982759" y="0.956522" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0172414" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="L16SCORE" sid="4976082420424191">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9467488412979837" speed="5">
+                            <frame duration="1" hotspotX="0.504274" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (21).png">
+                                <collision-poly>
+                                    <point x="0.00854701" y="0.0217391" />
+                                    <point x="0.495726" y="0" />
+                                    <point x="0.982906" y="0.0434783" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.982906" y="0.956522" />
+                                    <point x="0.495726" y="1" />
+                                    <point x="0.017094" y="0.956522" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="ACHIEVEMENTS" sid="1954443768911312">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5039460100182359" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zwick\Desktop\ProperImages\button (22).png">
+                                <collision-poly>
+                                    <point x="0.00549451" y="0.0217391" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.989011" y="0.0434783" />
+                                    <point x="0.989011" y="0.956522" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.010989" y="0.956522" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-type global="1" name="Array" sid="3801160461978498">
                 <plugin id="Arr" />
             </object-type>
@@ -2665,6 +2988,14 @@
             <plugin id="Spritefont2" />
             <texture />
         </object-type>
+        <object-type name="Sprite4" sid="9872047700264422">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6212329071556972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Buttons" plugin-id="Sprite" sid="8091503679131507">
@@ -2732,8 +3063,6 @@
             <layout>GameOver.xml</layout>
             <layout>Level Select.xml</layout>
             <layout>GameWon.xml</layout>
-            <layout>HighScores.xml</layout>
-            <layout>HighScores Local.xml</layout>
         </layout-folder>
         <layout-folder name="PreGame">
             <layout>MultiplyScreen.xml</layout>
@@ -2741,6 +3070,11 @@
             <layout>AddScreen.xml</layout>
             <layout>SubScreen.xml</layout>
             <layout>DivisionScreen.xml</layout>
+        </layout-folder>
+        <layout-folder name="HighScore">
+            <layout>HighScores.xml</layout>
+            <layout>HS3.xml</layout>
+            <layout>HS2.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -2765,8 +3099,6 @@
         <event-folder name="Main Screens">
             <event-sheet>GameOverEV.xml</event-sheet>
             <event-sheet>GameWonEV.xml</event-sheet>
-            <event-sheet>HighScores EV.xml</event-sheet>
-            <event-sheet>HighScoresLocal EV.xml</event-sheet>
             <event-sheet>Level Select EV.xml</event-sheet>
             <event-sheet>MenuScreenEV.xml</event-sheet>
         </event-folder>
@@ -2776,6 +3108,9 @@
             <event-sheet>MultiplyScreen EV.xml</event-sheet>
             <event-sheet>PreGameScreenEV.xml</event-sheet>
             <event-sheet>SubScreen EV.xml</event-sheet>
+        </event-folder>
+        <event-folder name="HighScores">
+            <event-sheet>HighScores EV.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
