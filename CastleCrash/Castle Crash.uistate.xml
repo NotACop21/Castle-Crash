@@ -11,10 +11,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MenuScreen</layout>
-        <layout active="1" order="4">Achievements</layout>
+        <layout order="4">Achievements</layout>
+        <layout active="1" order="5">GameWon</layout>
         <event-sheet order="1">DivLvl1EV</event-sheet>
         <event-sheet order="2">Achievements EV</event-sheet>
         <event-sheet order="3">HighScores EV</event-sheet>
+        <event-sheet order="6">GameWonEV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -28,7 +30,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="LevelSelect" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/MenuSprites/" />
         <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
@@ -45,16 +47,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/TutorialBricks/" />
         <folder expanded="0" path="object-folder/TutScreensSprites/" />
         <folder expanded="1" path="object-folder/Achievements/" />
-        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Levels/" />
         <folder expanded="0" path="layout-folder/Main Screens/" />
         <folder expanded="0" path="layout-folder/PreGame/" />
         <folder expanded="0" path="layout-folder/HighScore/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Levels/" />
-        <folder expanded="0" path="event-folder/Main Screens/" />
+        <folder expanded="1" path="event-folder/Levels/" />
+        <folder expanded="1" path="event-folder/Main Screens/" />
         <folder expanded="0" path="event-folder/PreGame/" />
-        <folder expanded="1" path="event-folder/HighScores/" />
+        <folder expanded="0" path="event-folder/HighScores/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />

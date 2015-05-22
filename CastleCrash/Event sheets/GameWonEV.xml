@@ -949,7 +949,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="8167627833340958" type="GWAchText">
-                    <param id="0" name="Text">&quot;Achievement Unlocked! You have a Subtraction Attraction!&quot;</param>
+                    <param id="0" name="Text">&quot;Achievement Unlocked! You have an Attraction to Subtraction!&quot;</param>
                 </action>
                 <action id="-15" name="Set visible" sid="7450259072549681" type="GWSubTrophy">
                     <param id="0" name="Visibility">1</param>
