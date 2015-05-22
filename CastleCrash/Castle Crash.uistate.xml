@@ -11,6 +11,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout active="1" order="0">MenuScreen</layout>
+        <event-sheet order="1">MultDivLvl1EV</event-sheet>
+        <event-sheet order="2">MultDivLvl2EV</event-sheet>
+        <event-sheet order="3">SAMDLvl1EV</event-sheet>
+        <event-sheet order="4">SAMDLvl2EV</event-sheet>
+        <event-sheet order="5">SAMDLvl3EV</event-sheet>
+        <event-sheet order="6">SAMDLVL4EV</event-sheet>
+        <event-sheet order="7">DivLvl1EV</event-sheet>
+        <event-sheet order="8">DivLvl2EV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />

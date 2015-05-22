@@ -29,43 +29,43 @@
                     <param id="0" name="Variable">ArrayWidth</param>
                     <param id="1" name="Value">RNG8.Width</param>
                 </action>
-                <action id="10" name="Insert" sid="4682605524874001" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="4614688980973781" type="Check">
+                    <param id="0" name="Value">3000</param>
                     <param id="1" name="Index">0</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="3629805749141862" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="6406666479956085" type="Check">
+                    <param id="0" name="Value">30000</param>
                     <param id="1" name="Index">1</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="2082554250900028" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="8836398462994192" type="Check">
+                    <param id="0" name="Value">300000</param>
                     <param id="1" name="Index">2</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="2044045243456777" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="7160145069612323" type="Check">
+                    <param id="0" name="Value">3000000</param>
                     <param id="1" name="Index">3</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="9486603216634818" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="1301886440641601" type="Check">
+                    <param id="0" name="Value">30000000</param>
                     <param id="1" name="Index">4</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="179090269857841" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="7987645225054025" type="Check">
+                    <param id="0" name="Value">300000000</param>
                     <param id="1" name="Index">5</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="8959946700662238" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="5733222209158169" type="Check">
+                    <param id="0" name="Value">3000000000</param>
                     <param id="1" name="Index">6</param>
                     <param id="2" name="Axis">0</param>
                 </action>
-                <action id="10" name="Insert" sid="2847743674954484" type="Check">
-                    <param id="0" name="Value">100</param>
+                <action id="10" name="Insert" sid="6533278468178785" type="Check">
+                    <param id="0" name="Value">30000000000</param>
                     <param id="1" name="Index">7</param>
                     <param id="2" name="Axis">0</param>
                 </action>
