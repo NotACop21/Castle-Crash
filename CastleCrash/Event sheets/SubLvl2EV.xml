@@ -7697,9 +7697,6 @@
                             <param id="0" name="Achievement ID">Beat8Lvls</param>
                             <param id="1" name="Steps">1</param>
                         </action>
-                        <action disabled="1" id="8" name="Unlock" sid="6737486758165722" type="GooglePlay">
-                            <param id="0" name="Achievement ID">BeatSubAchv</param>
-                        </action>
                     </actions>
                 </event-block>
             </sub-events>

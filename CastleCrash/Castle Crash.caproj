@@ -655,11 +655,93 @@
             <object-type name="GWAchText" sid="8771146539751977">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="GWTrophySprite" sid="5654446735649287">
+            <object-type name="GWSubTrophy" sid="5654446735649287">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9453667847046398" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AB.png">
+                            <collision-poly>
+                                <point x="0.046875" y="0.046875" />
+                                <point x="0.953125" y="0.046875" />
+                                <point x="0.650391" y="0.5" />
+                                <point x="0.740234" y="0.740234" />
+                                <point x="0.5" y="0.96875" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.347656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GWAddTrohpy" sid="2492754356356576">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6219333756307877" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AG.png">
+                            <collision-poly>
+                                <point x="0.046875" y="0.046875" />
+                                <point x="0.953125" y="0.046875" />
+                                <point x="0.650391" y="0.5" />
+                                <point x="0.740234" y="0.740234" />
+                                <point x="0.5" y="0.96875" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.347656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GWBeatDivTrophy" sid="4006906552094711">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6983087799405495" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AO.png">
+                            <collision-poly>
+                                <point x="0.046875" y="0.046875" />
+                                <point x="0.953125" y="0.046875" />
+                                <point x="0.650391" y="0.5" />
+                                <point x="0.740234" y="0.740234" />
+                                <point x="0.5" y="0.96875" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.347656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GWBeatMultiTrophy" sid="2840278046755386">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3606560742113717" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AR.png">
+                            <collision-poly>
+                                <point x="0.046875" y="0.046875" />
+                                <point x="0.953125" y="0.046875" />
+                                <point x="0.650391" y="0.5" />
+                                <point x="0.744141" y="0.744141" />
+                                <point x="0.5" y="0.96875" />
+                                <point x="0.253906" y="0.746094" />
+                                <point x="0.318359" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GWBeatLevels" sid="4248050128971733">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1374380270400322" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\Rainbow.png">
+                            <collision-poly>
+                                <point x="0.046875" y="0.046875" />
+                                <point x="0.953125" y="0.046875" />
+                                <point x="0.650391" y="0.5" />
+                                <point x="0.744141" y="0.744141" />
+                                <point x="0.5" y="0.96875" />
+                                <point x="0.253906" y="0.746094" />
+                                <point x="0.318359" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2992,18 +3074,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9875263885075622" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\Rainbow.png">
-                            <collision-poly>
-                                <point x="0.242188" y="0.242188" />
-                                <point x="0.5" y="0.154297" />
-                                <point x="0.759766" y="0.240234" />
-                                <point x="0.925781" y="0.5" />
-                                <point x="0.822266" y="0.822266" />
-                                <point x="0.5" y="0.494141" />
-                                <point x="0.28125" y="0.71875" />
-                                <point x="0.0800781" y="0.5" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\Rainbow.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3011,17 +3082,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2500336398127426" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AG.png">
-                            <collision-poly>
-                                <point x="0.046875" y="0.046875" />
-                                <point x="0.953125" y="0.046875" />
-                                <point x="0.650391" y="0.5" />
-                                <point x="0.751953" y="0.751953" />
-                                <point x="0.5" y="0.96875" />
-                                <point x="0.244141" y="0.755859" />
-                                <point x="0.347656" y="0.5" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AG.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3029,17 +3090,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3768071739370963" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AO.png">
-                            <collision-poly>
-                                <point x="0.046875" y="0.046875" />
-                                <point x="0.953125" y="0.046875" />
-                                <point x="0.650391" y="0.5" />
-                                <point x="0.744141" y="0.744141" />
-                                <point x="0.5" y="0.96875" />
-                                <point x="0.253906" y="0.746094" />
-                                <point x="0.318359" y="0.5" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AO.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3047,17 +3098,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3881049247990405" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AR.png">
-                            <collision-poly>
-                                <point x="0.046875" y="0.046875" />
-                                <point x="0.953125" y="0.046875" />
-                                <point x="0.650391" y="0.5" />
-                                <point x="0.744141" y="0.744141" />
-                                <point x="0.5" y="0.96875" />
-                                <point x="0.253906" y="0.746094" />
-                                <point x="0.318359" y="0.5" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AR.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3065,17 +3106,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8735218813265376" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AB.png">
-                            <collision-poly>
-                                <point x="0.046875" y="0.046875" />
-                                <point x="0.953125" y="0.046875" />
-                                <point x="0.650391" y="0.5" />
-                                <point x="0.740234" y="0.740234" />
-                                <point x="0.5" y="0.96875" />
-                                <point x="0.257813" y="0.742188" />
-                                <point x="0.347656" y="0.5" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Harneil Brar\Dropbox\Shared\Projects Course 2910\Achievements\AB.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3192,6 +3223,21 @@
                         </frame>
                     </animation>
                 </animation-folder>
+            </object-type>
+            <object-type name="Text6" sid="2378229972549303">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text7" sid="3063742228168199">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text8" sid="6014352920068617">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text9" sid="2505840417907193">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text10" sid="868161938242792">
+                <plugin id="Text" />
             </object-type>
         </object-folder>
         <object-type name="Button" sid="3650483288887839">
@@ -3311,6 +3357,14 @@
                             <point x="0.0434783" y="0.496774" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="4315569477286505">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6816024852228554" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>

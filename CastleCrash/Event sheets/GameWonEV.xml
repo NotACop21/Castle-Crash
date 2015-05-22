@@ -831,7 +831,7 @@
                         <action id="0" name="Set text" sid="9982460033946163" type="GWAchText">
                             <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                         </action>
-                        <action id="10" name="Load image from URL" sid="80818667517364" type="GWTrophySprite">
+                        <action id="10" name="Load image from URL" sid="80818667517364" type="GWSubTrophy">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(0)</param>
                             <param id="1" name="Size">1</param>
                         </action>
@@ -864,7 +864,7 @@
                         <action id="0" name="Set text" sid="7743919100394012" type="GWAchText">
                             <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                         </action>
-                        <action id="10" name="Load image from URL" sid="6062205301205329" type="GWTrophySprite">
+                        <action id="10" name="Load image from URL" sid="6062205301205329" type="GWSubTrophy">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(1)</param>
                             <param id="1" name="Size">1</param>
                         </action>
@@ -882,7 +882,7 @@
                         <action id="0" name="Set text" sid="7828877790784735" type="GWAchText">
                             <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                         </action>
-                        <action id="10" name="Load image from URL" sid="7185319798068505" type="GWTrophySprite">
+                        <action id="10" name="Load image from URL" sid="7185319798068505" type="GWSubTrophy">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(2)</param>
                             <param id="1" name="Size">1</param>
                         </action>
@@ -900,7 +900,7 @@
                         <action id="0" name="Set text" sid="8416661331002258" type="GWAchText">
                             <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                         </action>
-                        <action id="10" name="Load image from URL" sid="266454019438047" type="GWTrophySprite">
+                        <action id="10" name="Load image from URL" sid="266454019438047" type="GWSubTrophy">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(3)</param>
                             <param id="1" name="Size">1</param>
                         </action>
@@ -918,7 +918,7 @@
                         <action id="0" name="Set text" sid="4673703294535057" type="GWAchText">
                             <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                         </action>
-                        <action id="10" name="Load image from URL" sid="2845978375303971" type="GWTrophySprite">
+                        <action id="10" name="Load image from URL" sid="2845978375303971" type="GWSubTrophy">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(4)</param>
                             <param id="1" name="Size">1</param>
                         </action>
@@ -926,96 +926,99 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="1730577420312246">
+        <event-block sid="77165603142214">
             <conditions>
-                <condition id="18" name="On achievement unlocked" sid="2309680407313284" type="GooglePlay">
+                <condition id="18" name="On achievement unlocked" sid="8143981022240292" type="GooglePlay">
                     <param id="0" name="Achievement ID">BeatAdditionAchv</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="9689843923083291" type="GWAchText">
-                    <param id="0" name="Text">&quot;Achivement Unlocked! You&apos;re an addition magician!&quot;</param>
+                <action id="0" name="Set text" sid="9706036755285262" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achivement Unlocked! You&apos;re an Addition Magician!&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="3459675302928629" type="BeatAdd">
+                <action id="-15" name="Set visible" sid="321932194500344" type="GWAddTrohpy">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="4805911071164854">
+        <event-block sid="6588594725755266">
             <conditions>
-                <condition id="18" name="On achievement unlocked" sid="3826777259070447" type="GooglePlay">
+                <condition id="18" name="On achievement unlocked" sid="8084968082739903" type="GooglePlay">
                     <param id="0" name="Achievement ID">BeatSubAchv</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="3218607063665414" type="GWAchText">
-                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                <action id="0" name="Set text" sid="8167627833340958" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked! You have a Subtraction Attraction!&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="7927509168665212" type="BeatSub">
+                <action id="-15" name="Set visible" sid="7450259072549681" type="GWSubTrophy">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3660336399026752">
+        <event-block sid="9566131189593688">
             <conditions>
-                <condition id="18" name="On achievement unlocked" sid="7071436561138098" type="GooglePlay">
+                <condition id="18" name="On achievement unlocked" sid="7625402844289666" type="GooglePlay">
                     <param id="0" name="Achievement ID">BeatMultiAchv</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="9094174179706421" type="GWAchText">
-                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                <action id="0" name="Set text" sid="8613367170613812" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked! You&apos;re a Master Multiplier&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="317567775439208" type="BeatMulti">
+                <action id="-15" name="Set visible" sid="8593850419118366" type="GWBeatMultiTrophy">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8223169314733041">
+        <event-block sid="1209165156018965">
             <conditions>
-                <condition id="18" name="On achievement unlocked" sid="4714062305944369" type="GooglePlay">
+                <condition id="18" name="On achievement unlocked" sid="4182010157756031" type="GooglePlay">
                     <param id="0" name="Achievement ID">BeatDivAchv</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="5159809487191979" type="GWAchText">
-                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                <action id="0" name="Set text" sid="4965370649030238" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked! You&apos;ve survived Deadly Division!&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="8830791787596443" type="BeatDiv">
+                <action id="-15" name="Set visible" sid="7242326753288084" type="GWBeatDivTrophy">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3617429324094535">
+        <event-block sid="9171615174733913">
             <conditions>
-                <condition id="18" name="On achievement unlocked" sid="888784987236928" type="GooglePlay">
+                <condition id="18" name="On achievement unlocked" sid="6300533428371481" type="GooglePlay">
                     <param id="0" name="Achievement ID">Beat8Lvls</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="8664889873735153" type="GWAchText">
+                <action id="0" name="Set text" sid="4386404951871927" type="GWAchText">
                     <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="4375086658935572" type="Beat8Lvls">
+                <action id="-15" name="Set visible" sid="1551142777697342" type="GWBeatLevels">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="6430867260857107">
+        <event-block sid="7833293129064411">
             <conditions>
-                <condition id="-3" name="On end of layout" sid="5166146275580382" type="System" />
+                <condition id="-3" name="On end of layout" sid="4429344960324324" type="System" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="5038818994481566" type="BeatAdd">
+                <action id="-15" name="Set visible" sid="4725260275012671" type="GWAddTrohpy">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="707682281036496" type="BeatSub">
+                <action id="-15" name="Set visible" sid="287569460751779" type="GWSubTrophy">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="934694353663843" type="BeatMulti">
+                <action id="-15" name="Set visible" sid="1665644195466025" type="GWBeatMultiTrophy">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="2228747264152247" type="BeatDiv">
+                <action id="-15" name="Set visible" sid="1630275188972461" type="GWBeatDivTrophy">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5482541956381371" type="GWBeatLevels">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>

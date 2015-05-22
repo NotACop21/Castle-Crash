@@ -7134,8 +7134,9 @@
                             <param id="0" name="Achievement ID">BeatMultiAchv</param>
                             <param id="1" name="Steps">1</param>
                         </action>
-                        <action id="8" name="Unlock" sid="297031274736173" type="GooglePlay">
-                            <param id="0" name="Achievement ID">BeatMultiAchv</param>
+                        <action id="9" name="Increment" sid="3391567693294823" type="GooglePlay">
+                            <param id="0" name="Achievement ID">Beat8Lvls</param>
+                            <param id="1" name="Steps">1</param>
                         </action>
                     </actions>
                 </event-block>

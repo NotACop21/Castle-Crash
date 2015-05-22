@@ -7938,9 +7938,6 @@
                             <param id="0" name="Achievement ID">BeatDivAchv</param>
                             <param id="1" name="Steps">1</param>
                         </action>
-                        <action disabled="1" id="8" name="Unlock" sid="7844248889518735" type="GooglePlay">
-                            <param id="0" name="Achievement ID">BeatDivAchv</param>
-                        </action>
                         <action id="9" name="Increment" sid="8289677656316813" type="GooglePlay">
                             <param id="0" name="Achievement ID">Beat8Lvls</param>
                             <param id="1" name="Steps">1</param>
