@@ -131,10 +131,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>57</x>
+                        <x>58</x>
                         <y>734</y>
                         <z>0</z>
-                        <width>606</width>
+                        <width>604</width>
                         <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

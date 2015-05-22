@@ -125,6 +125,86 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="7417460371653479">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="4673200778374675" type="Touch">
+                    <param id="0" name="Object">back</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="8588805078762053" type="back">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="6273105093317143" type="back">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">0.08</param>
+                </action>
+                <action id="9" name="Set scale" sid="8811073930018505" type="back">
+                    <param id="0" name="Scale">back.scale</param>
+                </action>
+                <action id="0" name="Play" sid="1569774621487049" type="Audio">
+                    <param id="0" name="Audio file">Menu buttons</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6895184082487038">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7334664777742022" type="back">
+                            <param id="0" name="Instance variable">scale</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9159698680881412" type="back">
+                            <param id="0" name="Instance variable">grow</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1630838934533696">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="5597346193018026" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="8570768627075105" type="back">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="5467837094054114" type="back">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="1128992227892074" type="back">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6368872154357695">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="6178971383520686" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="3873537371434371" type="RestartGame">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="7130562526582446" type="RestartGame">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="8456681038369127" type="RestartGame">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="57377597546002">
             <conditions>
                 <condition id="4" name="Is touching object" sid="1119669106356368" type="Touch">
