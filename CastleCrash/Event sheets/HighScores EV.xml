@@ -22,12 +22,6 @@
             </conditions>
             <actions>
                 <action id="33" name="Stop all" sid="4313044980707582" type="Audio" />
-                <action id="0" name="Play" sid="6613267636570525" type="Audio">
-                    <param id="0" name="Audio file">Castle_Crash_menu2</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="6366411662996507">
