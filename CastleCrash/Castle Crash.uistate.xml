@@ -11,10 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MenuScreen</layout>
-        <event-sheet order="2">AddSubLvl2EV</event-sheet>
-        <event-sheet order="3">SubLvl1EV</event-sheet>
-        <event-sheet active="1" order="4">SubLvl2EV</event-sheet>
-        <event-sheet order="1">AddSubLvl1EV</event-sheet>
+        <event-sheet active="1" order="1">DivLvl1EV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -22,9 +19,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="0">
+    <families-expanded root="1">
         <family expanded="0" name="Buttons" />
         <family expanded="0" name="Bricks" />
+        <family expanded="0" name="LevelSelect" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
@@ -48,7 +46,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="layout-folder/Levels/" />
         <folder expanded="0" path="layout-folder/Main Screens/" />
         <folder expanded="0" path="layout-folder/PreGame/" />
-        <folder expanded="1" path="layout-folder/HighScore/" />
+        <folder expanded="0" path="layout-folder/HighScore/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Levels/" />
         <folder expanded="0" path="event-folder/Main Screens/" />

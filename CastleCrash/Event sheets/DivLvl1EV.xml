@@ -5701,26 +5701,26 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="4980230974044015">
+        <event-block sid="2192018343317215">
             <conditions>
-                <condition id="3" name="On touched object" sid="5577901928535788" type="Touch">
+                <condition id="3" name="On touched object" sid="6773822396591583" type="Touch">
                     <param id="0" name="Object">RestartGame</param>
                 </condition>
-                <condition id="-7" name="Compare instance variable" sid="1481376197206253" type="RestartGame">
+                <condition id="-7" name="Compare instance variable" sid="2566554818402004" type="RestartGame">
                     <param id="0" name="Instance variable">grow</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-11" name="Add to" sid="5216036241879013" type="RestartGame">
+                <action id="-11" name="Add to" sid="4741791114338092" type="RestartGame">
                     <param id="0" name="Instance variable">scale</param>
                     <param id="1" name="Value">0.08</param>
                 </action>
-                <action id="9" name="Set scale" sid="2981549230098924" type="RestartGame">
+                <action id="9" name="Set scale" sid="5773020667098699" type="RestartGame">
                     <param id="0" name="Scale">RestartGame.scale</param>
                 </action>
-                <action id="0" name="Play" sid="8397910984914326" type="Audio">
+                <action id="0" name="Play" sid="948568807397545" type="Audio">
                     <param id="0" name="Audio file">Menu buttons</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
@@ -5728,40 +5728,40 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="5688404193061695">
+                <event-block sid="4473987484150307">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="5616951853656538" type="RestartGame">
+                        <condition id="-7" name="Compare instance variable" sid="1817977948593796" type="RestartGame">
                             <param id="0" name="Instance variable">scale</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">1.2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="5740593164251401" type="RestartGame">
+                        <action id="-10" name="Set value" sid="7937719779187686" type="RestartGame">
                             <param id="0" name="Instance variable">grow</param>
                             <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="4497176424206647">
-                    <conditions>
-                        <condition id="2" inverted="1" name="Is in touch" sid="1619305485426644" type="Touch" />
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" sid="6725887403766503" type="RestartGame">
-                            <param id="0" name="Instance variable">scale</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="7385058318817688" type="RestartGame">
-                            <param id="0" name="Instance variable">grow</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="3978837002905901" type="RestartGame">
-                            <param id="0" name="Scale">1</param>
-                        </action>
-                    </actions>
-                </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="7562626344409105">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="5312464983020604" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="8608314657748966" type="RestartGame">
+                    <param id="0" name="Instance variable">scale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="1950227271018996" type="RestartGame">
+                    <param id="0" name="Instance variable">grow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="1748213728594728" type="RestartGame">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
         </event-block>
         <event-group description="" sid="1682790568182666" title="GS1 Timer13" />
         <event-block sid="4530469126893631">

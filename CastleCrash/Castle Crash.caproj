@@ -3410,6 +3410,30 @@
                 <member>Red4</member>
             </members>
         </family>
+        <family name="LevelSelect" plugin-id="Sprite" sid="2088610814682388">
+            <members>
+                <member>addlevel</member>
+                <member>addlevel2</member>
+                <member>addsublevel</member>
+                <member>addsublevel2</member>
+                <member>divlevel</member>
+                <member>divlevel2</member>
+                <member>multiplylevel</member>
+                <member>multiplylevel2</member>
+                <member>redorangeselect</member>
+                <member>redorangeselect2</member>
+                <member>SAMDselect</member>
+                <member>SAMDselect2</member>
+                <member>SAMDselect3</member>
+                <member>SAMDselect4</member>
+                <member>sublevel</member>
+                <member>sublevel2</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="scale" sid="1931884954654362" type="number" />
+                <instance-variable name="grow" sid="3738779810290612" type="number" />
+            </instance-variables>
+        </family>
     </families>
     <layout-folder>
         <layout-folder name="Levels">

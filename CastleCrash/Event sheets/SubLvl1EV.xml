@@ -580,63 +580,63 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="3689142367829161">
+                <event-block sid="3730507034444071">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1989110815737776" type="Grey1">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="5306791839971041" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="8830160348647289" type="System">
+                        <condition id="-14" name="Compare variable" sid="5466248305375641" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="0" name="Compare at X" sid="4027477135775453" type="Check">
-                            <param id="0" name="X">0</param>
+                        <condition id="0" name="Compare at X" sid="5083100709874325" type="Check">
+                            <param id="0" name="X">2</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3000</param>
+                            <param id="2" name="Value">300000</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="7590446384525562" type="Grey1" />
+                        <condition id="-9" name="Is visible" sid="7422488933442098" type="Grey1" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="1646160261795673" type="Grey1">
+                        <action id="4" name="Set animation" sid="3839141728273815" type="Grey1">
                             <param id="0" name="Animation">&quot;Break&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-14" name="Toggle boolean" sid="838006163568335" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="6125759768966785" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="2" name="Set at X" sid="9399143532500862" type="Check">
-                            <param id="0" name="X">0</param>
+                        <action id="2" name="Set at X" sid="4320600373547439" type="Check">
+                            <param id="0" name="X">2</param>
                             <param id="1" name="Value">Grey1.BGrValue</param>
                         </action>
-                        <action id="-10" name="Add to" sid="2315829323429767" type="System">
+                        <action id="-10" name="Add to" sid="8065580738457122" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="8627491166332568">
+                <event-block sid="6119357420404942">
                     <conditions>
-                        <condition id="-22" name="Else" sid="4177380274175306" type="System" />
-                        <condition id="0" name="Compare at X" sid="8252270663522516" type="Check">
-                            <param id="0" name="X">0</param>
+                        <condition id="-22" name="Else" sid="8814296463143197" type="System" />
+                        <condition id="0" name="Compare at X" sid="8700036546146293" type="Check">
+                            <param id="0" name="X">2</param>
                             <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">3000</param>
+                            <param id="2" name="Value">300000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-14" name="Toggle boolean" sid="1105404426436822" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="1332312264379182" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="4" name="Set animation" sid="6111753297952482" type="Grey1">
+                        <action id="4" name="Set animation" sid="5714787728677892" type="Grey1">
                             <param id="0" name="Animation">&quot;Base&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6988183665997475" type="Check">
-                            <param id="0" name="X">0</param>
-                            <param id="1" name="Value">3000</param>
+                        <action id="2" name="Set at X" sid="1710553865916894" type="Check">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="3439157130142637" type="System">
+                        <action id="-11" name="Subtract from" sid="5893989179634482" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -671,63 +671,63 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="2361966726852563">
+                <event-block sid="258232206714242">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7407122721990072" type="Grey1">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7418648003032564" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="3283766948393942" type="System">
+                        <condition id="-14" name="Compare variable" sid="6346266023652196" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="0" name="Compare at X" sid="9961745633221988" type="Check">
-                            <param id="0" name="X">2</param>
+                        <condition id="0" name="Compare at X" sid="5576420825246821" type="Check">
+                            <param id="0" name="X">3</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">300000</param>
+                            <param id="2" name="Value">3000000</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="2040814433839352" type="Grey1" />
+                        <condition id="-9" name="Is visible" sid="5302753251283448" type="Grey1" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="1100142080376142" type="Grey1">
+                        <action id="4" name="Set animation" sid="4113569872176058" type="Grey1">
                             <param id="0" name="Animation">&quot;Break&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-14" name="Toggle boolean" sid="6571928461364598" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="2566967765657549" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6113620396096777" type="Check">
-                            <param id="0" name="X">2</param>
+                        <action id="2" name="Set at X" sid="3871413681616094" type="Check">
+                            <param id="0" name="X">3</param>
                             <param id="1" name="Value">Grey1.BGrValue</param>
                         </action>
-                        <action id="-10" name="Add to" sid="6733039142791881" type="System">
+                        <action id="-10" name="Add to" sid="5835330348941259" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="7056941234689181">
+                <event-block sid="2690785627290121">
                     <conditions>
-                        <condition id="-22" name="Else" sid="2093899170120371" type="System" />
-                        <condition id="0" name="Compare at X" sid="9724758802317768" type="Check">
-                            <param id="0" name="X">2</param>
+                        <condition id="-22" name="Else" sid="6459622725880496" type="System" />
+                        <condition id="0" name="Compare at X" sid="224254255738881" type="Check">
+                            <param id="0" name="X">3</param>
                             <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">300000</param>
+                            <param id="2" name="Value">3000000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-14" name="Toggle boolean" sid="8654054511893259" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="5762548550649197" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="4" name="Set animation" sid="7935626219394996" type="Grey1">
+                        <action id="4" name="Set animation" sid="1298545364426011" type="Grey1">
                             <param id="0" name="Animation">&quot;Base&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="770353862621524" type="Check">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Value">300000</param>
+                        <action id="2" name="Set at X" sid="1170692362166343" type="Check">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="2965954605830085" type="System">
+                        <action id="-11" name="Subtract from" sid="9706255073760705" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -762,63 +762,63 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="5144153344956185">
+                <event-block sid="1451284207198102">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4341935065563503" type="Grey1">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3812614250847404" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="8071280215502447" type="System">
+                        <condition id="-14" name="Compare variable" sid="7096063400507173" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="0" name="Compare at X" sid="1696805040283672" type="Check">
-                            <param id="0" name="X">2</param>
+                        <condition id="0" name="Compare at X" sid="138205672563248" type="Check">
+                            <param id="0" name="X">4</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">300000</param>
+                            <param id="2" name="Value">30000000</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="9610658162357459" type="Grey1" />
+                        <condition id="-9" name="Is visible" sid="7572665421769363" type="Grey1" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="4970425961468373" type="Grey1">
+                        <action id="4" name="Set animation" sid="7573039062225107" type="Grey1">
                             <param id="0" name="Animation">&quot;Break&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-14" name="Toggle boolean" sid="6722105256508134" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="3951423139788798" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="2" name="Set at X" sid="4462964098263054" type="Check">
-                            <param id="0" name="X">2</param>
+                        <action id="2" name="Set at X" sid="6955328889773131" type="Check">
+                            <param id="0" name="X">4</param>
                             <param id="1" name="Value">Grey1.BGrValue</param>
                         </action>
-                        <action id="-10" name="Add to" sid="4755152972786126" type="System">
+                        <action id="-10" name="Add to" sid="9460500042351205" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="1030479080051309">
+                <event-block sid="4501127750920204">
                     <conditions>
-                        <condition id="-22" name="Else" sid="2600462113190564" type="System" />
-                        <condition id="0" name="Compare at X" sid="9618779278531273" type="Check">
-                            <param id="0" name="X">2</param>
+                        <condition id="-22" name="Else" sid="3297717975555967" type="System" />
+                        <condition id="0" name="Compare at X" sid="245334542679146" type="Check">
+                            <param id="0" name="X">4</param>
                             <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">300000</param>
+                            <param id="2" name="Value">30000000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-14" name="Toggle boolean" sid="7182754468285342" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="8862360260208694" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="4" name="Set animation" sid="2218009000637061" type="Grey1">
+                        <action id="4" name="Set animation" sid="1579812238615852" type="Grey1">
                             <param id="0" name="Animation">&quot;Base&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7271513004829904" type="Check">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Value">300000</param>
+                        <action id="2" name="Set at X" sid="6107420452968766" type="Check">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="9096420922325918" type="System">
+                        <action id="-11" name="Subtract from" sid="5596290638089049" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -853,63 +853,63 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="2635496174885764">
+                <event-block sid="2922349072662075">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4885097275259923" type="Grey1">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3617809749999508" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="4690645697430176" type="System">
+                        <condition id="-14" name="Compare variable" sid="7797912809260646" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="0" name="Compare at X" sid="1202298604425862" type="Check">
-                            <param id="0" name="X">3</param>
+                        <condition id="0" name="Compare at X" sid="6925021807955521" type="Check">
+                            <param id="0" name="X">5</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3000000</param>
+                            <param id="2" name="Value">300000000</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="8653954096257292" type="Grey1" />
+                        <condition id="-9" name="Is visible" sid="5665906691757598" type="Grey1" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="2680105621357863" type="Grey1">
+                        <action id="4" name="Set animation" sid="5842635030883699" type="Grey1">
                             <param id="0" name="Animation">&quot;Break&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-14" name="Toggle boolean" sid="5329175981611922" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="9881497249257408" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7682752311406326" type="Check">
-                            <param id="0" name="X">3</param>
+                        <action id="2" name="Set at X" sid="9970408072118021" type="Check">
+                            <param id="0" name="X">5</param>
                             <param id="1" name="Value">Grey1.BGrValue</param>
                         </action>
-                        <action id="-10" name="Add to" sid="8085920947613626" type="System">
+                        <action id="-10" name="Add to" sid="6880550974087268" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="119038887708369">
+                <event-block sid="9781899677386489">
                     <conditions>
-                        <condition id="-22" name="Else" sid="4004377530514359" type="System" />
-                        <condition id="0" name="Compare at X" sid="814692303694853" type="Check">
-                            <param id="0" name="X">3</param>
+                        <condition id="-22" name="Else" sid="734554509197027" type="System" />
+                        <condition id="0" name="Compare at X" sid="9911922681123851" type="Check">
+                            <param id="0" name="X">5</param>
                             <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">3000000</param>
+                            <param id="2" name="Value">300000000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-14" name="Toggle boolean" sid="9786831047499583" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="4830658383189791" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="4" name="Set animation" sid="7909977959029105" type="Grey1">
+                        <action id="4" name="Set animation" sid="8205593189319994" type="Grey1">
                             <param id="0" name="Animation">&quot;Base&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="4610598469186745" type="Check">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Value">3000000</param>
+                        <action id="2" name="Set at X" sid="5893618817115573" type="Check">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="2634008370835605" type="System">
+                        <action id="-11" name="Subtract from" sid="8231223357174995" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -944,63 +944,63 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="5083635198928611">
+                <event-block sid="3705269526170855">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9295059541493388" type="Grey1">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3566347940266612" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="4734016088007269" type="System">
+                        <condition id="-14" name="Compare variable" sid="1916346760189544" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="0" name="Compare at X" sid="713580900118881" type="Check">
-                            <param id="0" name="X">4</param>
+                        <condition id="0" name="Compare at X" sid="1344061759148386" type="Check">
+                            <param id="0" name="X">6</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">30000000</param>
+                            <param id="2" name="Value">3000000000</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="4617353060312922" type="Grey1" />
+                        <condition id="-9" name="Is visible" sid="4533802723684512" type="Grey1" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="5202417857782839" type="Grey1">
+                        <action id="4" name="Set animation" sid="7099459971820621" type="Grey1">
                             <param id="0" name="Animation">&quot;Break&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-14" name="Toggle boolean" sid="1208486453342197" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="5986615007316542" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7874630987006446" type="Check">
-                            <param id="0" name="X">4</param>
+                        <action id="2" name="Set at X" sid="434968701042594" type="Check">
+                            <param id="0" name="X">6</param>
                             <param id="1" name="Value">Grey1.BGrValue</param>
                         </action>
-                        <action id="-10" name="Add to" sid="3243803150110955" type="System">
+                        <action id="-10" name="Add to" sid="5637951599269477" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="1029691167115988">
+                <event-block sid="8359227886352011">
                     <conditions>
-                        <condition id="-22" name="Else" sid="2542020374653956" type="System" />
-                        <condition id="0" name="Compare at X" sid="4685941967618612" type="Check">
-                            <param id="0" name="X">4</param>
+                        <condition id="-22" name="Else" sid="3820245729200201" type="System" />
+                        <condition id="0" name="Compare at X" sid="1429090755812405" type="Check">
+                            <param id="0" name="X">6</param>
                             <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">30000000</param>
+                            <param id="2" name="Value">3000000000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-14" name="Toggle boolean" sid="9694108913843086" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="7964327469138914" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="4" name="Set animation" sid="5469022643097656" type="Grey1">
+                        <action id="4" name="Set animation" sid="9096696590653066" type="Grey1">
                             <param id="0" name="Animation">&quot;Base&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6619751623665486" type="Check">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Value">30000000</param>
+                        <action id="2" name="Set at X" sid="4172786536209066" type="Check">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="5461840489037279" type="System">
+                        <action id="-11" name="Subtract from" sid="2815360088324614" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -1035,63 +1035,63 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="4847033037175826">
+                <event-block sid="2356000042085626">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="683523266395011" type="Grey1">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2160301018393928" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="909777497529485" type="System">
+                        <condition id="-14" name="Compare variable" sid="9423620596133631" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">2</param>
                         </condition>
-                        <condition id="0" name="Compare at X" sid="2678280865461671" type="Check">
-                            <param id="0" name="X">5</param>
+                        <condition id="0" name="Compare at X" sid="8758617461363603" type="Check">
+                            <param id="0" name="X">7</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">300000000</param>
+                            <param id="2" name="Value">30000000000</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1340023354813003" type="Grey1" />
+                        <condition id="-9" name="Is visible" sid="5680226888753377" type="Grey1" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="7539843982722474" type="Grey1">
+                        <action id="4" name="Set animation" sid="3209987883878986" type="Grey1">
                             <param id="0" name="Animation">&quot;Break&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="-14" name="Toggle boolean" sid="1398162535386705" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="9344876423726677" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="2" name="Set at X" sid="8141299380060586" type="Check">
-                            <param id="0" name="X">5</param>
+                        <action id="2" name="Set at X" sid="1421866831780397" type="Check">
+                            <param id="0" name="X">7</param>
                             <param id="1" name="Value">Grey1.BGrValue</param>
                         </action>
-                        <action id="-10" name="Add to" sid="8433886226241032" type="System">
+                        <action id="-10" name="Add to" sid="1767289321284279" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="2129234973420342">
+                <event-block sid="9466206881385344">
                     <conditions>
-                        <condition id="-22" name="Else" sid="2138699432057339" type="System" />
-                        <condition id="0" name="Compare at X" sid="9330011768135807" type="Check">
-                            <param id="0" name="X">5</param>
+                        <condition id="-22" name="Else" sid="4497212763759073" type="System" />
+                        <condition id="0" name="Compare at X" sid="2052525032984193" type="Check">
+                            <param id="0" name="X">7</param>
                             <param id="1" name="Comparison">1</param>
-                            <param id="2" name="Value">300000000</param>
+                            <param id="2" name="Value">30000000000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-14" name="Toggle boolean" sid="1808960218735781" type="Grey1">
+                        <action id="-14" name="Toggle boolean" sid="4316532955144759" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                         </action>
-                        <action id="4" name="Set animation" sid="1880499665664894" type="Grey1">
+                        <action id="4" name="Set animation" sid="5472116451814837" type="Grey1">
                             <param id="0" name="Animation">&quot;Base&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="8079825970485101" type="Check">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Value">300000000</param>
+                        <action id="2" name="Set at X" sid="2978842953613562" type="Check">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="5318630524180527" type="System">
+                        <action id="-11" name="Subtract from" sid="649145342722866" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -2527,15 +2527,15 @@
             </sub-events>
         </event-block>
         <comment>Break Blue2</comment>
-        <event-block sid="2535330141480137">
+        <event-block sid="3180677590480384">
             <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="1252988733577501" type="Blue2">
+                <condition id="-8" name="Is boolean instance variable set" sid="2936137984992474" type="Blue2">
                     <param id="0" name="Instance variable">IsMatched</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="264516616062317" type="Grey1">
+                <condition id="-8" name="Is boolean instance variable set" sid="1976063001629726" type="Grey1">
                     <param id="0" name="Instance variable">IsChosen</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="5906538939731675" type="System">
+                <condition id="-14" name="Compare variable" sid="3414602867060851" type="System">
                     <param id="0" name="Variable">TotalSelected</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">2</param>
@@ -2543,1409 +2543,1409 @@
             </conditions>
             <actions />
             <sub-events>
-                <event-block any="1" sid="6179378711153261">
+                <event-block any="1" sid="6793889460370133">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="4109086038397845" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="3046573205548339" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(1)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="7833798250364996" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="821877068163184" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="6399095796200338" type="Blue2">
+                        <action id="-15" name="Set visible" sid="1518513260904865" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5069339058292891" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="7347088980564891" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="2738441259920017" type="Grey1">
+                        <action id="-15" name="Set visible" sid="5584324240876723" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5628003906760218" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="2450764901910977" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3070897158018565" type="System">
+                        <action id="-9" name="Set value" sid="722706710490884" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3837273288512632" type="System">
+                        <action id="-9" name="Set value" sid="9011371222328015" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5723366473198882" type="System">
+                        <action id="-9" name="Set value" sid="951905467407016" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="3608533387038427" type="Check">
+                        <action id="2" name="Set at X" sid="2488536843668739" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="9936524846393547" type="Check">
+                        <action id="2" name="Set at X" sid="7669474886254547" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="7177008986517119">
+                <event-block any="1" sid="9039291692437969">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="5141544027266822" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8595060862663327" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(2)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="6934892570710371" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="4573123505522207" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="495384916967029" type="Blue2">
+                        <action id="-15" name="Set visible" sid="9262883343411771" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="7099449851654896" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="3389988525480046" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="283829791573667" type="Grey1">
+                        <action id="-15" name="Set visible" sid="9239075628495926" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1563491055643844" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="6601771815829663" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="6511298576601542" type="System">
+                        <action id="-9" name="Set value" sid="9537434787738614" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4031804558877914" type="System">
+                        <action id="-9" name="Set value" sid="7517303367274749" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8586338213696378" type="System">
+                        <action id="-9" name="Set value" sid="6926129725486182" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="4822287582791936" type="Check">
+                        <action id="2" name="Set at X" sid="1959819687154373" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="8607426533647865" type="Check">
+                        <action id="2" name="Set at X" sid="8897049608614435" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1702712950383845">
+                <event-block any="1" sid="2213065173302903">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="9147516765476384" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8593437355215668" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(3)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="9383543002787029" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9304405868630019" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="3041073817618397" type="Blue2">
+                        <action id="-15" name="Set visible" sid="7238613965116386" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="9852147013722727" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5816033579131367" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="2861813070172752" type="Grey1">
+                        <action id="-15" name="Set visible" sid="3289060107765079" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4336794207777533" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="97112438432534" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="2052509771087737" type="System">
+                        <action id="-9" name="Set value" sid="2646069519720352" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="84685059760041" type="System">
+                        <action id="-9" name="Set value" sid="733371092210463" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9986090893277657" type="System">
+                        <action id="-9" name="Set value" sid="4479630693761879" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2898866246041636" type="Check">
+                        <action id="2" name="Set at X" sid="8456437130204371" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="9067584208005738" type="Check">
+                        <action id="2" name="Set at X" sid="7028347834079874" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1791008690654758">
+                <event-block any="1" sid="7041304329551847">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="7670152827927707" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="1535024849464887" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(4)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="4505047865544336" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="6417057612380695" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="5410561156784153" type="Blue2">
+                        <action id="-15" name="Set visible" sid="3740672104215226" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="8704428655688812" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="3617386648417344" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="1293017639393992" type="Grey1">
+                        <action id="-15" name="Set visible" sid="2770914207605638" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1227602798348527" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="6734351460860941" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1080075467967046" type="System">
+                        <action id="-9" name="Set value" sid="433282136934195" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="43920862354268" type="System">
+                        <action id="-9" name="Set value" sid="5396985276068454" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5419082673527915" type="System">
+                        <action id="-9" name="Set value" sid="58764322812807" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="5984588959276325" type="Check">
+                        <action id="2" name="Set at X" sid="7706700604481921" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="635683810632714" type="Check">
+                        <action id="2" name="Set at X" sid="3328106171557339" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="2290840763887497">
+                <event-block any="1" sid="3070930463352778">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="6172489141103354" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="833067971823115" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(5)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="3742379119867042" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="4803088351754237" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="6094984399654353" type="Blue2">
+                        <action id="-15" name="Set visible" sid="9749464698016298" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="9903661020448527" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="8030017946931891" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="1435773342355295" type="Grey1">
+                        <action id="-15" name="Set visible" sid="2264856476911121" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="6335636135121815" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="5579310225708778" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4188591374444473" type="System">
+                        <action id="-9" name="Set value" sid="186089578661191" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5964186796445647" type="System">
+                        <action id="-9" name="Set value" sid="4538971887599615" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="770561775452609" type="System">
+                        <action id="-9" name="Set value" sid="6597024038961103" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6393887973422361" type="Check">
+                        <action id="2" name="Set at X" sid="8843535852264415" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="5172735511534645" type="Check">
+                        <action id="2" name="Set at X" sid="1037652265771178" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="5971944311880156">
+                <event-block any="1" sid="6631572928976595">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="8177550775835074" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8617890427345936" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(6)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="3552640962498322" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="7485571627147294" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="9381562083374896" type="Blue2">
+                        <action id="-15" name="Set visible" sid="5592182417875415" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="2128016360268674" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="1003719064825207" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="3152613608107887" type="Grey1">
+                        <action id="-15" name="Set visible" sid="3419089449621817" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="9088511035644805" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="742654201024265" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8782470179088972" type="System">
+                        <action id="-9" name="Set value" sid="7899117520010503" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9092296996444717" type="System">
+                        <action id="-9" name="Set value" sid="323227141343639" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="616277864728996" type="System">
+                        <action id="-9" name="Set value" sid="7592283515230382" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7107468734737443" type="Check">
+                        <action id="2" name="Set at X" sid="7384583207935268" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="5379726597719084" type="Check">
+                        <action id="2" name="Set at X" sid="3696908273035715" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="8358047594498861">
+                <event-block any="1" sid="9303728149114763">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="523568880602806" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9101541925947306" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(0) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="6933852447239448" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2552697440744244" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(0)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="7889970345825294" type="Blue2">
+                        <action id="-15" name="Set visible" sid="8719728192339969" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1420553649507022" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5638470721096423" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="3200187186524963" type="Grey1">
+                        <action id="-15" name="Set visible" sid="507963100925753" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="2744511563910315" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="3868762306291489" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="378908658701201" type="System">
+                        <action id="-9" name="Set value" sid="7128923984795722" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9525203174130913" type="System">
+                        <action id="-9" name="Set value" sid="718512294314944" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9398858243036199" type="System">
+                        <action id="-9" name="Set value" sid="9087281553498177" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="159256367315526" type="Check">
+                        <action id="2" name="Set at X" sid="4577625421867369" type="Check">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7993801042195211" type="Check">
+                        <action id="2" name="Set at X" sid="9316129139096398" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
                 <comment>Check 1</comment>
-                <event-block any="1" sid="4558703811992533">
+                <event-block any="1" sid="5214680667468474">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="6887618925258059" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2976638757065178" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(2)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="3067165536394121" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="1087926005746039" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(1)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="5392142721415313" type="Blue2">
+                        <action id="-15" name="Set visible" sid="784451973673194" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="3953705148960405" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5689890265429149" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="9282664210850121" type="Grey1">
+                        <action id="-15" name="Set visible" sid="7486559031797827" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4069389712671362" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="3442054158848482" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8959364077786104" type="System">
+                        <action id="-9" name="Set value" sid="1118294067700341" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1984307473325298" type="System">
+                        <action id="-9" name="Set value" sid="5290774585922551" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="2055077978601562" type="System">
+                        <action id="-9" name="Set value" sid="551962876984081" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6864583643427016" type="Check">
+                        <action id="2" name="Set at X" sid="3176166852299366" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="5289688392632072" type="Check">
+                        <action id="2" name="Set at X" sid="86964589949844" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="7050136690337995">
+                <event-block any="1" sid="3542584774595571">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="9130440141674746" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="1251073317143587" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(3)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="2551613159270932" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="5212109532213669" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(1)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="9965144729955569" type="Blue2">
+                        <action id="-15" name="Set visible" sid="7405102245179562" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="457078683063844" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="8004296950623261" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="6734981304332323" type="Grey1">
+                        <action id="-15" name="Set visible" sid="119795696462052" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1618798055278008" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="7748348303806009" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1103019965384382" type="System">
+                        <action id="-9" name="Set value" sid="3839835646313622" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4474404090762398" type="System">
+                        <action id="-9" name="Set value" sid="6100364195795026" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4428692485391255" type="System">
+                        <action id="-9" name="Set value" sid="5224650071424934" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7356852759407986" type="Check">
+                        <action id="2" name="Set at X" sid="5044392495457539" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="167868106164113" type="Check">
+                        <action id="2" name="Set at X" sid="6954571441837703" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="8452228082373836">
+                <event-block any="1" sid="6734304052894055">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="7510141731327569" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="4132628172722681" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(4)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="2861628040946987" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="6545918965373201" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(1)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="9719621332890154" type="Blue2">
+                        <action id="-15" name="Set visible" sid="9626423397328039" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5328398284099067" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="3360516685041642" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="9027551484864567" type="Grey1">
+                        <action id="-15" name="Set visible" sid="9719566048732444" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="688649633315443" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="1087005304736622" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="14632618173868" type="System">
+                        <action id="-9" name="Set value" sid="7299664378516858" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1495086910542272" type="System">
+                        <action id="-9" name="Set value" sid="4494118399339624" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8852361416431681" type="System">
+                        <action id="-9" name="Set value" sid="6967303162596528" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="683086864413559" type="Check">
+                        <action id="2" name="Set at X" sid="3341518635279625" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6513271160208551" type="Check">
+                        <action id="2" name="Set at X" sid="3054953652897251" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="8788004829020315">
+                <event-block any="1" sid="465459665583136">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="8034052495514617" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="7664720593105157" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(5)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="3665619128293038" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9944667776254532" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(1)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="8236490569995222" type="Blue2">
+                        <action id="-15" name="Set visible" sid="4520554623570001" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="2442775322374205" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="9837364534989928" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="4065003343025452" type="Grey1">
+                        <action id="-15" name="Set visible" sid="6890676125882839" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="3538195066796143" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="9451164823004817" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4654432425053853" type="System">
+                        <action id="-9" name="Set value" sid="9795975755356466" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3582659160356515" type="System">
+                        <action id="-9" name="Set value" sid="5721047169591315" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="636763627629398" type="System">
+                        <action id="-9" name="Set value" sid="1459195329496269" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2483871671949827" type="Check">
+                        <action id="2" name="Set at X" sid="3856418615218592" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="3045653500763297" type="Check">
+                        <action id="2" name="Set at X" sid="4526370467808088" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="934393340037568">
+                <event-block any="1" sid="299204429622767">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="2643585213443786" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="1625378441030891" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(6)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="1166270552357775" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="5527609007732655" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(1)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="2232477776557353" type="Blue2">
+                        <action id="-15" name="Set visible" sid="5601915760426863" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="9257827035583676" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="710684566101543" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7978245274184098" type="Grey1">
+                        <action id="-15" name="Set visible" sid="2802087956636203" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="559426070810081" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="7501758862894294" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9515904199856918" type="System">
+                        <action id="-9" name="Set value" sid="7269227936344749" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="2250839633006255" type="System">
+                        <action id="-9" name="Set value" sid="7272852636131763" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8056309640115342" type="System">
+                        <action id="-9" name="Set value" sid="8081958221902838" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="1809782211989588" type="Check">
+                        <action id="2" name="Set at X" sid="5923842024489658" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7880011588711656" type="Check">
+                        <action id="2" name="Set at X" sid="1970706314587621" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="3885788976241246">
+                <event-block any="1" sid="3325657423393225">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="885872262882692" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="3944115825223508" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(1) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="2001516085902833" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="991172885918598" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(1)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="4252151972742423" type="Blue2">
+                        <action id="-15" name="Set visible" sid="5691617148089755" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="6102533899195874" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="7939051262666028" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="4911552308158983" type="Grey1">
+                        <action id="-15" name="Set visible" sid="2800602364280523" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5897195834446656" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="3842381001970481" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3999976565094477" type="System">
+                        <action id="-9" name="Set value" sid="8434209164676138" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9394428599607904" type="System">
+                        <action id="-9" name="Set value" sid="3617075737614469" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3374712553576822" type="System">
+                        <action id="-9" name="Set value" sid="6261050720867963" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="518457440145728" type="Check">
+                        <action id="2" name="Set at X" sid="5721069213128185" type="Check">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="5302651219592939" type="Check">
+                        <action id="2" name="Set at X" sid="5950041553219956" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
                 <comment>Check 2</comment>
-                <event-block any="1" sid="2469927314952913">
+                <event-block any="1" sid="3572429874945997">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="6218853084441805" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8283247568054637" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(3)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="9218517679242195" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="924483233640343" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(2)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="6534497014135968" type="Blue2">
+                        <action id="-15" name="Set visible" sid="1761249207585139" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1586572616132465" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="2409704433046405" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="3495514809488184" type="Grey1">
+                        <action id="-15" name="Set visible" sid="8948230865314151" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1830857174528999" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="7659123618922244" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9985198998063603" type="System">
+                        <action id="-9" name="Set value" sid="4216487102236121" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1074157173424221" type="System">
+                        <action id="-9" name="Set value" sid="4722396002636597" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9481505834251432" type="System">
+                        <action id="-9" name="Set value" sid="679678597744737" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="9282506736823341" type="Check">
+                        <action id="2" name="Set at X" sid="7468218912849872" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="8630996566751186" type="Check">
+                        <action id="2" name="Set at X" sid="2181847475775692" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="5448408880276734">
+                <event-block any="1" sid="7084653320220914">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="6084431473156751" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="3978487572602616" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(4)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="3451609916107458" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8800329649182752" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(2)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="4551128940832079" type="Blue2">
+                        <action id="-15" name="Set visible" sid="9491523155237911" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1944241355474896" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="1577570313251591" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="8484254534194695" type="Grey1">
+                        <action id="-15" name="Set visible" sid="7526256667587616" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4361717087319216" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="4301076129346263" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="476271463123469" type="System">
+                        <action id="-9" name="Set value" sid="6835010226341665" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4673588290808148" type="System">
+                        <action id="-9" name="Set value" sid="7647036962650682" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="115678882633051" type="System">
+                        <action id="-9" name="Set value" sid="9866366436845522" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6912691713570505" type="Check">
+                        <action id="2" name="Set at X" sid="3501726738140106" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2162621999039341" type="Check">
+                        <action id="2" name="Set at X" sid="9913476321717601" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="874777450193843">
+                <event-block any="1" sid="4611239615864785">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="739623861165099" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="1021999364390031" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(5)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="5703988207746498" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9903413340740041" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(2)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="2900778820231825" type="Blue2">
+                        <action id="-15" name="Set visible" sid="1707793326916415" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5664750489496647" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="9454538428686857" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="52450343642537" type="Grey1">
+                        <action id="-15" name="Set visible" sid="4685977307476445" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="3628980734355285" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="9353093652689217" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="7690804031504861" type="System">
+                        <action id="-9" name="Set value" sid="8636135616461905" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3556410662630062" type="System">
+                        <action id="-9" name="Set value" sid="5517481589061649" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="6146414911819541" type="System">
+                        <action id="-9" name="Set value" sid="5528546527004985" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6570575830231423" type="Check">
+                        <action id="2" name="Set at X" sid="6144631186919049" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2086650565167816" type="Check">
+                        <action id="2" name="Set at X" sid="6538011911405016" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1270416007661437">
+                <event-block any="1" sid="4568065286313759">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="1225383518527461" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="348688284416753" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(6)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="4347506789132827" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="5913289150122523" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(2)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="547174248423951" type="Blue2">
+                        <action id="-15" name="Set visible" sid="2685235675555231" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="2206469299405854" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5402816667455219" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="435261313332003" type="Grey1">
+                        <action id="-15" name="Set visible" sid="465968979312009" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1166322706052466" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="6756751116254553" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8521379252010082" type="System">
+                        <action id="-9" name="Set value" sid="870228944804871" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5113299764422086" type="System">
+                        <action id="-9" name="Set value" sid="9109896749989747" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5580411822746009" type="System">
+                        <action id="-9" name="Set value" sid="423007798044623" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2040215358921205" type="Check">
+                        <action id="2" name="Set at X" sid="8325877856110435" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="5444460561540277" type="Check">
+                        <action id="2" name="Set at X" sid="8305716580704346" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1144017133463568">
+                <event-block any="1" sid="3767373716091761">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="9692260256285748" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="1045818361356858" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(2) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="1648205864389564" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9425087733855302" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(2)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="9629522085757515" type="Blue2">
+                        <action id="-15" name="Set visible" sid="268159559189528" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4324519907483323" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5459343196506758" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="3227148435895165" type="Grey1">
+                        <action id="-15" name="Set visible" sid="6314122761131666" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4680653699007072" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="1542594804750578" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="31515121024711" type="System">
+                        <action id="-9" name="Set value" sid="1476906153953114" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="963651227545484" type="System">
+                        <action id="-9" name="Set value" sid="3787873856677856" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4107035678850864" type="System">
+                        <action id="-9" name="Set value" sid="6013270873684199" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="7062987785926595" type="Check">
+                        <action id="2" name="Set at X" sid="9763066599376051" type="Check">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6942782577154521" type="Check">
+                        <action id="2" name="Set at X" sid="9371575307877609" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
                 <comment>Check 3</comment>
-                <event-block any="1" sid="3987612235102679">
+                <event-block any="1" sid="3713522757918564">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="1497799906399308" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2499204389374246" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(4)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="4100173760249128" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9369086818636979" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(3)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="9736593069407219" type="Blue2">
+                        <action id="-15" name="Set visible" sid="5611236421478837" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5472581479492372" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5958992464707572" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="5475108346298102" type="Grey1">
+                        <action id="-15" name="Set visible" sid="4079473834345401" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="7132402909664204" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="8954291081713907" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="7498396648194733" type="System">
+                        <action id="-9" name="Set value" sid="1669251732622875" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5322667814299798" type="System">
+                        <action id="-9" name="Set value" sid="3862488864549899" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="664388359645601" type="System">
+                        <action id="-9" name="Set value" sid="4612345250158005" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2634961994756826" type="Check">
+                        <action id="2" name="Set at X" sid="5838190014163525" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="756312324347451" type="Check">
+                        <action id="2" name="Set at X" sid="7682845864109094" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1045224563406361">
+                <event-block any="1" sid="6786533934659914">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="4696112345250423" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2596543983808333" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(5)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="1951558796900703" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="7870358951164648" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(3)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="9054077549630303" type="Blue2">
+                        <action id="-15" name="Set visible" sid="3060345392387392" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4720127593850737" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="2700848176892815" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="58537831071949" type="Grey1">
+                        <action id="-15" name="Set visible" sid="3270695150914884" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5111449861060576" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="1623440882434338" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5092278517420235" type="System">
+                        <action id="-9" name="Set value" sid="3162159104549648" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5626552924680684" type="System">
+                        <action id="-9" name="Set value" sid="3423551445539835" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8566303016735162" type="System">
+                        <action id="-9" name="Set value" sid="7746489957411942" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2207314392057138" type="Check">
+                        <action id="2" name="Set at X" sid="2651014424089193" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="839149212455997" type="Check">
+                        <action id="2" name="Set at X" sid="3511783691072264" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="3742372039025605">
+                <event-block any="1" sid="3660181396573591">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="7056071419117144" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2265063731342056" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(6)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="2027476618552988" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="7365675859810609" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(3)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="1265157077939687" type="Blue2">
+                        <action id="-15" name="Set visible" sid="6840708056138061" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5492183896390767" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="3914004487277411" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7549212112361528" type="Grey1">
+                        <action id="-15" name="Set visible" sid="1252561977173091" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4710589648637802" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="463059543085314" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3678155868442094" type="System">
+                        <action id="-9" name="Set value" sid="8721943411934147" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1066455079724634" type="System">
+                        <action id="-9" name="Set value" sid="9124400128426966" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="6435792339160659" type="System">
+                        <action id="-9" name="Set value" sid="8356314240165219" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="281998113863493" type="Check">
+                        <action id="2" name="Set at X" sid="2474471584976587" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="3134095724528863" type="Check">
+                        <action id="2" name="Set at X" sid="719826205010214" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="4939559748372058">
+                <event-block any="1" sid="5121966831999762">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="3388961491895784" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9212616115589611" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(3) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="8165982632219849" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8042917802847767" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(3)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="7188725299060579" type="Blue2">
+                        <action id="-15" name="Set visible" sid="760491991814269" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1134685494311801" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="2563367039011622" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7469398194179212" type="Grey1">
+                        <action id="-15" name="Set visible" sid="2635317159279215" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="5960949265055103" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="8600413195817983" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4537471949728609" type="System">
+                        <action id="-9" name="Set value" sid="7756007189573559" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4068451302241116" type="System">
+                        <action id="-9" name="Set value" sid="2472448489617108" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5360192475958457" type="System">
+                        <action id="-9" name="Set value" sid="1521796707679336" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="1764249144700675" type="Check">
+                        <action id="2" name="Set at X" sid="7547851745870408" type="Check">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="8525325546819588" type="Check">
+                        <action id="2" name="Set at X" sid="3896590043534457" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
                 <comment>Check 4</comment>
-                <event-block any="1" sid="2648616142308115">
+                <event-block any="1" sid="5167879736082272">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="3906572407764583" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="5358163660466024" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(5)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="9094142725049135" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="3104496265445667" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(4)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="442642085458205" type="Blue2">
+                        <action id="-15" name="Set visible" sid="2640236531839144" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="7994509334721361" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="428825399586307" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="1977729971400458" type="Grey1">
+                        <action id="-15" name="Set visible" sid="6947918451987444" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="6772028360628786" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="2646087335554002" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="7889128642334325" type="System">
+                        <action id="-9" name="Set value" sid="7814963434698438" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1666054644851808" type="System">
+                        <action id="-9" name="Set value" sid="7495737184135316" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4313827842248593" type="System">
+                        <action id="-9" name="Set value" sid="4779030289044945" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2825955689598283" type="Check">
+                        <action id="2" name="Set at X" sid="9666178031283835" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="9100975251498366" type="Check">
+                        <action id="2" name="Set at X" sid="8971191164560311" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1470452206016043">
+                <event-block any="1" sid="9378078725984935">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="2344672318113099" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="3981926038417905" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(6)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="3029307309109081" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9597595766833209" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(4)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="3727871342758219" type="Blue2">
+                        <action id="-15" name="Set visible" sid="8834382420725157" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="9603280275871649" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="1628614671176074" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="8105896010887611" type="Grey1">
+                        <action id="-15" name="Set visible" sid="9694173760313232" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="2936556012260076" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="3891340285352808" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="2868335829458317" type="System">
+                        <action id="-9" name="Set value" sid="154189483371706" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5032005883886309" type="System">
+                        <action id="-9" name="Set value" sid="2213029488941794" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="2727970367320932" type="System">
+                        <action id="-9" name="Set value" sid="9542727609435925" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="2820814047905574" type="Check">
+                        <action id="2" name="Set at X" sid="5546246862145328" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="4593638508601378" type="Check">
+                        <action id="2" name="Set at X" sid="1577193598965429" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="1642439488788106">
+                <event-block any="1" sid="1090840744120297">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="3983982411979175" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="8656220340888751" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(4) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="4332348407378938" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2228031307983389" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(4)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="1257926599558299" type="Blue2">
+                        <action id="-15" name="Set visible" sid="2468080949538399" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="3841295529987687" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="2145420757822341" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="6298013241287759" type="Grey1">
+                        <action id="-15" name="Set visible" sid="4038433344413138" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="4670894893496761" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="4182461813215236" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="6251001181757477" type="System">
+                        <action id="-9" name="Set value" sid="1832107244851906" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4229451938369052" type="System">
+                        <action id="-9" name="Set value" sid="4837707250869579" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="6574369097783823" type="System">
+                        <action id="-9" name="Set value" sid="4286861742819068" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="4457044034641281" type="Check">
+                        <action id="2" name="Set at X" sid="3819015205456957" type="Check">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="1060481560469424" type="Check">
+                        <action id="2" name="Set at X" sid="8778231581649252" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
                 <comment>Check 5</comment>
-                <event-block any="1" sid="653719890583128">
+                <event-block any="1" sid="3617468699706915">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="9835594153833593" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="6074129718554086" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(6)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="6634309389682982" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="3660109366353684" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(5)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="1108434781407813" type="Blue2">
+                        <action id="-15" name="Set visible" sid="2582155156633128" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="6817847904525778" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="4630144682380756" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7405579410447172" type="Grey1">
+                        <action id="-15" name="Set visible" sid="9938005114871585" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="8246078951758646" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="2433491682798701" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="6420769627538808" type="System">
+                        <action id="-9" name="Set value" sid="2806596347819435" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9559865728282018" type="System">
+                        <action id="-9" name="Set value" sid="9848887330498213" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="4071859424342888" type="System">
+                        <action id="-9" name="Set value" sid="3766987072064647" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="6041288765864392" type="Check">
+                        <action id="2" name="Set at X" sid="8027043134383298" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="9094227262710564" type="Check">
+                        <action id="2" name="Set at X" sid="207575907943444" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="6720263723677908">
+                <event-block any="1" sid="4812697974543316">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="9259685218191374" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="9073419642788916" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(5) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="8225763547923394" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="848319873134019" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(5)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="2071582798417347" type="Blue2">
+                        <action id="-15" name="Set visible" sid="3852575539237002" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="3119932217044216" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="5331528314607448" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="2547838251052283" type="Grey1">
+                        <action id="-15" name="Set visible" sid="7843428998754158" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="8358031886820855" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="1819044976627285" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="9071517636003578" type="System">
+                        <action id="-9" name="Set value" sid="9983311450057969" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8465941879259873" type="System">
+                        <action id="-9" name="Set value" sid="5517730851951251" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="3936530320365086" type="System">
+                        <action id="-9" name="Set value" sid="4528778927063748" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="3107945811631056" type="Check">
+                        <action id="2" name="Set at X" sid="4265395278457329" type="Check">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">300000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="1000092868465929" type="Check">
+                        <action id="2" name="Set at X" sid="8986733579027265" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
                 <comment>Check 6 &amp; 7</comment>
-                <event-block any="1" sid="3358985905842539">
+                <event-block any="1" sid="814268529309852">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="5525119840698688" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2184342420004316" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(6) - Check.At(7)</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="580734886380906" type="Blue2">
+                        <condition id="-7" name="Compare instance variable" sid="2535423557664499" type="Blue2">
                             <param id="0" name="Instance variable">BBValue</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">Check.At(7) - Check.At(6)</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="8155464599592257" type="Blue2">
+                        <action id="-15" name="Set visible" sid="4791451688181411" type="Blue2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="1882395330293894" type="Blue2">
+                        <action id="-13" name="Set boolean" sid="4679848765969816" type="Blue2">
                             <param id="0" name="Instance variable">IsMatched</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7778380155677375" type="Grey1">
+                        <action id="-15" name="Set visible" sid="1975924967980836" type="Grey1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="7102677324856269" type="Grey1">
+                        <action id="-13" name="Set boolean" sid="6543006967334172" type="Grey1">
                             <param id="0" name="Instance variable">IsChosen</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="7014730893594632" type="System">
+                        <action id="-9" name="Set value" sid="2861461486294211" type="System">
                             <param id="0" name="Variable">TotalSelected</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="8673217648179099" type="System">
+                        <action id="-9" name="Set value" sid="3356261166585877" type="System">
                             <param id="0" name="Variable">Blue2Select</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="5484135416683787" type="System">
+                        <action id="-9" name="Set value" sid="9463774488433974" type="System">
                             <param id="0" name="Variable">DestroyBlue2</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="117743470740101" type="Check">
+                        <action id="2" name="Set at X" sid="3464627282409714" type="Check">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">3000000000</param>
                         </action>
-                        <action id="2" name="Set at X" sid="562600904188819" type="Check">
+                        <action id="2" name="Set at X" sid="8682687844983989" type="Check">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">100</param>
+                            <param id="1" name="Value">30000000000</param>
                         </action>
                     </actions>
                 </event-block>
@@ -5682,7 +5682,7 @@
                 </action>
             </actions>
             <sub-events>
-                <event-block disabled="1" sid="9714307252530243">
+                <event-block sid="9714307252530243">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="3756961739406908" type="System">
                             <param id="0" name="Variable">timer</param>
@@ -5696,7 +5696,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="9500032123489412">
+                <event-block sid="9500032123489412">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="3373191480476512" type="System">
                             <param id="0" name="Variable">timer</param>
