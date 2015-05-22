@@ -100,7 +100,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>576</x>
+                        <x>544</x>
                         <y>160</y>
                         <z>0</z>
                         <width>250</width>
@@ -455,7 +455,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>380</x>
+                        <x>368</x>
                         <y>640</y>
                         <z>0</z>
                         <width>352</width>

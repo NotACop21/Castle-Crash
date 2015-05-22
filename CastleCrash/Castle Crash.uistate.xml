@@ -11,8 +11,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MenuScreen</layout>
-        <layout order="4">Achievements</layout>
-        <layout active="1" order="5">GameWon</layout>
+        <layout active="1" order="4">Achievements</layout>
+        <layout order="5">GameWon</layout>
         <event-sheet order="1">DivLvl1EV</event-sheet>
         <event-sheet order="2">Achievements EV</event-sheet>
         <event-sheet order="3">HighScores EV</event-sheet>
@@ -52,9 +52,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="layout-folder/Main Screens/" />
         <folder expanded="0" path="layout-folder/PreGame/" />
         <folder expanded="0" path="layout-folder/HighScore/" />
-        <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Levels/" />
-        <folder expanded="1" path="event-folder/Main Screens/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="event-folder/Levels/" />
+        <folder expanded="0" path="event-folder/Main Screens/" />
         <folder expanded="0" path="event-folder/PreGame/" />
         <folder expanded="0" path="event-folder/HighScores/" />
         <folder expanded="0" path="file-folder/" />
