@@ -10,15 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">GameWon</layout>
-        <layout order="5">MenuScreen</layout>
-        <layout order="7">HighScores</layout>
-        <layout order="8">Achievements</layout>
-        <event-sheet active="1" order="1">GameWonEV</event-sheet>
-        <event-sheet order="2">MenuScreenEV</event-sheet>
-        <event-sheet order="3">AddLvl1EV</event-sheet>
-        <event-sheet order="4">AddLvl2EV</event-sheet>
-        <event-sheet order="6">Achievements EV</event-sheet>
+        <layout active="1" order="0">MenuScreen</layout>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -35,7 +27,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/MenuSprites/" />
         <folder expanded="0" path="object-folder/GameOver/" />
         <folder expanded="0" path="object-folder/Timer/" />
-        <folder expanded="0" path="object-folder/PreGameScreen/" />
+        <folder expanded="1" path="object-folder/PreGameScreen/" />
         <folder expanded="0" path="object-folder/LevelSelectSprites/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
         <folder expanded="0" path="object-folder/Arrays/" />
@@ -51,11 +43,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Levels/" />
         <folder expanded="1" path="layout-folder/Main Screens/" />
-        <folder expanded="0" path="layout-folder/PreGame/" />
+        <folder expanded="1" path="layout-folder/PreGame/" />
         <folder expanded="0" path="layout-folder/HighScore/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Levels/" />
-        <folder expanded="1" path="event-folder/Main Screens/" />
+        <folder expanded="0" path="event-folder/Main Screens/" />
         <folder expanded="0" path="event-folder/PreGame/" />
         <folder expanded="0" path="event-folder/HighScores/" />
         <folder expanded="0" path="file-folder/" />
@@ -142,10 +134,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/PreB/" />
         <folder expanded="1" path="animation-folder/Addition/" />
         <folder expanded="1" path="animation-folder/Continue/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
-        <folder expanded="1" path="animation-folder/Subtracttxt/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Subtraction/" />
+        <folder expanded="1" path="animation-folder/Multiplication/" />
+        <folder expanded="1" path="animation-folder/Division/" />
         <folder expanded="1" path="animation-folder/Beat8Lvls/" />
         <folder expanded="1" path="animation-folder/BeatAdd/" />
         <folder expanded="1" path="animation-folder/BeatDiv/" />
@@ -159,5 +150,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/AchvButton/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
     </folders-expanded>
 </c2uistate>

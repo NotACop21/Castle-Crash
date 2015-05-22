@@ -2879,7 +2879,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9064927173737399" speed="5">
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.504951" original-source="C:\Users\Michael\Pictures\Addition.png">
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.504951" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\003.png">
                             <collision-poly>
                                 <point x="0.0283554" y="0.148515" />
                                 <point x="0.499055" y="0.0990099" />
@@ -2903,7 +2903,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9705975324422066" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Michael\Pictures\button (1).png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.51" original-source="C:\Users\Michael\Pictures\button (1).png">
                             <collision-poly>
                                 <point x="0.00769231" y="0.0222222" />
                                 <point x="0.5" y="0" />
@@ -2920,34 +2920,17 @@
             <object-type name="addsign" sid="5340954140353841">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="Sprite2" sid="53568508930737">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3544126556540289" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.504673" original-source="C:\Users\Michael\Pictures\Subtraction.png">
-                            <collision-poly>
-                                <point x="0.0126263" y="0.0934579" />
-                                <point x="0.5" y="0.0841122" />
-                                <point x="0.986111" y="0.102804" />
-                                <point x="0.989899" y="0.925234" />
-                                <point x="0.5" y="0.925234" />
-                                <point x="0.0138889" y="0.897196" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="equalssign" sid="8364179890349366">
                 <plugin id="Text" />
             </object-type>
             <object-type name="subsign" sid="3599810490125034">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="Subtracttxt" sid="8676410315606025">
+            <object-type name="Subtraction" sid="8676410315606025">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277132079961025" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.504673" original-source="C:\Users\Michael\Pictures\Subtraction.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504673" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\000.png">
                             <collision-poly>
                                 <point x="0.0126263" y="0.0934579" />
                                 <point x="0.5" y="0.0841122" />
@@ -2960,11 +2943,11 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Sprite" sid="4072923092115164">
+            <object-type name="Multiplication" sid="4072923092115164">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4564267479955184" speed="5">
-                        <frame duration="1" hotspotX="0.500531" hotspotY="0.5" original-source="C:\Users\Michael\Pictures\Multiplication.png">
+                        <frame duration="1" hotspotX="0.500531" hotspotY="0.5" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\001.png">
                             <collision-poly>
                                 <point x="0.0201913" y="0.175926" />
                                 <point x="0.499469" y="0.712963" />
@@ -2979,11 +2962,11 @@
             <object-type name="multiplysign" sid="6317407492402299">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="Sprite6" sid="4636289389235326">
+            <object-type name="Division" sid="4636289389235326">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1221312159380311" speed="5">
-                        <frame duration="1" hotspotX="0.501014" hotspotY="0.504065" original-source="C:\Users\Michael\Pictures\Division.png">
+                        <frame duration="1" hotspotX="0.501014" hotspotY="0.504065" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\002.png">
                             <collision-poly>
                                 <point x="0.0527383" y="0.211382" />
                                 <point x="0.947262" y="0.211382" />
@@ -3252,6 +3235,85 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite" sid="7641392608554792">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6076993090624517" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\Lets.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="4339940015284428">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7675675892519838" speed="5">
+                    <frame duration="1" hotspotX="0.501618" hotspotY="0.503226" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\Lets.png">
+                        <collision-poly>
+                            <point x="0.0970874" y="0.193548" />
+                            <point x="0.902913" y="0.193548" />
+                            <point x="0.977346" y="0.496774" />
+                            <point x="0.886731" y="0.774194" />
+                            <point x="0.113269" y="0.774194" />
+                            <point x="0.0226537" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="664663089640895">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9425575735188616" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503226" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\Mix.png">
+                        <collision-poly>
+                            <point x="0.133929" y="0.193548" />
+                            <point x="0.866071" y="0.193548" />
+                            <point x="0.933036" y="0.496774" />
+                            <point x="0.84375" y="0.774194" />
+                            <point x="0.165179" y="0.76129" />
+                            <point x="0.0580357" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="6076674016983999">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8473227917907057" speed="5">
+                    <frame duration="1" hotspotX="0.503497" hotspotY="0.503226" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\It.png">
+                        <collision-poly>
+                            <point x="0.20979" y="0.193548" />
+                            <point x="0.79021" y="0.193548" />
+                            <point x="0.825175" y="0.496774" />
+                            <point x="0.755245" y="0.774194" />
+                            <point x="0.496504" y="0.348387" />
+                            <point x="0.244755" y="0.774194" />
+                            <point x="0.0979021" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="3192400213476138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2511186596812598" speed="5">
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.503226" original-source="C:\Users\Zack\Dropbox\Set Awesome Shared\Tinder addict\PreGameHeaders\Up.png">
+                        <collision-poly>
+                            <point x="0.186335" y="0.193548" />
+                            <point x="0.496894" y="0.270968" />
+                            <point x="0.813665" y="0.193548" />
+                            <point x="0.956522" y="0.496774" />
+                            <point x="0.73913" y="0.729032" />
+                            <point x="0.496894" y="0.735484" />
+                            <point x="0.217391" y="0.774194" />
+                            <point x="0.0434783" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Buttons" plugin-id="Sprite" sid="8091503679131507">
@@ -3322,6 +3384,7 @@
         </layout-folder>
         <layout-folder name="PreGame">
             <layout>MultiplyScreen.xml</layout>
+            <layout>SAMDScreen.xml</layout>
             <layout>PreGameScreen.xml</layout>
             <layout>AddScreen.xml</layout>
             <layout>SubScreen.xml</layout>

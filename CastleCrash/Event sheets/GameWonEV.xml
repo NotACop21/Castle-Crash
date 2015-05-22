@@ -669,7 +669,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="8828822262730195" type="System">
-                            <param id="0" name="Layout">PreGameScreen</param>
+                            <param id="0" name="Layout">SAMDScreen</param>
                         </action>
                     </actions>
                 </event-block>

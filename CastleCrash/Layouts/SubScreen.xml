@@ -68,7 +68,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Subtracttxt" uid="30">
+                <instance type="Subtraction" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -273,11 +273,11 @@
                         <x>360</x>
                         <y>884</y>
                         <z>0</z>
-                        <width>350</width>
-                        <height>125</height>
+                        <width>250</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.51111114</hotspotY>
+                        <hotspotY>0.50999999</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
