@@ -1953,10 +1953,15 @@
             <sub-events>
                 <event-block sid="8869545332704837">
                     <conditions>
+                        <condition id="-14" name="Compare variable" sid="8140847261980105" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
                         <condition id="-4" name="Trigger once while true" sid="3773180118661616" type="System" />
                     </conditions>
                     <actions>
-                        <action id="9" name="Increment" sid="5131737380884264" type="GooglePlay">
+                        <action id="10" name="Set steps" sid="5131737380884264" type="GooglePlay">
                             <param id="0" name="Achievement ID">BeatDivAchv</param>
                             <param id="1" name="Steps">1</param>
                         </action>

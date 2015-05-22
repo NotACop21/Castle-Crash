@@ -41,7 +41,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="2951972834523444" type="UnlockTrophy" />
+                        <action id="-9" name="Destroy" sid="2951972834523444" type="UnlockTrophyAdd" />
                         <action id="10" name="Load image from URL" sid="4202495796848146" type="BeatAdd">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(0)</param>
                             <param id="1" name="Size">1</param>
@@ -56,9 +56,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="831469949998663" type="UnlockTrophy2" />
-                        <action id="10" name="Load image from URL" sid="5639630216250544" type="BeatSub">
-                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(3)</param>
+                        <action id="-9" name="Destroy" sid="831469949998663" type="UnlockTrophyMulti" />
+                        <action id="10" name="Load image from URL" sid="5639630216250544" type="BeatMulti">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(1)</param>
                             <param id="1" name="Size">1</param>
                         </action>
                     </actions>
@@ -71,9 +71,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="1643436096170809" type="UnlockTrophy3" />
-                        <action id="10" name="Load image from URL" sid="7440663538868154" type="BeatMulti">
-                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(1)</param>
+                        <action id="-9" name="Destroy" sid="1643436096170809" type="UnlockTrophyDiv" />
+                        <action id="10" name="Load image from URL" sid="7440663538868154" type="BeatDiv">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(2)</param>
                             <param id="1" name="Size">1</param>
                         </action>
                     </actions>
@@ -86,9 +86,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="6979757350305465" type="UnlockTrophy4" />
-                        <action id="10" name="Load image from URL" sid="1186761680814916" type="BeatDiv">
-                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(2)</param>
+                        <action id="-9" name="Destroy" sid="6979757350305465" type="UnlockTrophySub" />
+                        <action id="10" name="Load image from URL" sid="1186761680814916" type="BeatSub">
+                            <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(3)</param>
                             <param id="1" name="Size">1</param>
                         </action>
                     </actions>

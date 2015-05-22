@@ -10,15 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">GameWon</layout>
-        <layout order="4">AddLvl1</layout>
-        <layout order="5">Achievements</layout>
-        <layout order="6">HS2</layout>
+        <layout order="0">GameWon</layout>
+        <layout order="5">MenuScreen</layout>
         <layout order="7">HighScores</layout>
-        <event-sheet order="0">AddLvl2EV</event-sheet>
-        <event-sheet order="2">GameWonEV</event-sheet>
-        <event-sheet active="1" order="3">Achievements EV</event-sheet>
-        <event-sheet order="8">HighScores EV</event-sheet>
+        <layout order="8">Achievements</layout>
+        <event-sheet active="1" order="1">GameWonEV</event-sheet>
+        <event-sheet order="2">MenuScreenEV</event-sheet>
+        <event-sheet order="3">AddLvl1EV</event-sheet>
+        <event-sheet order="4">AddLvl2EV</event-sheet>
+        <event-sheet order="6">Achievements EV</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="0" name="About" />
@@ -47,17 +47,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/1 - GSBricks/" />
         <folder expanded="0" path="object-folder/TutorialBricks/" />
         <folder expanded="0" path="object-folder/TutScreensSprites/" />
-        <folder expanded="1" path="object-folder/Achievements/" />
+        <folder expanded="0" path="object-folder/Achievements/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Levels/" />
         <folder expanded="1" path="layout-folder/Main Screens/" />
         <folder expanded="0" path="layout-folder/PreGame/" />
         <folder expanded="0" path="layout-folder/HighScore/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Levels/" />
-        <folder expanded="0" path="event-folder/Main Screens/" />
+        <folder expanded="1" path="event-folder/Levels/" />
+        <folder expanded="1" path="event-folder/Main Screens/" />
         <folder expanded="0" path="event-folder/PreGame/" />
-        <folder expanded="1" path="event-folder/HighScores/" />
+        <folder expanded="0" path="event-folder/HighScores/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
@@ -151,10 +151,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BeatDiv/" />
         <folder expanded="1" path="animation-folder/BeatMulti/" />
         <folder expanded="1" path="animation-folder/BeatSub/" />
-        <folder expanded="1" path="animation-folder/UnlockTrophy/" />
-        <folder expanded="1" path="animation-folder/UnlockTrophy2/" />
-        <folder expanded="1" path="animation-folder/UnlockTrophy3/" />
-        <folder expanded="1" path="animation-folder/UnlockTrophy4/" />
+        <folder expanded="1" path="animation-folder/UnlockTrophyAdd/" />
+        <folder expanded="1" path="animation-folder/UnlockTrophySub/" />
+        <folder expanded="1" path="animation-folder/UnlockTrophyMulti/" />
+        <folder expanded="1" path="animation-folder/UnlockTrophyDiv/" />
         <folder expanded="1" path="animation-folder/UnlockTrophy8/" />
         <folder expanded="1" path="animation-folder/AchvButton/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />

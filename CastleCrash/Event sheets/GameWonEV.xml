@@ -18,6 +18,9 @@
                 </action>
                 <action id="0" name="Request player details" sid="2685702621809647" type="GooglePlay" />
                 <action id="6" name="Get metadata" sid="5641626215171674" type="GooglePlay" />
+                <action id="5" name="List achievements" sid="6277710565823883" type="GooglePlay">
+                    <param id="0" name="Which">0</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="2498795061017766" title="Scoring / Submit" />
@@ -810,19 +813,13 @@
             <conditions>
                 <condition id="15" name="On achievement metadata success" sid="4717348388247976" type="GooglePlay" />
             </conditions>
-            <actions>
-                <action id="5" name="List achievements" sid="6277710565823883" type="GooglePlay">
-                    <param id="0" name="Which">0</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
-        <event-block sid="7005318963104971">
-            <conditions>
-                <condition id="12" name="On achievement list success" sid="8760574356795838" type="GooglePlay" />
-            </conditions>
+        <event-block disabled="1" sid="7005318963104971">
+            <conditions />
             <actions />
             <sub-events>
-                <event-block sid="232420866789566">
+                <event-block disabled="1" sid="232420866789566">
                     <conditions>
                         <condition id="14" name="Compare achievement state" sid="2726839034663387" type="GooglePlay">
                             <param id="0" name="Index">0</param>
@@ -831,8 +828,8 @@
                         <condition id="-4" name="Trigger once while true" sid="8285315846378667" type="System" />
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="9335184711736279" type="GWAchText">
-                            <param id="0" name="Text">&quot;Your an addition magician!&quot;</param>
+                        <action id="0" name="Set text" sid="9982460033946163" type="GWAchText">
+                            <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
                         </action>
                         <action id="10" name="Load image from URL" sid="80818667517364" type="GWTrophySprite">
                             <param id="0" name="URI">GooglePlay.AchievementUnlockedIconURLAt(0)</param>
@@ -840,7 +837,22 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="1933320820660576">
+                <event-block sid="650012377408117">
+                    <conditions>
+                        <condition id="18" name="On achievement unlocked" sid="4486453381778939" type="GooglePlay">
+                            <param id="0" name="Achievement ID">BeatAdditionAchv</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8616121712392157" type="GWAchText">
+                            <param id="0" name="Text">&quot;Your an addition magician!&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8632826047338937" type="BeatAdd">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="1933320820660576">
                     <conditions>
                         <condition id="14" name="Compare achievement state" sid="6210261984886555" type="GooglePlay">
                             <param id="0" name="Index">1</param>
@@ -858,7 +870,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="3980834204255241">
+                <event-block disabled="1" sid="3980834204255241">
                     <conditions>
                         <condition id="14" name="Compare achievement state" sid="1669810484581115" type="GooglePlay">
                             <param id="0" name="Index">2</param>
@@ -876,7 +888,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="9596061897187811">
+                <event-block disabled="1" sid="9596061897187811">
                     <conditions>
                         <condition id="14" name="Compare achievement state" sid="8247058720635086" type="GooglePlay">
                             <param id="0" name="Index">3</param>
@@ -894,7 +906,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="6867283898247753">
+                <event-block disabled="1" sid="6867283898247753">
                     <conditions>
                         <condition id="14" name="Compare achievement state" sid="7633987387961992" type="GooglePlay">
                             <param id="0" name="Index">4</param>
@@ -913,6 +925,100 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="1730577420312246">
+            <conditions>
+                <condition id="18" name="On achievement unlocked" sid="2309680407313284" type="GooglePlay">
+                    <param id="0" name="Achievement ID">BeatAdditionAchv</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="9689843923083291" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achivement Unlocked! You&apos;re an addition magician!&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3459675302928629" type="BeatAdd">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4805911071164854">
+            <conditions>
+                <condition id="18" name="On achievement unlocked" sid="3826777259070447" type="GooglePlay">
+                    <param id="0" name="Achievement ID">BeatSubAchv</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3218607063665414" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7927509168665212" type="BeatSub">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3660336399026752">
+            <conditions>
+                <condition id="18" name="On achievement unlocked" sid="7071436561138098" type="GooglePlay">
+                    <param id="0" name="Achievement ID">BeatMultiAchv</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="9094174179706421" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="317567775439208" type="BeatMulti">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8223169314733041">
+            <conditions>
+                <condition id="18" name="On achievement unlocked" sid="4714062305944369" type="GooglePlay">
+                    <param id="0" name="Achievement ID">BeatDivAchv</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5159809487191979" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8830791787596443" type="BeatDiv">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3617429324094535">
+            <conditions>
+                <condition id="18" name="On achievement unlocked" sid="888784987236928" type="GooglePlay">
+                    <param id="0" name="Achievement ID">Beat8Lvls</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="8664889873735153" type="GWAchText">
+                    <param id="0" name="Text">&quot;Achievement Unlocked!&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4375086658935572" type="Beat8Lvls">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6430867260857107">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="5166146275580382" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="5038818994481566" type="BeatAdd">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="707682281036496" type="BeatSub">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="934694353663843" type="BeatMulti">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2228747264152247" type="BeatDiv">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

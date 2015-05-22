@@ -1828,20 +1828,29 @@
             <sub-events>
                 <event-block sid="415568700427506">
                     <conditions>
+                        <condition id="-14" name="Compare variable" sid="7083870914535696" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                         <condition id="-4" name="Trigger once while true" sid="4209922159928458" type="System" />
                     </conditions>
                     <actions>
-                        <action id="9" name="Increment" sid="5204350518667467" type="GooglePlay">
+                        <action id="10" name="Set steps" sid="5204350518667467" type="GooglePlay">
                             <param id="0" name="Achievement ID">BeatAdditionAchv</param>
                             <param id="1" name="Steps">1</param>
                         </action>
-                        <action id="9" name="Increment" sid="1030439710877214" type="GooglePlay">
+                        <action id="10" name="Set steps" sid="1030439710877214" type="GooglePlay">
                             <param id="0" name="Achievement ID">Beat8Lvls</param>
                             <param id="1" name="Steps">1</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="9299669737589945">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

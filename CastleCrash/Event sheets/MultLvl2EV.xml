@@ -2297,6 +2297,11 @@
             <sub-events>
                 <event-block sid="7634264301126361">
                     <conditions>
+                        <condition id="-14" name="Compare variable" sid="5211276313753269" type="System">
+                            <param id="0" name="Variable">ProperSelect</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
                         <condition id="-4" name="Trigger once while true" sid="7223573407347184" type="System" />
                     </conditions>
                     <actions>
